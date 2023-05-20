@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GrimForge 40K: Armoury</name>
+  <author>Ogam</author>
+  <packageId>Ogam.GrimFoge40K.Armoury</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description></description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+	<li>oskarpotocki.vfe.pirates</li>
+  </loadAfter>
+</ModMetaData>
