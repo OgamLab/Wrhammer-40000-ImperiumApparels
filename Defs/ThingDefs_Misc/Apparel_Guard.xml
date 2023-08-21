@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Guardsmen Apparel -->
+	
+		<!-- === Flak Armor === -->
+	<ThingDef ParentName="OWH_ArmorReconBase">
+		<defName>OWH_Apparel_Guard_FlakArmor</defName> <!-- TODO: Edit Def -->
+		<label>guard flak armor</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Carapace Armor === -->
+	<ThingDef ParentName="OWH_ArmorMarineBase">
+		<defName>OWH_Apparel_Guard_CarapaceArmor</defName> <!-- TODO: Edit Def -->
+		<label>guard carapace armor</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Flak Helmet === -->
+	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
+		<defName>OWH_Apparel_Guard_FlakHelmet</defName> <!-- TODO: Edit Def -->
+		<label>guard flak helmet</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+
+		<!-- === Flak Helmet (Goggles) === -->
+	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
+		<defName>OWH_Apparel_Guard_FlakHelmetGoggles</defName> <!-- TODO: Edit Def -->
+		<label>guard flak helmet with goggles</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+		<!-- Edit the stats here somehow? It's basically the same as the no-goggles version. -->
+	</ThingDef>
+
+		<!-- === Uniform === -->
+	<ThingDef ParentName="OWH_ArmorOnSkinBase">
+		<defName>OWH_Apparel_Guard_Uniform</defName> <!-- TODO: Edit Def -->
+		<label>guard uniform</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath> <!-- TODO: Edit Tex -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>210</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+  
+		<!-- === Gas Mask === -->
+	<ThingDef ParentName="OWH_GasMaskBase">       
+		<defName>OWH_Apparel_Guard_GasMask</defName> <!-- TODO: Edit Def -->
+		<label>guard gas mask</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>215</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+  
+</Defs>

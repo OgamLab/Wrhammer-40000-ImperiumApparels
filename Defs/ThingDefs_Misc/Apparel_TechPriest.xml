@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Tech Priest Apparel -->
+	
+		<!-- === Tech Priest Robe === -->
+	<ThingDef ParentName="OWH_ArmorReconBase">
+		<defName>OWH_Apparel_TP_Robe</defName> <!-- TODO: Edit Def -->
+		<label>tech priest robe</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Tech Priest Hood === -->
+	<ThingDef ParentName="OWH_ArmorHelmetReconBase">
+		<defName>OWH_Apparel_TP_Hood</defName> <!-- TODO: Edit Def -->
+		<label>tech priest hood</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Skitarii Ranger Armor === -->
+	<ThingDef ParentName="OWH_ArmorMarineBase">
+		<defName>OWH_Apparel_Ski_RangerArmor</defName> <!-- TODO: Edit Def -->
+		<label>skitarii ranger armor</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Skitarii Ranger Helmet === -->
+	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
+		<defName>OWH_Apparel_Ski_RangerHelmet</defName> <!-- TODO: Edit Def -->
+		<label>skitarii ranger helmet</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+
+		<!-- === Skitarii Vanguard Armor === -->
+	<ThingDef ParentName="OWH_ArmorMarineBase">
+		<defName>OWH_Apparel_Ski_VanguardArmor</defName> <!-- TODO: Edit Def -->
+		<label>skitarii vanguard armor</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Skitarii Vanguard Helmet === -->
+	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
+		<defName>OWH_Apparel_Ski_VanguardHelmet</defName> <!-- TODO: Edit Def -->
+		<label>skitarii vanguard helmet</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Skitarii Vanguard Lieutenant Helmet === -->
+	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
+		<defName>OWH_Apparel_Ski_VanguardLtnHelmet</defName> <!-- TODO: Edit Def -->
+		<label>skitarii vanguard lieutenant helmet</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

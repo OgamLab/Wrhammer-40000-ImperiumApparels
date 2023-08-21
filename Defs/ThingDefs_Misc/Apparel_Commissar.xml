@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Commissar Apparel -->
+	
+		<!-- === Commissar Coat === -->
+	<ThingDef ParentName="OWH_FlakJacketBase">
+		<defName>OWH_Apparel_Commissar_Coat</defName> <!-- TODO: Edit Def -->
+		<label>commissar coat</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+		</apparel>
+		<recipeMaker>
+			<displayPriority>225</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Commissar Hat === -->     <!-- basically a copy-pasted authority cap from ideology, for now -->
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>OWH_Apparel_Commissar_Hat</defName> <!-- TODO: Edit Def -->
+		<label>commissar hat</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>  <!-- TODO: this? -->
+		</graphicData>
+		
+		<!-- \/\/\/ TODO: This down here \/\/\/ -->
+		
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter> <!-- ah yes, a child commissar -->
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" /> <!-- Change this if needed -->
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+		<recipeMaker>
+			<displayPriority>145</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+</Defs>

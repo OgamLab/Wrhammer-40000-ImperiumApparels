@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Bases -->
+
+		<!-- === Recon Armor Base === -->
+	<ThingDef Name="OWH_ArmorReconBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>ReconArmor</researchPrerequisite> <!-- TODO: Edit Research -->
+			<skillRequirements>
+				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- Default to vanilla tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>Armor</li>
+		</tradeTags> 
+		<thingCategories>
+			<li>ApparelArmor</li> <!-- probably shouldn't edit this? -->
+		</thingCategories>
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<statBases> <!-- TODO: Edit Stats -->
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>280</MaxHitPoints>
+			<Mass>9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Insulation_Heat>9</Insulation_Heat>
+			<EquipDelay>11</EquipDelay>
+		</statBases>
+		<costList> <!-- TODO: Edit Craft Cost -->
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<Uranium>10</Uranium>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- Default to vanilla tex -->
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<tags>
+				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel> 
+		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
+			<options>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+		<!-- === Recon Helmet Base === -->
+	<ThingDef Name="OWH_ArmorHelmetReconBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>ReconArmor</researchPrerequisite> <!-- TODO: Edit Research -->
+			<skillRequirements>
+				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- Default -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags? -->
+		</tradeTags>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->		
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+			
+		<statBases>
+			<WorkToMake>15750</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- Default -->
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<forceEyesVisibleForRotations> <!-- ? -->
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
+			<options>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	
+		<!-- === Marine Armor Base === -->
+	<ThingDef Name="OWH_ArmorMarineBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite> <!-- TODO: Edit Research -->
+			<skillRequirements>
+				<Crafting>7</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- default -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<statBases> <!-- TODO: Edit Stats -->
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>340</MaxHitPoints>
+			<Mass>12</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.54</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>14</EquipDelay>
+		</statBases>
+		<costList> <!-- TODO: Edit Craft Cost -->
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Uranium>20</Uranium>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed> <!-- TODO: Edit offsets, if needed -->
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li> <!-- probably shouldn't edit this? -->
+		</thingCategories>
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>Armor</li>
+		</tradeTags>
+		<apparel>
+			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- default -->
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
+			<options>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+		<!-- === Marine Helmet Base === -->
+	<ThingDef Name="OWH_ArmorHelmetMarineBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>  <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite> <!-- TODO: Edit Research -->
+			<skillRequirements>
+				<Crafting>7</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+		  <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- Default -->
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.25</uiIconScale> <!-- TODO: Edit as needed -->
+		<tradeTags> <!-- TODO: Edit Tags -->
+		  <li>HiTechArmor</li>
+		  <li>Armor</li>
+		</tradeTags>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<statBases> <!-- TODO: Edit Stats -->
+		  <WorkToMake>21000</WorkToMake>
+		  <MaxHitPoints>150</MaxHitPoints>
+		  <Mass>1.5</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.54</ArmorRating_Heat>
+		  <Insulation_Cold>4</Insulation_Cold>
+		  <Insulation_Heat>2</Insulation_Heat>
+		  <EquipDelay>4</EquipDelay>
+		</statBases>
+		<costList> <!-- TODO: Edit Craft Cost -->
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>40</Plasteel>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<tags> 
+				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- Default -->
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>  <!-- ? -->
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<forceEyesVisibleForRotations> <!-- ? -->
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
+			<options>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+
+		<!-- === OnSkin Apparel Base === -->
+	<ThingDef Name="OWH_ArmorOnSkinBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite> <!-- TODO: Edit Research -->
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelMisc</li> <!-- TODO: Edit Categories -->
+		</thingCategories> 
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<costStuffCount>100</costStuffCount> <!-- TODO: Edit Cost -->
+		<stuffCategories> <!-- TODO: Edit stuff, if any -->
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases> <!-- TODO: Edit Stats --> 
+			<Mass>1.5</Mass>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases> 
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" /> <!-- TODO: Edit ColorGen -->
+		<tradeTags>
+			<li>BasicClothing</li> <!-- TODO: Edit Tags -->
+		</tradeTags>
+	</ThingDef>
+
+
+		<!-- === Flak Jacket Base === -->
+	<ThingDef Name="OWH_FlakJacketBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<recipeMaker>
+			<researchPrerequisite>FlakArmor</researchPrerequisite> <!-- TODO: Edit Research -->
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>4</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath> <!-- Default -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<costList> <!-- TODO: Edit Craft Cost -->
+			<Cloth>50</Cloth>
+			<Steel>70</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases> <!-- TODO: Edit Stats -->
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>14000</WorkToMake>
+			<Mass>7</Mass>
+			<Flammability>0.6</Flammability>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<!--<equippedStatOffsets>
+			<MoveSpeed>-0.12</MoveSpeed>
+		</equippedStatOffsets>-->
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath> <!-- Default -->
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<!--<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<only>(0.44,0.44,0.44)</only>
+				</li>
+				<li>
+					<only>(0.62,0.62,0.62)</only>
+				</li>
+			</options>
+		</colorGenerator>-->
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+
+		<!-- === Gas Mask Base === -->
+	<ThingDef Name="OWH_GasMaskBase" ParentName="HatMakeableBase" Abstract="True">
+		<recipeMaker>
+			<researchPrerequisite>Machining</researchPrerequisite> <!-- TODO: Edit Research -->
+			<unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize> <!-- TODO: Edit Size, if needed -->
+		</graphicData>
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<costList> <!-- TODO: Edit Craft Cost -->
+			<Steel>20</Steel>
+			<Chemfuel>20</Chemfuel>
+		</costList>
+		<statBases> <!-- TODO: Edit Stats -->
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance> <!-- TODO: Edit Offsets -->
+		</equippedStatOffsets>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+		</apparel>
+	</ThingDef>
+
+</Defs>
