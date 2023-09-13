@@ -25,19 +25,22 @@
 		<label>krieg flak armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/krieg/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
 			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/krieg/Krieg</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
 	</ThingDef>
 	
 		<!-- === Krieg Flak Helmet === -->

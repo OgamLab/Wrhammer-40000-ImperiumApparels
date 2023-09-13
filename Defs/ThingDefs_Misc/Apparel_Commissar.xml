@@ -17,6 +17,23 @@
 		<recipeMaker>
 			<displayPriority>225</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>5.5</Mass>
+			<Flammability>0.5</Flammability>
+			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
 	</ThingDef>
 	
 		<!-- === Commissar Hat === -->     <!-- basically a copy-pasted authority cap from ideology, for now -->
@@ -30,24 +47,45 @@
 			<drawSize>0.8</drawSize>  <!-- TODO: this? -->
 		</graphicData>
 		
-		<!-- \/\/\/ TODO: This down here \/\/\/ -->
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
 		
-		<costStuffCount>25</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>1500</WorkToMake>
-			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>0.8</EquipDelay>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.8</Mass>
+			<Flammability>0.5</Flammability>
+			<ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.28</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
-		
-		<!-- /\/\/\ /\/\/\ -->
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
 		
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -64,7 +102,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" /> <!-- Change this if needed -->
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>

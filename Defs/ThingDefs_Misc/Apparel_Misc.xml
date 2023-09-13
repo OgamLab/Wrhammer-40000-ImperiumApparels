@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Robo Backpacks -->
+	
+		<!-- === Robo Backpack (No Arm) === -->
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>OWH_Apparel_RoboBackpack</defName>
+		<label>robo backpack</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<researchPrerequisite>Machining</researchPrerequisite>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/ToolBelt/ToolBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>1</EquipDelay>
+			<VEF_RangedCooldownFactor IfModNotActive="Ludeon.Rimworld.Biotech">0.75</VEF_RangedCooldownFactor>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0.15</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ToolBelt/ToolBelt</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<wornGraphicData>
+			<renderUtilityAsPack>true</renderUtilityAsPack>
+			<north>
+				<male><offset>(-0.3, -0.25)</offset></male>
+				<female><offset>(-0.3,-0.3)</offset></female>
+				<thin><offset>(-0.2,-0.25)</offset></thin>
+				<hulk><offset>(-0.33,-0.4)</offset></hulk>
+				<fat><offset>(-0.5,-0.25)</offset></fat>
+			</north>
+			<south>
+				<male><offset>(0.3, -0.25)</offset></male>
+				<female><offset>(0.3,-0.3)</offset></female>
+				<thin><offset>(0.2,-0.25)</offset></thin>
+				<hulk><offset>(0.33,-0.4)</offset></hulk>
+				<fat><offset>(0.5,-0.25)</offset></fat>
+			</south>
+			<east>
+				<offset>(-0.05,-0.3)</offset>
+				<hulk><offset>(-0.1,-0.1)</offset></hulk>
+				<thin><offset>(-0.1,-0.0)</offset></thin>
+				<female><offset>(-0.05,-0.0)</offset></female>
+			</east>
+				<male><scale>(0.6,0.6)</scale></male>
+				<female><scale>(0.6,0.6)</scale></female>
+				<thin><scale>(0.7,0.7)</scale></thin>
+				<hulk><scale>(0.75,0.75)</scale></hulk>
+				<fat><scale>(0.75,0.75)</scale></fat>
+			</wornGraphicData>
+		</apparel>
+		
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<equippedStatOffsets>
+			<RangedCooldownFactor IfModActive="Ludeon.Rimworld.Biotech">0.75</RangedCooldownFactor>
+		</equippedStatOffsets>
+		
+	</ThingDef>
+	
+	
+	
+		<!-- === Robo Backpack (Yes Arm) === -->
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>OWH_Apparel_RoboBackpackArm</defName>
+		<label>robo backpack (arm)</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<researchPrerequisite>Machining</researchPrerequisite>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/ToolBelt/ToolBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0.15</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ToolBelt/ToolBelt</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<wornGraphicData>
+			<renderUtilityAsPack>true</renderUtilityAsPack>
+			<north>
+				<male><offset>(-0.3, -0.25)</offset></male>
+				<female><offset>(-0.3,-0.3)</offset></female>
+				<thin><offset>(-0.2,-0.25)</offset></thin>
+				<hulk><offset>(-0.33,-0.4)</offset></hulk>
+				<fat><offset>(-0.5,-0.25)</offset></fat>
+			</north>
+			<south>
+				<male><offset>(0.3, -0.25)</offset></male>
+				<female><offset>(0.3,-0.3)</offset></female>
+				<thin><offset>(0.2,-0.25)</offset></thin>
+				<hulk><offset>(0.33,-0.4)</offset></hulk>
+				<fat><offset>(0.5,-0.25)</offset></fat>
+			</south>
+			<east>
+				<offset>(-0.05,-0.3)</offset>
+				<hulk><offset>(-0.1,-0.1)</offset></hulk>
+				<thin><offset>(-0.1,-0.0)</offset></thin>
+				<female><offset>(-0.05,-0.0)</offset></female>
+			</east>
+				<male><scale>(0.6,0.6)</scale></male>
+				<female><scale>(0.6,0.6)</scale></female>
+				<thin><scale>(0.7,0.7)</scale></thin>
+				<hulk><scale>(0.75,0.75)</scale></hulk>
+				<fat><scale>(0.75,0.75)</scale></fat>
+			</wornGraphicData>
+		</apparel>
+		
+		<equippedStatOffsets>
+			<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+			<ConstructionSpeed>0.15</ConstructionSpeed>
+			<ConstructSuccessChance>0.1</ConstructSuccessChance>
+			<SmoothingSpeed>0.1</SmoothingSpeed>
+		</equippedStatOffsets>
+		
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		
+	</ThingDef>
+	
+
+</Defs>

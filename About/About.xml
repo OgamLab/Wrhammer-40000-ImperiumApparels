@@ -1,30 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>GrimForge 40K: Armoury</name>
-  <author>Ogam</author>
-  <packageId>GF40K.IoM.Armoury</packageId>
-  <supportedVersions>
-    <li>1.4</li>
-  </supportedVersions>
-  <description></description>
-  <modDependencies>
-    <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
-    </li>
-	<li>
-		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-		<displayName>Vanilla Expanded Framework</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-	</li>
-  </modDependencies>
-  <loadAfter>
-	<li>GF40K.Core</li>
-    <li>Ludeon.RimWorld</li>
-	<li>mlie.showmeyourhands</li>
-	<li>oskarpotocki.vfe.pirates</li>
-	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-  </loadAfter>
+	<name>_Ogam Warhammer Apparels_</name> <!-- TODO: Edit -->
+	<author>flangopink</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>flangopink.ogamwhapparels</packageId> <!-- TODO: Edit -->
+	<description>description here</description> <!-- TODO: Edit -->
 </ModMetaData>

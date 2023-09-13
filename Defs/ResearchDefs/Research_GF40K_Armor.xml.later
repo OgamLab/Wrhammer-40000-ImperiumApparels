@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_IA_RegularMelee</defName>
+		<label>Imperial melee weapons</label>
+		<description>Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Sabres, Chainswords and Eviscerators. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY> 	
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_RegularMelee</defName>
+		<label>Imperial melee weapons</label>
+		<description>Delve deep into ancient combat techniques and experimental designs to unlock the secrets of Power Swords, Power Sabres, Chainswords and Eviscerators. Harness the raw might of these deadly close-combat weapons, each with unique features and devastating strikes. With this research, your colony will gain access to a formidable arsenal of advanced melee weapons, arming your warriors with the cutting edge of close-quarters combat. Turn the tide of battle in your favor and dominate your foes with unmatched precision and lethality.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li>GF40K_ImperiumCore</li>
+		</prerequisites>	
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY> 	
+	</ResearchProjectDef>
+	
+	
+</Defs>

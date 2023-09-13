@@ -18,6 +18,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- Default to vanilla tex -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
 		<tradeTags>
@@ -31,7 +32,7 @@
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
 		<statBases> <!-- TODO: Edit Stats -->
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>280</MaxHitPoints>
 			<Mass>9</Mass>
 			<Flammability>0.4</Flammability>
@@ -42,11 +43,30 @@
 			<Insulation_Heat>9</Insulation_Heat>
 			<EquipDelay>11</EquipDelay>
 		</statBases>
-		<costList> <!-- TODO: Edit Craft Cost -->
-			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>80</Plasteel>
-			<Uranium>10</Uranium>
-		</costList>
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
@@ -70,15 +90,7 @@
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel> 
-		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
-			<options>
-				<li>
-					<weight>6</weight>
-					<min>(0.3,0.3,0.3)</min>
-					<max>(0.5,0.5,0.5)</max>
-				</li>
-			</options>
-		</colorGenerator>
+		
 	</ThingDef>
 	
 		<!-- === Recon Helmet Base === -->
@@ -117,12 +129,32 @@
 			<Insulation_Heat>2</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>30</Plasteel>
-		</costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
 		
 		<apparel>
 			<bodyPartGroups>
@@ -142,15 +174,6 @@
 				<li>3</li>
 			</forceEyesVisibleForRotations>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
-			<options>
-				<li>
-					<weight>6</weight>
-					<min>(0.3,0.3,0.3,1)</min>
-					<max>(0.5,0.5,0.5,1)</max>
-				</li>
-			</options>
-		</colorGenerator>
 	</ThingDef>
 	
 	
@@ -187,11 +210,30 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>14</EquipDelay>
 		</statBases>
-		<costList> <!-- TODO: Edit Craft Cost -->
-			<ComponentSpacer>4</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Uranium>20</Uranium>
-		</costList>
+
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
@@ -222,15 +264,6 @@
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
-			<options>
-				<li>
-					<weight>6</weight>
-					<min>(0.3,0.3,0.3)</min>
-					<max>(0.5,0.5,0.5)</max>
-				</li>
-			</options>
-		</colorGenerator>
 	</ThingDef>
 	
 		<!-- === Marine Helmet Base === -->
@@ -271,12 +304,32 @@
 		  <Insulation_Heat>2</Insulation_Heat>
 		  <EquipDelay>4</EquipDelay>
 		</statBases>
-		<costList> <!-- TODO: Edit Craft Cost -->
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>40</Plasteel>
-		</costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
 		
 		<apparel>
 			<tags> 
@@ -299,15 +352,171 @@
 				<li>3</li>
 			</forceEyesVisibleForRotations>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options"> <!-- TODO: Edit ColorGen -->
-			<options>
-				<li>
-					<weight>6</weight>
-					<min>(0.3,0.3,0.3,1)</min>
-					<max>(0.5,0.5,0.5,1)</max>
-				</li>
-			</options>
-		</colorGenerator>
+	</ThingDef>
+
+
+		<!-- Cataphract Armor Base -->
+	<ThingDef Name="OWH_ArmorCataphractBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>CataphractArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/CataphractArmor/CataphractArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.25</uiIconScale>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
+		<statBases>
+			<WorkToMake>75000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>36</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>17</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<tradeTags>
+			<li>HiTechArmor</li>
+		</tradeTags>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CataphractArmor/CataphractArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+	</ThingDef>
+
+		<!-- Cataphract Helmet Base -->
+	<ThingDef Name="OWH_ArmorHelmetCataphractBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>CataphractArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+		  <texPath>Things/Pawn/Humanlike/Apparel/CataphractArmorHelmet/CataphractHelmet</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(0.9, 0.9)</drawSize>
+		</graphicData>
+		<tradeTags>
+		  <li>HiTechArmor</li>
+		  <li>Armor</li>
+		</tradeTags>
+		<generateCommonality>2</generateCommonality> <!-- TODO: Edit Rarity -->
+		<statBases>
+			<WorkToMake>26250</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CataphractArmorHelmet/CataphractHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
 	</ThingDef>
 
 
@@ -326,11 +535,6 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<costStuffCount>100</costStuffCount> <!-- TODO: Edit Cost -->
-		<stuffCategories> <!-- TODO: Edit stuff, if any -->
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<statBases> <!-- TODO: Edit Stats --> 
 			<Mass>1.5</Mass>
 			<MarketValue>300</MarketValue>
@@ -346,6 +550,31 @@
 		</statBases> 
 		
 		<!-- /\/\/\ /\/\/\ -->
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
 		
 		<apparel>
 			<bodyPartGroups>
@@ -365,7 +594,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" /> <!-- TODO: Edit ColorGen -->
 		<tradeTags>
 			<li>BasicClothing</li> <!-- TODO: Edit Tags -->
 		</tradeTags>
@@ -391,11 +619,6 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<costList> <!-- TODO: Edit Craft Cost -->
-			<Cloth>50</Cloth>
-			<Steel>70</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
 		<statBases> <!-- TODO: Edit Stats -->
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>14000</WorkToMake>
@@ -411,9 +634,32 @@
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
-		<!--<equippedStatOffsets>
-			<MoveSpeed>-0.12</MoveSpeed>
-		</equippedStatOffsets>-->
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
+		
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -432,16 +678,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<only>(0.44,0.44,0.44)</only>
-				</li>
-				<li>
-					<only>(0.62,0.62,0.62)</only>
-				</li>
-			</options>
-		</colorGenerator>-->
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>

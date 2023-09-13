@@ -8,7 +8,7 @@
 		<label>guard flak armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/Flak</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -16,11 +16,25 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/Flak</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
 		</apparel>
 		<recipeMaker>
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>7.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		
 	</ThingDef>
 	
 		<!-- === Carapace Armor === -->
@@ -38,6 +52,20 @@
 		<recipeMaker>
 			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<MaxHitPoints>115</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		
 	</ThingDef>
 	
 		<!-- === Flak Helmet === -->
@@ -55,6 +83,20 @@
 		<recipeMaker>
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<MaxHitPoints>115</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		
 	</ThingDef>
 
 		<!-- === Flak Helmet (Goggles) === -->
@@ -73,6 +115,20 @@
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		<!-- Edit the stats here somehow? It's basically the same as the no-goggles version. -->
+		
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<MaxHitPoints>115</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		
 	</ThingDef>
 
 		<!-- === Uniform === -->
