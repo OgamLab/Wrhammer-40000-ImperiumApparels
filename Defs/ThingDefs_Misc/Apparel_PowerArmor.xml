@@ -3,8 +3,8 @@
 			<!-- Sororitas Apparel -->
 	
 		<!-- === Sororitas Light Power Armor === -->
-	<ThingDef ParentName="OWH_ArmorCataphractBase">
-		<defName>OWH_Apparel_Soro_LPowerArmor</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorCataphractBase">
+		<defName>GF40K_Apparel_Soro_LPowerArmor</defName> <!-- TODO: Edit Def -->
 		<label>sororitas light power armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
@@ -21,48 +21,38 @@
 			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
-		
-		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
-		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
-		</modExtensions>
-		<colorGenerator IsNull="True"/>
 		
 	</ThingDef>
 	
 		<!-- === Sororitas Light Power Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetCataphractBase">
-		<defName>OWH_Apparel_Soro_LPowerHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
+		<defName>GF40K_Apparel_Soro_LPowerHelmet</defName> <!-- TODO: Edit Def -->
 		<label>sororitas light power helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
 	</ThingDef>
   	
 			<!-- Power Armor Apparel -->
 	
 		<!-- === Light Power Armor === -->
-	<ThingDef ParentName="OWH_ArmorCataphractBase">
-		<defName>OWH_Apparel_LPowerArmor</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorCataphractBase">
+		<defName>GF40K_Apparel_LPowerArmor</defName> <!-- TODO: Edit Def -->
 		<label>light power armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
@@ -79,56 +69,48 @@
 			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
-		
-		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
-		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
-		</modExtensions>
-		<colorGenerator IsNull="True"/>
 		
 	</ThingDef>
 	
 		<!-- === Light Power Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetCataphractBase">
-		<defName>OWH_Apparel_LPowerHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
+		<defName>GF40K_Apparel_LPowerHelmet</defName> <!-- TODO: Edit Def -->
 		<label>light power helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 	</ThingDef>
 	
 		<!-- === Light Power Helmet Half-Mask === -->
-	<ThingDef ParentName="OWH_ArmorHelmetCataphractBase">
-		<defName>OWH_Apparel_LPowerHelmetHM</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
+		<defName>GF40K_Apparel_LPowerHelmetHM</defName> <!-- TODO: Edit Def -->
 		<label>light power helmet (half-mask)</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 	</ThingDef>

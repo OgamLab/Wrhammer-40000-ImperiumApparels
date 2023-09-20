@@ -3,21 +3,21 @@
 			<!-- Tech Priest Apparel -->
 	
 		<!-- === Tech Priest Robe === -->
-	<ThingDef ParentName="OWH_ArmorReconBase">
-		<defName>OWH_Apparel_TP_Robe</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_TP_Robe</defName> <!-- TODO: Edit Def -->
 		<label>tech priest robe</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
-		<thingClass>ThingColor.ApparelColored</thingClass>
 		<graphicData>
 			<texPath>Armor/skitarii/priest/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/skitarii/priest/Robe</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/skitarii/priest/Robe</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -39,24 +39,26 @@
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		
+		
+		
 	</ThingDef>
 	
 		<!-- === Tech Priest Hood === -->
-	<ThingDef ParentName="OWH_ArmorHelmetReconBase">
-		<defName>OWH_Apparel_TP_Hood</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_TP_Hood</defName> <!-- TODO: Edit Def -->
 		<label>tech priest hood</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
-		<thingClass>ThingColor.ApparelColored</thingClass>
 		<graphicData>
-			<texPath>Armor/skitarii/priest/south</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/skitarii/priest/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/skitarii/priest</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/skitarii/priest/helmet/Hood</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -75,23 +77,25 @@
 		
 		
 		
+		
 	</ThingDef>
 	
 		<!-- === Skitarii Ranger Armor === -->
-	<ThingDef ParentName="OWH_ArmorMarineBase">
-		<defName>OWH_Apparel_Ski_RangerArmor</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorMarineBase">
+		<defName>GF40K_Apparel_Ski_RangerArmor</defName> <!-- TODO: Edit Def -->
 		<label>skitarii ranger armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/skitarii/scout/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--THIS--><shaderType>CutoutComplex</shaderType>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/skitarii/scout/Scout</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/skitarii/scout/Scout</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -108,21 +112,26 @@
 			<EquipDelay>17</EquipDelay>
 		</statBases>
 		
+		
+		
 	</ThingDef>
 
 		<!-- === Skitarii Vanguard Armor === -->
-	<ThingDef ParentName="OWH_ArmorMarineBase">
-		<defName>OWH_Apparel_Ski_VanguardArmor</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorMarineBase">
+		<defName>GF40K_Apparel_Ski_VanguardArmor</defName> <!-- TODO: Edit Def -->
 		<label>skitarii vanguard armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/skitarii/soldier/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/skitarii/soldier/Soldier</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>		
 		
@@ -139,21 +148,26 @@
 			<EquipDelay>17</EquipDelay>
 		</statBases>
 		
+		
+		
 	</ThingDef>
 	
 		<!-- === Skitarii Ranger Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
-		<defName>OWH_Apparel_Ski_RangerHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Ski_RangerHelmet</defName> <!-- TODO: Edit Def -->
 		<label>skitarii ranger helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor\skitarii\scout\helmet\south</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/skitarii/scout/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor\skitarii\scout\helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/skitarii/scout/helmet/Hood</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -175,21 +189,26 @@
 			<HuntingStealth>1</HuntingStealth>
 		</equippedStatOffsets>
 		
+		
+		
 	</ThingDef>
 	
 		<!-- === Skitarii Vanguard Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
-		<defName>OWH_Apparel_Ski_VanguardHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Ski_VanguardHelmet</defName> <!-- TODO: Edit Def -->
 		<label>skitarii vanguard helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/skitarii/soldier/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/skitarii/soldier/helmet/Hood</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -214,18 +233,21 @@
 	</ThingDef>
 	
 		<!-- === Skitarii Vanguard Lieutenant Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetMarineBase">
-		<defName>OWH_Apparel_Ski_VanguardLtnHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Ski_VanguardLtnHelmet</defName> <!-- TODO: Edit Def -->
 		<label>skitarii vanguard lieutenant helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->                   <!-- NO TEXTURE -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -247,5 +269,8 @@
 			<HuntingStealth>1</HuntingStealth>
 		</equippedStatOffsets>
 		
+		
+		
 	</ThingDef>
+
 </Defs>

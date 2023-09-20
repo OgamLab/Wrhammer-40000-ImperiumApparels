@@ -3,18 +3,22 @@
 			<!-- Commissar Apparel -->
 	
 		<!-- === Commissar Coat === -->
-	<ThingDef ParentName="OWH_FlakJacketBase">
-		<defName>OWH_Apparel_Commissar_Coat</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_FlakJacketBase">
+		<defName>GF40K_Apparel_Commissar_Coat</defName> <!-- TODO: Edit Def -->
 		<label>commissar coat</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
+		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/commissar/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/commissar/Commissar</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>225</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
@@ -38,29 +42,20 @@
 	
 		<!-- === Commissar Hat === -->     <!-- basically a copy-pasted authority cap from ideology, for now -->
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>OWH_Apparel_Commissar_Hat</defName> <!-- TODO: Edit Def -->
+		<defName>GF40K_Apparel_Commissar_Hat</defName> <!-- TODO: Edit Def -->
 		<label>commissar hat</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Armor/commissar/helmet/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>  <!-- TODO: this? -->
 		</graphicData>
 		
-		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
-		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
-		</modExtensions>
-		<colorGenerator IsNull="True"/>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>145</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
 		
 		<!-- Crafting Materials -->
         <stuffCategories>
@@ -88,12 +83,13 @@
 		</equippedStatOffsets>
 		
 		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter> <!-- ah yes, a child commissar -->
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/commissar/helmet/CommissarHat</wornGraphicPath> <!-- TODO: Edit Tex -->
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -105,9 +101,21 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
-		<recipeMaker>
-			<displayPriority>145</displayPriority>
-		</recipeMaker>
+		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
 	</ThingDef>
 	
 </Defs>

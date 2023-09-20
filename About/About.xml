@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>_Ogam Warhammer Apparels_</name> <!-- TODO: Edit -->
-	<author>flangopink</author>
+	<name>GrimForge 40k - Imperium Armoury</name> <!-- TODO: Edit -->
+	<author>flangopink, Ogam</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>flangopink.ogamwhapparels</packageId> <!-- TODO: Edit -->
+	<packageId>flangopink.GF40KArmoury</packageId> <!-- TODO: Edit -->
 	<description>description here</description> <!-- TODO: Edit -->
 </ModMetaData>

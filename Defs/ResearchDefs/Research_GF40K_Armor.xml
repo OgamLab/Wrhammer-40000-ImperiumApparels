@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+	<ResearchTabDef>
+		<defName>GF40K</defName>
+		<label>GrimForge 40K</label>
+	</ResearchTabDef>
+  
+	<ResearchProjectDef Name="GF40K_ResearchBase" Abstract="True">
+		<tab>GF40K</tab>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<!--<requiredResearchFacilities>
+		  <li>GF40K_ImperiumWeaponry</li>
+		</requiredResearchFacilities>-->
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_IA_AstraMilitarum</defName>
+		<label>Astra Militarum armory</label>
+		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>
+		  <li>AdvancedFabrication</li>
+		</prerequisites>	
+		<hiddenPrerequisites>
+		  <li>ComplexClothing</li>
+		</hiddenPrerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>6.00</researchViewY>	
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_IA_AdeptusMechanicus</defName>
+		<label>Adeptus Mechanicus armory</label>
+		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>
+		  <li>AdvancedFabrication</li>
+		</prerequisites>	
+		<hiddenPrerequisites>
+		  <li>ComplexClothing</li>
+		</hiddenPrerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>7.00</researchViewY>	
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GF40K_ResearchBase">
+		<defName>GF40K_IA_LightPowerArmor</defName>
+		<label>light power armor</label>
+		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<baseCost>4000</baseCost>
+		<prerequisites>
+		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>
+		  <li>AdvancedFabrication</li>
+		</prerequisites>	
+		<hiddenPrerequisites>
+		  <li>ComplexClothing</li>
+		</hiddenPrerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>8.00</researchViewY>	
+	</ResearchProjectDef>
+	
+	
+	
+</Defs>

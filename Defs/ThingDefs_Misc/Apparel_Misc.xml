@@ -5,13 +5,12 @@
 		<!-- === Robo Backpack (No Arm) === -->
 	
 	<ThingDef ParentName="ApparelBase">
-		<defName>OWH_Apparel_RoboBackpack</defName>
+		<defName>GF40K_Apparel_RoboBackpack</defName>
 		<label>robo backpack</label>
 		<description>...</description>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-			<researchPrerequisite>Machining</researchPrerequisite>
 			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -20,24 +19,26 @@
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Apparel/ToolBelt/ToolBelt</texPath>
+			<texPath>Armor/backpack/RoboPack/RoboPack</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
 			<Mass>1.5</Mass>
 			<Flammability>0.4</Flammability>
 			<EquipDelay>1</EquipDelay>
-			<VEF_RangedCooldownFactor IfModNotActive="Ludeon.Rimworld.Biotech">0.75</VEF_RangedCooldownFactor>
+			<!--<VEF_RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">0.75</VEF_RangedCooldownFactor>--> <!-- patch this -->
 		</statBases>
 		<thingCategories>
 			<li>ApparelUtility</li>
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Things/Apparel/ToolBelt/ToolBelt</wornGraphicPath>
+			<wornGraphicPath>Armor/backpack/RoboPack/RoboPack</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -48,33 +49,15 @@
 				<li>Belt</li>
 			</layers>
 			<wornGraphicData>
-			<renderUtilityAsPack>true</renderUtilityAsPack>
-			<north>
-				<male><offset>(-0.3, -0.25)</offset></male>
-				<female><offset>(-0.3,-0.3)</offset></female>
-				<thin><offset>(-0.2,-0.25)</offset></thin>
-				<hulk><offset>(-0.33,-0.4)</offset></hulk>
-				<fat><offset>(-0.5,-0.25)</offset></fat>
-			</north>
-			<south>
-				<male><offset>(0.3, -0.25)</offset></male>
-				<female><offset>(0.3,-0.3)</offset></female>
-				<thin><offset>(0.2,-0.25)</offset></thin>
-				<hulk><offset>(0.33,-0.4)</offset></hulk>
-				<fat><offset>(0.5,-0.25)</offset></fat>
-			</south>
-			<east>
-				<offset>(-0.05,-0.3)</offset>
-				<hulk><offset>(-0.1,-0.1)</offset></hulk>
-				<thin><offset>(-0.1,-0.0)</offset></thin>
-				<female><offset>(-0.05,-0.0)</offset></female>
-			</east>
-				<male><scale>(0.6,0.6)</scale></male>
-				<female><scale>(0.6,0.6)</scale></female>
-				<thin><scale>(0.7,0.7)</scale></thin>
-				<hulk><scale>(0.75,0.75)</scale></hulk>
-				<fat><scale>(0.75,0.75)</scale></fat>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(0.005, 0)</offset> <!-- literally 2 pixels off center  (╯°□°)╯︵ ┻━┻     -->
+				</north>
+				<south>
+					<offset>(0.005, 0)</offset>
+				</south>
 			</wornGraphicData>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
 		<costList>
@@ -82,9 +65,23 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<equippedStatOffsets>
-			<RangedCooldownFactor IfModActive="Ludeon.Rimworld.Biotech">0.75</RangedCooldownFactor>
+			<RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">0.75</RangedCooldownFactor>  <!-- unpatch this when vef active -->
 		</equippedStatOffsets>
 		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
 	</ThingDef>
 	
 	
@@ -92,13 +89,12 @@
 		<!-- === Robo Backpack (Yes Arm) === -->
 	
 	<ThingDef ParentName="ApparelBase">
-		<defName>OWH_Apparel_RoboBackpackArm</defName>
+		<defName>GF40K_Apparel_RoboBackpackArm</defName>
 		<label>robo backpack (arm)</label>
 		<description>...</description>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-			<researchPrerequisite>Machining</researchPrerequisite>
 			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -107,10 +103,12 @@
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Apparel/ToolBelt/ToolBelt</texPath>
+			<texPath>Armor/backpack/RoboPackArm/RoboPackArm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<WorkToMake>3000</WorkToMake>
@@ -123,7 +121,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Things/Apparel/ToolBelt/ToolBelt</wornGraphicPath>
+			<wornGraphicPath>Armor/backpack/RoboPackArm/RoboPackArm</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -134,33 +132,18 @@
 				<li>Belt</li>
 			</layers>
 			<wornGraphicData>
-			<renderUtilityAsPack>true</renderUtilityAsPack>
-			<north>
-				<male><offset>(-0.3, -0.25)</offset></male>
-				<female><offset>(-0.3,-0.3)</offset></female>
-				<thin><offset>(-0.2,-0.25)</offset></thin>
-				<hulk><offset>(-0.33,-0.4)</offset></hulk>
-				<fat><offset>(-0.5,-0.25)</offset></fat>
-			</north>
-			<south>
-				<male><offset>(0.3, -0.25)</offset></male>
-				<female><offset>(0.3,-0.3)</offset></female>
-				<thin><offset>(0.2,-0.25)</offset></thin>
-				<hulk><offset>(0.33,-0.4)</offset></hulk>
-				<fat><offset>(0.5,-0.25)</offset></fat>
-			</south>
-			<east>
-				<offset>(-0.05,-0.3)</offset>
-				<hulk><offset>(-0.1,-0.1)</offset></hulk>
-				<thin><offset>(-0.1,-0.0)</offset></thin>
-				<female><offset>(-0.05,-0.0)</offset></female>
-			</east>
-				<male><scale>(0.6,0.6)</scale></male>
-				<female><scale>(0.6,0.6)</scale></female>
-				<thin><scale>(0.7,0.7)</scale></thin>
-				<hulk><scale>(0.75,0.75)</scale></hulk>
-				<fat><scale>(0.75,0.75)</scale></fat>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(0.3275, 0.25)</offset> <!-- still off center, but it's barely noticeable -->
+				</north>
+				<south>
+					<offset>(0.3275, 0.25)</offset>
+				</south>
+				<east>
+					<offset>(0.1, 0.25)</offset>
+				</east>
 			</wornGraphicData>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
 		<equippedStatOffsets>
@@ -175,6 +158,20 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
 	</ThingDef>
 	
 

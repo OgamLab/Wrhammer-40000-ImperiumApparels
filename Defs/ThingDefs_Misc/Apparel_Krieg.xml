@@ -3,25 +3,29 @@
 			<!-- Krieg Apparel -->
 	
 		<!-- === Krieg Trench Coat === -->
-	<ThingDef ParentName="OWH_ArmorOnSkinBase">
-		<defName>OWH_Apparel_Krieg_TrenchCoat</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_Krieg_TrenchCoat</defName> <!-- TODO: Edit Def -->
 		<label>krieg trench coat</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Armor/krieg/coat/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/krieg/coat/Coat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>210</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
 	</ThingDef>
 	
 		<!-- === Krieg Flak Armor === -->
-	<ThingDef ParentName="OWH_ArmorReconBase">
-		<defName>OWH_Apparel_Krieg_FlakArmor</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_Krieg_FlakArmor</defName> <!-- TODO: Edit Def -->
 		<label>krieg flak armor</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
@@ -38,43 +42,53 @@
 			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
 		
 	</ThingDef>
 	
 		<!-- === Krieg Flak Helmet === -->
-	<ThingDef ParentName="OWH_ArmorHelmetReconBase">
-		<defName>OWH_Apparel_Krieg_FlakHelmet</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Krieg_FlakHelmet</defName> <!-- TODO: Edit Def -->
 		<label>krieg flak helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/krieg/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/krieg/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
+		
 	</ThingDef>
   
 		<!-- === Krieg Gas Mask === -->
-	<ThingDef ParentName="OWH_GasMaskBase">       
-		<defName>OWH_Apparel_Krieg_GasMask</defName> <!-- TODO: Edit Def -->
+	<ThingDef ParentName="GF40K_GasMaskBase">       
+		<defName>GF40K_Apparel_Krieg_GasMask</defName> <!-- TODO: Edit Def -->
 		<label>krieg gas mask</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Armor/krieg/helmet/_item_gm</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CowboyHat/CowboyHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/krieg/helmet/Gasmask</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>215</displayPriority>
 		</recipeMaker>
+		
 	</ThingDef>
   
   
