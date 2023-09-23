@@ -44,9 +44,9 @@
 		</statBases>
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -80,6 +80,7 @@
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- Default to vanilla tex -->
 			<layers>
 				<li>Middle</li>
+				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li> <!-- ? -->
@@ -133,9 +134,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -213,9 +214,9 @@
 		</statBases>
 
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -259,6 +260,7 @@
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- default -->
 			<layers>
 				<li>Middle</li>
+				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li> <!-- ? -->
@@ -310,9 +312,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -401,9 +403,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -484,9 +486,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -561,9 +563,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -641,9 +643,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -754,9 +756,9 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>

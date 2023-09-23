@@ -18,7 +18,48 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>>Armor/guard/light/GuardsmanLight</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/guard/light/GuardsmanLight</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
+		
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>7.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		
+	</ThingDef>
+	
+		<!-- === Flak Armor (Middle) === -->
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_Guard_FlakArmorMiddle</defName> <!-- TODO: Edit Def -->
+		<label>guard flak armor (middle)</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/guard/light/body/_item</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<layers Inherit="False">
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/guard/light/body/GuardsmanLightBody</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
@@ -117,19 +158,18 @@
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/heavy/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
+			<texPath>Armor/guard/light/helmetGoggles/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/heavy/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<wornGraphicPath>Armor/guard/light/helmetGoggles/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
 		</recipeMaker>
-		<!-- Edit the stats here somehow? It's basically the same as the no-goggles version. -->						<!-- gas mask and helmet with goggles confusion -->
 		
 		<statBases>
 			<WorkToMake>14500</WorkToMake>
@@ -145,27 +185,76 @@
 		</statBases>
 		
 	</ThingDef>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<!-- FULL HELMET HERE -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+		<!-- === Full Helmet === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Guard_FullHelmet</defName> <!-- TODO: Edit Def -->
+		<label>guard full helmet</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/guard/heavy/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/guard/heavy/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+		
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<MaxHitPoints>115</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		
+	</ThingDef>
+
+		<!-- === Full Helmet (No Logo) === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Guard_FullHelmetNoLogo</defName> <!-- TODO: Edit Def -->
+		<label>guard full helmet (no logo)</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/guard/heavy/helmetNoLogo/_item</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/guard/heavy/helmetNoLogo/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+		</recipeMaker>
+		
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<MaxHitPoints>115</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		
+	</ThingDef>
 	
 
 		<!-- === Uniform === -->
@@ -190,20 +279,26 @@
 		
 	</ThingDef>
   
-		<!-- === Gas Mask === -->
-	<ThingDef ParentName="GF40K_GasMaskBase">       
-		<defName>GF40K_Apparel_Guard_GasMask</defName> <!-- TODO: Edit Def -->
-		<label>guard gas mask</label> <!-- TODO: Edit Name -->
+		<!-- === Half-Mask === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
+		<defName>GF40K_Apparel_Guard_HalfMask</defName> <!-- TODO: Edit Def -->
+		<label>guard half-mask</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/heavy/helmet/_item</texPath> <!-- TODO: Edit Tex -->						<!-- gas mask and helmet with goggles confusion -->
+			<texPath>Armor/guard/light/mask/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/heavy/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/guard/light/mask/Mask</wornGraphicPath> <!-- TODO: Edit Tex -->
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<layers Inherit="False">
+				<li>GF40K_UnderHelmet</li>
+			</layers>
+			<bodyPartGroups Inherit="False">
+				<li>GF40K_UnderHelmet</li>
+			</bodyPartGroups>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 

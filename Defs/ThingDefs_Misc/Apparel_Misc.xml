@@ -8,9 +8,9 @@
 		<defName>GF40K_Apparel_RoboBackpack</defName>
 		<label>robo backpack</label>
 		<description>...</description>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -31,7 +31,6 @@
 			<Mass>1.5</Mass>
 			<Flammability>0.4</Flammability>
 			<EquipDelay>1</EquipDelay>
-			<!--<VEF_RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">0.75</VEF_RangedCooldownFactor>--> <!-- patch this -->
 		</statBases>
 		<thingCategories>
 			<li>ApparelUtility</li>
@@ -60,18 +59,20 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
-		<costList>
-			<Steel>30</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
-		<equippedStatOffsets>
-			<RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">0.75</RangedCooldownFactor>  <!-- unpatch this when vef active -->
-		</equippedStatOffsets>
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+		
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -92,9 +93,9 @@
 		<defName>GF40K_Apparel_RoboBackpackArm</defName>
 		<label>robo backpack (arm)</label>
 		<description>...</description>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -106,7 +107,7 @@
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/backpack/RoboPackArm/RoboPackArm</texPath>
+			<texPath>Armor/backpack/RoboPackArm/_item</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -121,7 +122,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Armor/backpack/RoboPackArm/RoboPackArm</wornGraphicPath>
+			<wornGraphicPath>Armor/backpack/RoboPackArm/Arm</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -134,14 +135,17 @@
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<north>
-					<offset>(0.3275, 0.25)</offset> <!-- still off center, but it's barely noticeable -->
+					<offset>(-0.3275, 0.25)</offset> <!-- still off center, but it's barely noticeable -->
 				</north>
 				<south>
 					<offset>(0.3275, 0.25)</offset>
 				</south>
 				<east>
-					<offset>(0.1, 0.25)</offset>
+					<offset>(-0.2, 0.25)</offset>
 				</east>
+				<west>
+					<offset>(0.2, 0.25)</offset>
+				</west>
 			</wornGraphicData>
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
@@ -153,15 +157,19 @@
 			<SmoothingSpeed>0.1</SmoothingSpeed>
 		</equippedStatOffsets>
 		
-		<costList>
-			<Steel>30</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
+		<!-- Crafting Materials -->
+        <stuffCategories>
+			<li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<thingClass>ThingColor2.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
+			<li Class="ThingColor2.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -174,5 +182,120 @@
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
 	
+
+
+		<!-- Jet pack -->
+	<ThingDef ParentName="ApparelBase">
+    <defName>GF40K_Apparel_RoboBackpackJet</defName>
+    <label>robo backpack (jet)</label>
+    <description>...</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+	  <researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>330</displayPriority>
+    </recipeMaker>
+
+	<!-- Crafting Materials -->
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+	<costList>
+		<Cloth>50</Cloth>
+		<ComponentIndustrial>3</ComponentIndustrial>
+		<Chemfuel>100</Chemfuel>
+	</costList>
+	
+    <graphicData>
+      <texPath>Armor/backpack/RoboPackJet/_item</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+       <!--THIS--><shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <JumpRange MayRequire="Ludeon.Rimworld.Royalty">23.9</JumpRange>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <wornGraphicPath>Armor/backpack/RoboPackJet/Jet</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <east>
+          <offset>(-0.35,-0.05)</offset>
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.1,0)</offset></hulk>
+          <fat><offset>(-0.15,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0.35,-0.05)</offset>
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.1,0)</offset></hulk>
+          <fat><offset>(0.15,0)</offset></fat>
+        </west>
+		
+        <male>  <scale>(0.75,0.75)</scale></male>
+        <female><scale>(0.75,0.75)</scale></female>
+        <thin>  <scale>(0.7,0.7)</scale></thin>
+        <hulk>  <scale>(0.9,0.9)</scale></hulk>
+        <fat>   <scale>(0.9,0.9)</scale></fat>
+      </wornGraphicData>
+	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>PackJump</li>
+      </tags>
+    </apparel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Clothing</li>
+    </tradeTags>
+	
+	<!--3-->
+	<thingClass>ThingColor2.ApparelColored</thingClass>
+	<modExtensions>
+		<li Class="ThingColor2.ThingExtension">
+			<colorOneStuff>
+				<li>Metallic</li>
+			</colorOneStuff>
+			<colorTwoStuff>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</colorTwoStuff>
+		</li>
+	</modExtensions>
+	<colorGenerator IsNull="True"/>
+	
+  </ThingDef>
 
 </Defs>

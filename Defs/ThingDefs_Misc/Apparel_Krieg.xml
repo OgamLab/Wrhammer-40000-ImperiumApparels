@@ -3,7 +3,7 @@
 			<!-- Krieg Apparel -->
 	
 		<!-- === Krieg Trench Coat === -->
-	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_TrenchCoat</defName> <!-- TODO: Edit Def -->
 		<label>krieg trench coat</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
@@ -18,7 +18,7 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>210</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
 	</ThingDef>
@@ -45,8 +45,32 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
-		
-		
+	</ThingDef>
+	
+		<!-- === Krieg Flak Armor (Middle) === -->
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_Krieg_FlakArmorMiddle</defName> <!-- TODO: Edit Def -->
+		<label>krieg flak armor (middle)</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<graphicData>
+			<texPath>Armor/krieg/body/_item</texPath> <!-- TODO: Edit Item Texture -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/krieg/body/KriegBody</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>			
+			<layers Inherit="False">
+				<li>Middle</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+		</recipeMaker>
 	</ThingDef>
 	
 		<!-- === Krieg Flak Helmet === -->
@@ -82,7 +106,13 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/krieg/helmet/Gasmask</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>			
+			<layers Inherit="False">
+				<li>GF40K_UnderHelmet</li>
+			</layers>
+			<bodyPartGroups Inherit="False">
+				<li>GF40K_UnderHelmet</li>
+			</bodyPartGroups>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
