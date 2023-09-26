@@ -108,12 +108,7 @@
 		<apparel>
 			<wornGraphicPath>Armor/powerarmor/mask/Mask</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
 			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
-			<layers Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</layers>
-			<bodyPartGroups Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</bodyPartGroups>
+			<forceRenderUnderHair>true</forceRenderUnderHair>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 

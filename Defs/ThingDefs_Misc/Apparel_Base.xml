@@ -44,9 +44,9 @@
 		</statBases>
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -134,9 +134,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -214,9 +214,9 @@
 		</statBases>
 
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -312,9 +312,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -403,9 +403,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -486,9 +486,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -563,9 +563,9 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -643,9 +643,9 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -756,9 +756,9 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<!--3-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>

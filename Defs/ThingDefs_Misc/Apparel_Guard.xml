@@ -293,12 +293,31 @@
 		<apparel>
 			<wornGraphicPath>Armor/guard/light/mask/Mask</wornGraphicPath> <!-- TODO: Edit Tex -->
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
-			<layers Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</layers>
-			<bodyPartGroups Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</bodyPartGroups>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<forceRenderUnderHair>true</forceRenderUnderHair>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>215</displayPriority>
+		</recipeMaker>
+		
+	</ThingDef>
+	
+	
+		<!-- === Helmet with Mask === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
+		<defName>GF40K_Apparel_Guard_HelmetMask</defName> <!-- TODO: Edit Def -->
+		<label>guard half-mask</label> <!-- TODO: Edit Name -->
+		<description>...</description> <!-- TODO: Edit Desc -->
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/guard/light/helmetMask/_item</texPath> <!-- TODO: Edit Tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/guard/light/helmetMask/Helmet</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 

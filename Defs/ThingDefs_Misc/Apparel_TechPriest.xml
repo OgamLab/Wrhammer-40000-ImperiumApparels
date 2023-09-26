@@ -204,7 +204,7 @@
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/skitarii/soldier/helmet/Hood</wornGraphicPath>
+			<wornGraphicPath>Armor/skitarii/soldier/helmet/Helmet</wornGraphicPath>
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
@@ -238,12 +238,12 @@
 		<label>skitarii vanguard lieutenant helmet</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- TODO: Edit Item Texture -->                   <!-- NO TEXTURE -->
+			<texPath>Armor/skitarii/soldier/helmetLtn/_item</texPath> <!-- TODO: Edit Item Texture -->                   <!-- NO TEXTURE -->
 			<graphicClass>Graphic_Single</graphicClass>
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+			<wornGraphicPath>Armor/skitarii/soldier/helmetLtn/Helmet</wornGraphicPath>
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>

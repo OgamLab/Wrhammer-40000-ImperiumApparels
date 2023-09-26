@@ -22,7 +22,7 @@
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/backpack/RoboPack/RoboPack</texPath>
+			<texPath>Armor/backpack/RoboPack/_item</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -70,9 +70,9 @@
 		
 		
 		<!--3-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -167,9 +167,9 @@
         </costList>
 		
 		<!--3-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -282,9 +282,9 @@
     </tradeTags>
 	
 	<!--3-->
-	<thingClass>ThingColor2.ApparelColored</thingClass>
+	<thingClass>ThingColor.ApparelColored</thingClass>
 	<modExtensions>
-		<li Class="ThingColor2.ThingExtension">
+		<li Class="ThingColor.ThingExtension">
 			<colorOneStuff>
 				<li>Metallic</li>
 			</colorOneStuff>

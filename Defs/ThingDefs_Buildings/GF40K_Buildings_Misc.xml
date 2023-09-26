@@ -5,7 +5,6 @@
     <defName>GF40K_ImperiumArmoury_Cogitator</defName>
     <label>armoury cogitator node</label>
     <description>...</description>
-    <thingClass>Building_StylingStation</thingClass>
     <graphicData>
       <texPath>Buildings/Cogitator</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -35,7 +34,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>10000</WorkToBuild>
       <Mass>60</Mass>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <stuffCategories>
       <li>Metallic</li>

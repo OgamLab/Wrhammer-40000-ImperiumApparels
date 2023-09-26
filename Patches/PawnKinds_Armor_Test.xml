@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[@Name="ImperialFighterBase"]/specificApparelRequirements</xpath>
+				</li>
+			
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/specificApparelRequirements</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>GF40K_Apparel_Guard_FlakHelmet</li>
+							<li>GF40K_Apparel_Guard_FlakArmor</li>
+							<li>GF40K_Apparel_Guard_Uniform</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/apparelColor</xpath>
+					<value>
+						<apparelColor>(107,122,92)</apparelColor>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/apparelRequired</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>GF40K_Apparel_Krieg_FlakArmor</li>
+							<li>GF40K_Apparel_Krieg_HelmetGasMask</li>
+							<li>GF40K_Apparel_Guard_Uniform</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/apparelColor</xpath>
+					<value>
+						<apparelColor>(95,102,112)</apparelColor>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/specificApparelRequirements</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>GF40K_Apparel_TP_Robe</li>
+							<li>GF40K_Apparel_TP_Hood</li>
+							<li>GF40K_Apparel_Guard_Uniform</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/apparelColor</xpath>
+					<value>
+						<apparelColor>(198,51,46)</apparelColor>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/apparelRequired</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>GF40K_Apparel_Commissar_Coat</li>
+							<li>GF40K_Apparel_Guard_FlakArmorMiddle</li>
+							<li>GF40K_Apparel_Guard_Uniform</li>
+							<li>GF40K_Apparel_Commissar_Hat</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/apparelColor</xpath>
+					<value>
+						<apparelColor>(48,48,48)</apparelColor>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/specificApparelRequirements</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/apparelRequired</xpath>
+					<value>
+						<apparelRequired Inherit="False">
+							<li>GF40K_Apparel_LPowerArmor</li>
+							<li>GF40K_Apparel_LPowerHelmet</li>
+							<li>GF40K_Apparel_Guard_Uniform</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/apparelColor</xpath>
+					<value>
+						<apparelColor>(68,126,210)</apparelColor>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

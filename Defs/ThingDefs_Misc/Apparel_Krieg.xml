@@ -96,23 +96,17 @@
   
 		<!-- === Krieg Gas Mask === -->
 	<ThingDef ParentName="GF40K_GasMaskBase">       
-		<defName>GF40K_Apparel_Krieg_GasMask</defName> <!-- TODO: Edit Def -->
+		<defName>GF40K_Apparel_Krieg_HelmetGasMask</defName> <!-- TODO: Edit Def -->
 		<label>krieg gas mask</label> <!-- TODO: Edit Name -->
 		<description>...</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/krieg/helmet/_item_gm</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Armor/krieg/helmet/gasmask/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
             <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/krieg/helmet/Gasmask</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>			
-			<layers Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</layers>
-			<bodyPartGroups Inherit="False">
-				<li>GF40K_UnderHelmet</li>
-			</bodyPartGroups>
+			<wornGraphicPath>Armor/krieg/helmet/gasmask/Helmet</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 

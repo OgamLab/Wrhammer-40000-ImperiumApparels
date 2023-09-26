@@ -103,9 +103,9 @@
 		</tradeTags>
 		
 		<!--3-->
-		<thingClass>ThingColor2.ApparelColored</thingClass>
+		<thingClass>ThingColor.ApparelColored</thingClass>
 		<modExtensions>
-			<li Class="ThingColor2.ThingExtension">
+			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
 					<li>Metallic</li>
 				</colorOneStuff>
@@ -117,5 +117,4 @@
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
-	
 </Defs>
