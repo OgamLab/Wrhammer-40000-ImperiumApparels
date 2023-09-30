@@ -6,7 +6,7 @@
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_Soro_LPowerArmor</defName> <!-- TODO: Edit Def -->
 		<label>sororitas light power armor</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/powerarmor/sororitas/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -31,7 +31,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_Soro_LPowerHelmet</defName> <!-- TODO: Edit Def -->
 		<label>sororitas light power helmet</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/powerarmor/sororitas/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -54,7 +54,7 @@
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_LPowerArmor</defName> <!-- TODO: Edit Def -->
 		<label>light power armor</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/powerarmor/lightpowerarmor/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_LPowerHelmet</defName> <!-- TODO: Edit Def -->
 		<label>light power helmet</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/powerarmor/lightpowerarmor/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -99,7 +99,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_LPowerHalfMask</defName> <!-- TODO: Edit Def -->
 		<label>light power half-mask</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/powerarmor/mask/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -109,6 +109,7 @@
 			<wornGraphicPath>Armor/powerarmor/mask/Mask</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
 			<!--THIS--><useWornGraphicMask>true</useWornGraphicMask>
 			<forceRenderUnderHair>true</forceRenderUnderHair>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 

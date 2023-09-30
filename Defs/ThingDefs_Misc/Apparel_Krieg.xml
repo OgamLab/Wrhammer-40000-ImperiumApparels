@@ -21,13 +21,31 @@
 			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
+		
+				<!-- TODO: Edit Stats --> 
+		<statBases>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <WorkToMake>12000</WorkToMake>
+		  <Mass>2</Mass>
+		  <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		  <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+		  <EquipDelay>3</EquipDelay>
+		</statBases>
+		
+		<!<costStuffCount>150</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+		
 	</ThingDef>
 	
 		<!-- === Krieg Flak Armor === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmor</defName> <!-- TODO: Edit Def -->
 		<label>krieg flak armor</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<graphicData>
 			<texPath>Armor/krieg/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +69,7 @@
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmorMiddle</defName> <!-- TODO: Edit Def -->
 		<label>krieg flak armor (middle)</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<graphicData>
 			<texPath>Armor/krieg/body/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -77,7 +95,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakHelmet</defName> <!-- TODO: Edit Def -->
 		<label>krieg flak helmet</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<graphicData>
 			<texPath>Armor/krieg/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +116,7 @@
 	<ThingDef ParentName="GF40K_GasMaskBase">       
 		<defName>GF40K_Apparel_Krieg_HelmetGasMask</defName> <!-- TODO: Edit Def -->
 		<label>krieg gas mask</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<graphicData>
 			<texPath>Armor/krieg/helmet/gasmask/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>

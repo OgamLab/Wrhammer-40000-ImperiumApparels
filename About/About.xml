@@ -7,4 +7,11 @@
 	</supportedVersions>
 	<packageId>flangopink.GF40KArmoury</packageId> <!-- TODO: Edit -->
 	<description>description here</description> <!-- TODO: Edit -->
+	<modDependencies>
+		<li>
+		  <packageId>gf40k.core</packageId>
+		  <displayName>GrimForge 40.000: Core</displayName>
+		  <downloadUrl>https://github.com/OgamLab/GrimForge40K-Core</downloadUrl>
+		</li>
+	</modDependencies>
 </ModMetaData>

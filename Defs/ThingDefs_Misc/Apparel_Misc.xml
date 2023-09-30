@@ -6,8 +6,8 @@
 	
 	<ThingDef ParentName="ApparelBase">
 		<defName>GF40K_Apparel_RoboBackpack</defName>
-		<label>robo backpack</label>
-		<description>...</description>
+		<label>servo-pack</label>
+		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -60,13 +60,10 @@
 		</apparel>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <Steel>100</Steel>
+		  <ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
 		
 		
 		<!--3-->
@@ -77,8 +74,7 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
+					<li>Metallic</li>
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
@@ -91,8 +87,8 @@
 	
 	<ThingDef ParentName="ApparelBase">
 		<defName>GF40K_Apparel_RoboBackpackArm</defName>
-		<label>robo backpack (arm)</label>
-		<description>...</description>
+		<label>servo-arm</label>
+		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -158,13 +154,10 @@
 		</equippedStatOffsets>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <Steel>120</Steel>
+		  <ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
 		
 		<!--3-->
 		<thingClass>ThingColor.ApparelColored</thingClass>
@@ -174,8 +167,7 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
+					<li>Metallic</li>
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
@@ -187,8 +179,8 @@
 		<!-- Jet pack -->
 	<ThingDef ParentName="ApparelBase">
     <defName>GF40K_Apparel_RoboBackpackJet</defName>
-    <label>robo backpack (jet)</label>
-    <description>...</description>
+    <label>jetpack</label>
+    <description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -208,12 +200,8 @@
     </recipeMaker>
 
 	<!-- Crafting Materials -->
-	<stuffCategories>
-		<li>Metallic</li>
-	</stuffCategories>
-	<costStuffCount>100</costStuffCount>
 	<costList>
-		<Cloth>50</Cloth>
+		<Steel>80</Steel>
 		<ComponentIndustrial>3</ComponentIndustrial>
 		<Chemfuel>100</Chemfuel>
 	</costList>
@@ -243,24 +231,6 @@
       <wornGraphicPath>Armor/backpack/RoboPackJet/Jet</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>true</renderUtilityAsPack>
-        <east>
-          <offset>(-0.35,-0.05)</offset>
-          <thin><offset>(0.05,0)</offset></thin>
-          <hulk><offset>(-0.1,0)</offset></hulk>
-          <fat><offset>(-0.15,0)</offset></fat>
-        </east>
-        <west>
-          <offset>(0.35,-0.05)</offset>
-          <thin><offset>(-0.05,0)</offset></thin>
-          <hulk><offset>(0.1,0)</offset></hulk>
-          <fat><offset>(0.15,0)</offset></fat>
-        </west>
-		
-        <male>  <scale>(0.75,0.75)</scale></male>
-        <female><scale>(0.75,0.75)</scale></female>
-        <thin>  <scale>(0.7,0.7)</scale></thin>
-        <hulk>  <scale>(0.9,0.9)</scale></hulk>
-        <fat>   <scale>(0.9,0.9)</scale></fat>
       </wornGraphicData>
 	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
       <careIfWornByCorpse>false</careIfWornByCorpse>
@@ -289,8 +259,7 @@
 				<li>Metallic</li>
 			</colorOneStuff>
 			<colorTwoStuff>
-				<li>Fabric</li>
-				<li>Leathery</li>
+				<li>Metallic</li>
 			</colorTwoStuff>
 		</li>
 	</modExtensions>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="GF40K_FlakJacketBase">
 		<defName>GF40K_Apparel_Commissar_Coat</defName> <!-- TODO: Edit Def -->
 		<label>commissar coat</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/commissar/_item</texPath> <!-- TODO: Edit Item Texture -->
@@ -22,18 +22,6 @@
 			<displayPriority>225</displayPriority> <!-- TODO: Edit Order? -->
 		</recipeMaker>
 		
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>30000</WorkToMake>
-			<Mass>5.5</Mass>
-			<Flammability>0.5</Flammability>
-			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.18</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>
-		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
@@ -44,7 +32,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>GF40K_Apparel_Commissar_Hat</defName> <!-- TODO: Edit Def -->
 		<label>commissar hat</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
 			<texPath>Armor/commissar/helmet/_item</texPath> <!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
@@ -58,13 +46,11 @@
 		</recipeMaker>
 		
 		<!-- Crafting Materials -->
+		<costStuffCount>50</costStuffCount>
         <stuffCategories>
-			<li>Metallic</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
         </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
 		
 		<statBases>
 			<WorkToMake>12000</WorkToMake>

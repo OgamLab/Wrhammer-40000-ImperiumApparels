@@ -30,17 +30,18 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<statBases> <!-- TODO: Edit Stats -->
-			<WorkToMake>35000</WorkToMake>
-			<MaxHitPoints>280</MaxHitPoints>
-			<Mass>9</Mass>
-			<Flammability>0.4</Flammability>
-			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.46</ArmorRating_Heat>
-			<Insulation_Cold>32</Insulation_Cold>
-			<Insulation_Heat>9</Insulation_Heat>
-			<EquipDelay>11</EquipDelay>
+		<!-- TODO: Edit Stats -->
+		<statBases>
+		  <WorkToMake>45000</WorkToMake>
+		  <MaxHitPoints>280</MaxHitPoints>
+		  <Mass>9</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
+		  <Insulation_Cold>32</Insulation_Cold>
+		  <Insulation_Heat>9</Insulation_Heat>
+		  <EquipDelay>11</EquipDelay>
 		</statBases>
 		
 		<!--THIS-->
@@ -51,21 +52,22 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Plasteel>80</Plasteel>
+		  <Uranium>10</Uranium>
+		</costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
@@ -119,16 +121,16 @@
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 			
 		<statBases>
-			<WorkToMake>15750</WorkToMake>
-			<MaxHitPoints>120</MaxHitPoints>
-			<Mass>1</Mass>
-			<Flammability>0.4</Flammability>
-			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.46</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
-			<Insulation_Heat>2</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+		  <WorkToMake>15750</WorkToMake>
+		  <MaxHitPoints>120</MaxHitPoints>
+		  <Mass>1</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
+		  <Insulation_Cold>4</Insulation_Cold>
+		  <Insulation_Heat>2</Insulation_Heat>
+		  <EquipDelay>2</EquipDelay>
 		</statBases>
 		
 		<!-- /\/\/\ /\/\/\ -->
@@ -141,21 +143,21 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>30</Plasteel>
+		</costList>
 		
 		<apparel>
 			<bodyPartGroups>
@@ -221,21 +223,22 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Plasteel>100</Plasteel>
+		  <Uranium>20</Uranium>
+		</costList>
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
@@ -296,17 +299,17 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<statBases> <!-- TODO: Edit Stats -->
-		  <WorkToMake>21000</WorkToMake>
-		  <MaxHitPoints>150</MaxHitPoints>
-		  <Mass>1.5</Mass>
+		<statBases>
+		  <WorkToMake>15750</WorkToMake>
+		  <MaxHitPoints>120</MaxHitPoints>
+		  <Mass>1</Mass>
 		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.54</ArmorRating_Heat>
+		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
 		  <Insulation_Cold>4</Insulation_Cold>
 		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>4</EquipDelay>
+		  <EquipDelay>2</EquipDelay>
 		</statBases>
 		
 		<!-- /\/\/\ /\/\/\ -->
@@ -319,21 +322,21 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>30</Plasteel>
+		</costList>
 		
 		<apparel>
 			<tags> 
@@ -410,21 +413,22 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>6</ComponentSpacer>
+		  <Plasteel>150</Plasteel>
+		  <Uranium>50</Uranium>
+		</costList>
 		
 		
 		<apparel>
@@ -493,21 +497,21 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
 					<li>Fabric</li>
 					<li>Leathery</li>
+					-->
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>50</Plasteel>
+		</costList>
 		
 		
 		<apparel>
@@ -546,17 +550,17 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<statBases> <!-- TODO: Edit Stats -->
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>14000</WorkToMake>
-			<Mass>7</Mass>
-			<Flammability>0.6</Flammability>
-			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.10</ArmorRating_Heat>
-			<Insulation_Cold>14.4</Insulation_Cold>
-			<Insulation_Heat>3</Insulation_Heat>
-			<EquipDelay>3</EquipDelay>
+		<statBases>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <WorkToMake>14000</WorkToMake>
+		  <Mass>7</Mass>
+		  <Flammability>0.6</Flammability>
+		  <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.10</ArmorRating_Heat>
+		  <Insulation_Cold>14.4</Insulation_Cold> <!-- like a cloth jacket -->
+		  <Insulation_Heat>3</Insulation_Heat>
+		  <EquipDelay>3</EquipDelay>
 		</statBases>
 		
 		<!-- /\/\/\ /\/\/\ -->
@@ -578,14 +582,11 @@
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
-		
+		<costList>
+		  <Cloth>50</Cloth>
+		  <Steel>70</Steel>
+		  <ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		
 		<apparel>
 			<bodyPartGroups>
@@ -626,19 +627,16 @@
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
-		<statBases> <!-- TODO: Edit Stats --> 
-			<Mass>1.5</Mass>
-			<MarketValue>300</MarketValue>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Flammability>0.2</Flammability>
-			<DeteriorationRate>0.05</DeteriorationRate>
-			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.10</ArmorRating_Heat>
-			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>5</EquipDelay>
-		</statBases> 
+		<!-- TODO: Edit Stats --> 
+		<statBases>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <WorkToMake>12000</WorkToMake>
+		  <Mass>2</Mass>
+		  <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		  <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+		  <EquipDelay>3</EquipDelay>
+		</statBases>
 		
 		<!-- /\/\/\ /\/\/\ -->
 		
@@ -647,7 +645,8 @@
 		<modExtensions>
 			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>
-					<li>Metallic</li>
+					<li>Fabric</li>
+					<li>Leathery</li>
 				</colorOneStuff>
 				<colorTwoStuff>
 					<li>Fabric</li>
@@ -658,13 +657,11 @@
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-        </costList>
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+		  <li>Fabric</li>
+		  <li>Leathery</li>
+		</stuffCategories>
 		
 		
 		<apparel>
@@ -710,14 +707,10 @@
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
 		<!-- Crafting Materials -->
-        <stuffCategories>
-			<li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>100</costStuffCount>
-        <costList>
-            <Cloth>50</Cloth>
-			<Chemfuel>20</Chemfuel>
-        </costList>
+		<costList>
+		  <Steel>20</Steel>
+		  <Chemfuel>20</Chemfuel>
+		</costList>
 		
 		<statBases> <!-- TODO: Edit Stats -->
 			<MaxHitPoints>80</MaxHitPoints>
@@ -763,8 +756,7 @@
 					<li>Metallic</li>
 				</colorOneStuff>
 				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
+					<li>Metallic</li>
 				</colorTwoStuff>
 			</li>
 		</modExtensions>
