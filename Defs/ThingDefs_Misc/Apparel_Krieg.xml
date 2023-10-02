@@ -33,7 +33,7 @@
 		  <EquipDelay>3</EquipDelay>
 		</statBases>
 		
-		<!<costStuffCount>150</costStuffCount>
+		<costStuffCount>150</costStuffCount>
         <stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
