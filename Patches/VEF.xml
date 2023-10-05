@@ -9,19 +9,19 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_RoboBackpack"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPack"]/statBases</xpath>
 					<value>
-						<VEF_RangedCooldownFactor>0.75</VEF_RangedCooldownFactor> <!-- doubt it will work but ok -->
+						<VEF_RangedCooldownFactor>0.85</VEF_RangedCooldownFactor> <!-- doubt it will work but ok -->
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_RoboBackpackJet"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]/statBases</xpath>
 					<value>
 						<VEF_RangedCooldownFactor>0.85</VEF_RangedCooldownFactor> <!-- doubt it will work but ok -->
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_RoboBackpackJet"]</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]</xpath>
 					<value>
 						<li Class="VFECore.ApparelExtension">
 							<equippedStatFactors>
@@ -36,15 +36,15 @@
 		<nomatch Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_RoboBackpack"]</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPack"]</xpath>
 					<value>
 						<equippedStatOffsets>
-							<RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">-0.25</RangedCooldownFactor>
+							<RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">-0.15</RangedCooldownFactor>
 						</equippedStatOffsets>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_RoboBackpackJet"]</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]</xpath>
 					<value>
 						<equippedStatOffsets>
 							<RangedCooldownFactor MayRequire="Ludeon.Rimworld.Biotech">-0.15</RangedCooldownFactor>

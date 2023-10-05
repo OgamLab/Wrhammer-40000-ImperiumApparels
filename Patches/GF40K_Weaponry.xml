@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Add materials to recipes -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>GrimForge 40.000: Imperium Weaponry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmourSupplier"]</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_Commissar</tradeTag>
+							<countRange>1~4</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_Guard</tradeTag>
+							<countRange>2~6</countRange>
+						</li>						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_Krieg</tradeTag>
+							<countRange>2~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_TechPriests</tradeTag>
+							<countRange>2~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_Skitarii</tradeTag>
+							<countRange>2~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>GF40K_PowerArmor</tradeTag>
+							<countRange>2~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>ComponentIndustrial</thingDef>
+							<countRange>10~30</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>ComponentSpacer</thingDef>
+							<countRange>3~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>Steel</thingDef>
+							<countRange>400~1000</countRange>
+						</li>						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>      
+						<li Class="StockGenerator_SingleDef">
+							<thingDef>WoodLog</thingDef>
+							<countRange>300~600</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+					  <li Class="StockGenerator_SingleDef">
+						<thingDef>Plasteel</thingDef>
+						<countRange>100~400</countRange>
+					  </li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+					  <li Class="StockGenerator_SingleDef">
+						<thingDef>Uranium</thingDef>
+						<countRange>50~150</countRange>
+					  </li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+					  <li Class="StockGenerator_Category">
+						<categoryDef>Textiles</categoryDef>
+						<thingDefCountRange>3~6</thingDefCountRange>
+						<totalPriceRange>2500~5000</totalPriceRange>
+					  </li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+					  <li Class="StockGenerator_Category">
+						<categoryDef>ResourcesRaw</categoryDef>
+						<excludedThingDefs>
+						  <li>Silver</li>
+						</excludedThingDefs>
+						<thingDefCountRange>2~4</thingDefCountRange>
+						<totalPriceRange>800~1500</totalPriceRange>
+					  </li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>BasicClothing</tradeTag>
+							<countRange>5~10</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_MarketValue">
+							<tradeTag>Clothing</tradeTag>
+							<countRange>3~6</countRange>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuySlaves"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+					<value>
+						<li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

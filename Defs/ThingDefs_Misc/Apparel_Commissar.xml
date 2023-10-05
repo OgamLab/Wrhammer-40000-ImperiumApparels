@@ -4,45 +4,45 @@
 	
 		<!-- === Commissar Coat === -->
 	<ThingDef ParentName="GF40K_FlakJacketBase">
-		<defName>GF40K_Apparel_Commissar_Coat</defName> <!-- TODO: Edit Def -->
-		<label>commissar coat</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Commissar_Coat</defName>
+		<label>commissar coat</label>
 		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/commissar/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/commissar/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/commissar/Commissar</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/commissar/Commissar</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>225</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>225</displayPriority>
 		</recipeMaker>
 		
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
 		
+		<tradeTags>
+			<li>GF40K_Commissar</li>
+		</tradeTags> 
+		
 	</ThingDef>
 	
-		<!-- === Commissar Hat === -->     <!-- basically a copy-pasted authority cap from ideology, for now -->
+		<!-- === Commissar Hat === -->
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>GF40K_Apparel_Commissar_Hat</defName> <!-- TODO: Edit Def -->
-		<label>commissar hat</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Commissar_Hat</defName>
+		<label>commissar hat</label>
 		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/commissar/helmet/_item</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Armor/commissar/helmet/_item</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
-			<drawSize>0.8</drawSize>  <!-- TODO: this? -->
 		</graphicData>
 		
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>145</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>145</displayPriority>
 		</recipeMaker>
 		
 		<!-- Crafting Materials -->
@@ -86,6 +86,7 @@
 		</apparel>
 		<tradeTags>
 			<li>Clothing</li>
+			<li>GF40K_Commissar</li>
 		</tradeTags>
 		
 		<!--3-->

@@ -4,234 +4,252 @@
 	
 		<!-- === Flak Armor === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
-		<defName>GF40K_Apparel_Guard_FlakArmor</defName> <!-- TODO: Edit Def -->
-		<label>guard flak armor</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FlakArmor</defName>
+		<label>guard flak armor</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/_item</texPath>
 		</graphicData>
 		<apparel>
-			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
+			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Armor/guard/light/GuardsmanLight</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/GuardsmanLight</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>210</displayPriority>
 		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Flak Armor (Middle) === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
-		<defName>GF40K_Apparel_Guard_FlakArmorMiddle</defName> <!-- TODO: Edit Def -->
-		<label>guard flak armor (middle)</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FlakArmorMiddle</defName>
+		<label>guard flak armor (middle)</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/body/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/body/_item</texPath>
 		</graphicData>
 		<apparel>
 			<layers Inherit="False">
 				<li>Middle</li>
 			</layers>
-			<bodyPartGroups>  <!-- Override default covered parts. TODO: Edit as needed -->
+			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Armor/guard/light/body/GuardsmanLightBody</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/body/GuardsmanLightBody</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>211</displayPriority>
 		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Carapace Armor === -->
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
-		<defName>GF40K_Apparel_Guard_CarapaceArmor</defName> <!-- TODO: Edit Def -->
-		<label>guard carapace armor</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_CarapaceArmor</defName>
+		<label>guard carapace armor</label>
 		<description>Carapace Armour is a type of combat armour used by many Imperial military and para-military organisations, including the elite troops of the Astra Militarum, the Militarum Tempestus and the Adeptus Arbites. It is also utilised by those who have turned against the Imperium but still make use of much Astra Militarum wargear, such as regiments of the Traitoris Militarum and the secessionist forces of the Severan Dominate on the Spinward Front.\n\nCarapace Armour consists of large, rigid plates of armaplas or ceramite molded to fit parts of the body. It can range from complete armoured suits like those worn by the Arbitrators of the Adeptus Arbites to individual pieces such as chest plates, helmets, greaves, etc.\n\nCarapace Armour is stronger and thicker than the Flak Armour used by the common soldiers of the Imperial Guard and various Planetary Defence Forces and it provides the wearer a much higher chance of surviving a direct impact with standard small-arms kinetic rounds and laser strikes, though it does little to protect against stronger heavy weapons. Carapace Armour is used by a wide variety of the Imperial armed forces, including the elite special operations Tempestus Scions troops of the Militarum Tempestus, the other Storm Troopers and Grenadiers of the Imperial Guard and Inquisition, and the armsmen who defend the starships of the Navis Imperialis.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/guard/heavy/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/heavy/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/heavy/GuardsmanHeavy</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/heavy/GuardsmanHeavy</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>212</displayPriority>
 		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Flak Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Guard_FlakHelmet</defName> <!-- TODO: Edit Def -->
-		<label>guard flak helmet</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FlakHelmet</defName>
+		<label>guard flak helmet</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/light/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/helmet/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>200</displayPriority>
 		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 
 		<!-- === Flak Helmet (Goggles) === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Guard_FlakHelmetGoggles</defName> <!-- TODO: Edit Def -->
-		<label>guard flak helmet with goggles</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FlakHelmetGoggles</defName>
+		<label>guard flak helmet with goggles</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/helmetGoggles/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/helmetGoggles/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/light/helmetGoggles/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/helmetGoggles/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>201</displayPriority>
 		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 
 		<!-- === Full Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Guard_FullHelmet</defName> <!-- TODO: Edit Def -->
-		<label>guard full helmet</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FullHelmet</defName>
+		<label>guard full helmet</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/heavy/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/heavy/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/heavy/helmet/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/heavy/helmet/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>202</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 
 		<!-- === Full Helmet (No Logo) === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Guard_FullHelmetNoLogo</defName> <!-- TODO: Edit Def -->
-		<label>guard full helmet (no logo)</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_FullHelmetNoLogo</defName>
+		<label>guard full helmet (no logo)</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/heavy/helmetNoLogo/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/heavy/helmetNoLogo/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/heavy/helmetNoLogo/Helmet</wornGraphicPath> <!-- TODO: Edit Worn Texture -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/heavy/helmetNoLogo/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>203</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 
 		<!-- === Uniform === -->
 	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
-		<defName>GF40K_Apparel_Guard_Uniform</defName> <!-- TODO: Edit Def -->
-		<label>guard uniform</label> <!-- TODO: Edit Name -->
-		<description>...</description> <!-- TODO: Edit Desc -->
+		<defName>GF40K_Apparel_Guard_Uniform</defName>
+		<label>guard uniform</label>
+		<description>...</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/_item</texPath> <!-- TODO: Edit Tex -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/Uniform</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/Uniform</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>210</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>199</displayPriority> 
 		</recipeMaker>
 		
 	</ThingDef>
   
 		<!-- === Half-Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
-		<defName>GF40K_Apparel_Guard_HalfMask</defName> <!-- TODO: Edit Def -->
-		<label>guard half-mask</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_HalfMask</defName>
+		<label>guard half-mask</label>
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/mask/_item</texPath> <!-- TODO: Edit Tex -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/mask/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/light/mask/Mask</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/mask/Mask</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<forceRenderUnderHair>true</forceRenderUnderHair>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>215</displayPriority>
+			<displayPriority>205</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 	
 		<!-- === Helmet with Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
-		<defName>GF40K_Apparel_Guard_HelmetMask</defName> <!-- TODO: Edit Def -->
-		<label>guard helmet with mask</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Guard_HelmetMask</defName>
+		<label>guard helmet with mask</label> 
 		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Armor/guard/light/helmetMask/_item</texPath> <!-- TODO: Edit Tex -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/guard/light/helmetMask/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/light/helmetMask/Helmet</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Armor/guard/light/helmetMask/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>215</displayPriority>
+			<displayPriority>204</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
 		
 	</ThingDef>
   

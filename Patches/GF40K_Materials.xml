@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Add materials to recipes -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>GrimForge 40k - Imperium Materials</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<!-- 
+							Affected: 
+						GF40K_Apparel_RoboBackpackJet
+						all recon, marine, flakjacket things
+					-->
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet" or @Name="GF40K_ArmorReconBase" or @Name="GF40K_ArmorHelmetReconBase" or @Name="GF40K_ArmorMarineBase" or @Name="GF40K_ArmorHelmetMarineBase" or @Name="GF40K_FlakJacketBase"]/costList</xpath>
+					<value>
+						<GF40K_Ceramite>10</GF40K_Ceramite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<!-- 
+							Affected: 
+						all light power armors
+					-->
+					<xpath>Defs/ThingDef[@Name="GF40K_ArmorCataphractBase"]/costList</xpath>
+					<value>
+						<GF40K_Adamantium>50</GF40K_Adamantium>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<!-- 
+							Affected: 
+						all light power helmets
+					-->
+					<xpath>Defs/ThingDef[@Name="GF40K_ArmorHelmetCataphractBase"]/costList</xpath>
+					<value>
+						<GF40K_Adamantium>25</GF40K_Adamantium>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>

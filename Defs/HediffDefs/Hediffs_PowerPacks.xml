@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<HediffDef>
+		<defName>GF40K_Hediff_PowerPack</defName>
+		<label>powerpack</label>
+		<description>This pawn's capabilities are enhanced by a powerpack.</description>
+		<defaultLabelColor>(0.4, 0.75, 0.9)</defaultLabelColor> <!-- light blue -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<tags>
+			<li>Powerpack</li>
+		</tags>
+		<comps>
+		  <li>
+			<compClass>HediffComp_RemoveIfApparelDropped</compClass>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<label>active</label>
+			<capMods>
+			  <li>
+				<capacity>Hearing</capacity>
+				<offset>0.15</offset>
+			  </li>
+			  <li>
+				<capacity>Sight</capacity>
+				<offset>0.05</offset>
+			  </li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GF40K_Hediff_PowerPackArm</defName>
+		<label>servo-arm</label>
+		<description>This pawn's capabilities are enhanced by a powerpack with a servo-arm.</description>
+		<defaultLabelColor>(0.4, 0.75, 0.9)</defaultLabelColor> <!-- light blue -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<tags>
+			<li>Powerpack</li>
+		</tags>
+		<comps>
+		  <li>
+			<compClass>HediffComp_RemoveIfApparelDropped</compClass>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<label>active</label>
+			<capMods>
+			  <li>
+				<capacity>Hearing</capacity>
+				<offset>0.15</offset>
+			  </li>
+			  <li>
+				<capacity>Manipulation</capacity>
+				<offset>0.25</offset>
+			  </li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
+</Defs>

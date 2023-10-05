@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>GF40K_ImperiumArmourSupplier</defName>
+    <label>Imperium's armour supplier</label>
+    <orbital>true</orbital>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>4001~8000</countRange>
+      </li>
+      
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>3</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
+      </li>
+	  
+		<!-- 
+			Tags list:
+			- GF40K_Commissar
+			- GF40K_Guard
+			- GF40K_Krieg
+			- GF40K_TechPriests (armor + powerpacks)
+			- GF40K_Skitarii
+			- GF40K_PowerArmor
+		-->
+      
+      <!-- Armor -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_Commissar</tradeTag>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_Guard</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_Krieg</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_TechPriests</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_Skitarii</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>GF40K_PowerArmor</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+	  
+      <!-- Genepacks -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+	  
+	  
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>10~30</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>3~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>400~1000</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>300~600</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>100~400</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>50~150</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>3~6</thingDefCountRange>
+        <totalPriceRange>2500~5000</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <excludedThingDefs>
+          <li>Silver</li>
+        </excludedThingDefs>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <totalPriceRange>800~1500</totalPriceRange>
+      </li>
+      <!-- Regular apparel -->
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>BasicClothing</tradeTag>
+        <countRange>5~10</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>Clothing</tradeTag>
+        <countRange>3~6</countRange>
+      </li>
+      
+      <!-- Buying -->
+      <li Class="StockGenerator_BuySlaves"/>
+      <li Class="StockGenerator_BuyExpensiveSimple"/>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

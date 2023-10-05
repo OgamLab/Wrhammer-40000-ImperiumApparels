@@ -7,7 +7,7 @@
     <description>...</description>
     <graphicData>
       <texPath>Buildings/Cogitator</texPath>
-			<shaderType>CutoutComplex</shaderType>
+	  <shaderType>CutoutComplex</shaderType>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>4</drawSize><!--2.46875-->
     </graphicData>

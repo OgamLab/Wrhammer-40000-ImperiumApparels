@@ -4,23 +4,21 @@
 	
 		<!-- === Tech Priest Robe === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
-		<defName>GF40K_Apparel_TP_Robe</defName> <!-- TODO: Edit Def -->
-		<label>tech priest robe</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_TP_Robe</defName>
+		<label>tech priest robe</label>
 		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<graphicData>
-			<texPath>Armor/skitarii/priest/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/priest/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/priest/Robe</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>115</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>255</displayPriority>
 		</recipeMaker>
 		
+		<!--
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<MarketValue>4130</MarketValue>
@@ -33,144 +31,170 @@
 			<Insulation_Heat>14</Insulation_Heat>
 			<EquipDelay>17</EquipDelay>
 		</statBases>
+		-->
 		
 		<equippedStatOffsets>
 			<ResearchSpeed>0.5</ResearchSpeed>
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		
-		
+		<tradeTags>
+			<li>GF40K_TechPriests</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Tech Priest Hood === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
-		<defName>GF40K_Apparel_TP_Hood</defName> <!-- TODO: Edit Def -->
-		<label>tech priest hood</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_TP_Hood</defName>
+		<label>tech priest hood</label>
 		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<graphicData>
-			<texPath>Armor/skitarii/priest/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/priest/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/priest/helmet/Hood</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>254</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_TechPriests</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Skitarii Ranger Armor === -->
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
-		<defName>GF40K_Apparel_Ski_RangerArmor</defName> <!-- TODO: Edit Def -->
-		<label>ranger war plate</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Ski_RangerArmor</defName>
+		<label>ranger war plate</label>
 		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/skitarii/scout/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/scout/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/scout/Scout</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>257</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
 		
 	</ThingDef>
 
 		<!-- === Skitarii Vanguard Armor === -->
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
-		<defName>GF40K_Apparel_Ski_VanguardArmor</defName> <!-- TODO: Edit Def -->
-		<label>vanguard war plate</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Ski_VanguardArmor</defName>
+		<label>vanguard war plate</label>
 		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/skitarii/soldier/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/soldier/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/soldier/Soldier</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>105</displayPriority> <!-- TODO: Edit Order? -->
+			<displayPriority>260</displayPriority>
 		</recipeMaker>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Skitarii Ranger Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Ski_RangerHelmet</defName> <!-- TODO: Edit Def -->
-		<label>ranger war plate helmet</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Ski_RangerHelmet</defName>
+		<label>ranger war plate helmet</label>
 		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/skitarii/scout/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/scout/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/scout/helmet/Hood</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>256</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Skitarii Vanguard Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Ski_VanguardHelmet</defName> <!-- TODO: Edit Def -->
-		<label>vanguard war plate helmet</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Ski_VanguardHelmet</defName>
+		<label>vanguard war plate helmet</label>
 		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/skitarii/soldier/helmet/_item</texPath> <!-- TODO: Edit Item Texture -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/soldier/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/soldier/helmet/Helmet</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>258</displayPriority>
 		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
 		
 	</ThingDef>
 	
 		<!-- === Skitarii Vanguard Lieutenant Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
-		<defName>GF40K_Apparel_Ski_VanguardLtnHelmet</defName> <!-- TODO: Edit Def -->
-		<label>vanguard lieutenant war plate helmet</label> <!-- TODO: Edit Name -->
+		<defName>GF40K_Apparel_Ski_VanguardLtnHelmet</defName>
+		<label>vanguard lieutenant war plate helmet</label>
 		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
 		<graphicData>
-			<texPath>Armor/skitarii/soldier/helmetLtn/_item</texPath> <!-- TODO: Edit Item Texture -->                   <!-- NO TEXTURE -->
-			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Armor/skitarii/soldier/helmetLtn/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/skitarii/soldier/helmetLtn/Helmet</wornGraphicPath>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-			<displayPriority>100</displayPriority>  <!-- TODO: Edit Order? -->
+			<displayPriority>259</displayPriority>
 		</recipeMaker>
 		
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>6</ShootingAccuracyPawn>
 			<HuntingStealth>1</HuntingStealth>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
 		
 	</ThingDef>
 

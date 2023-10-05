@@ -5,8 +5,8 @@
 		<!-- === Robo Backpack (No Arm) === -->
 	
 	<ThingDef ParentName="ApparelBase">
-		<defName>GF40K_Apparel_RoboBackpack</defName>
-		<label>servo-pack</label>
+		<defName>GF40K_Apparel_PowerPack</defName>
+		<label>powerpack</label>
 		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -20,6 +20,7 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
+			<displayPriority>501</displayPriority>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Armor/backpack/RoboPack/_item</texPath>
@@ -27,9 +28,9 @@
             <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
-			<WorkToMake>3000</WorkToMake>
-			<Mass>1.5</Mass>
-			<Flammability>0.4</Flammability>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -59,12 +60,24 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
+		<comps>
+		  <li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>GF40K_Hediff_PowerPack</hediff>
+		  </li>
+		</comps>
+		<equippedStatOffsets>
+			<!-- aiming time is patched -->
+			<!-- hearing and sight are added via hediff -->
+			<MoveSpeed>0.2</MoveSpeed>
+			<MeleeDodgeChance>-8</MeleeDodgeChance>
+			<CarryingCapacity>100</CarryingCapacity>
+		</equippedStatOffsets>
+		
 		<!-- Crafting Materials -->
 		<costList>
 		  <Steel>100</Steel>
 		  <ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
-		
 		
 		<!--3-->
 		<thingClass>ThingColor.ApparelColored</thingClass>
@@ -79,15 +92,20 @@
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
+		
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_TechPriests</li>
+		</tradeTags>
+		
 	</ThingDef>
-	
 	
 	
 		<!-- === Robo Backpack (Yes Arm) === -->
 	
 	<ThingDef ParentName="ApparelBase">
-		<defName>GF40K_Apparel_RoboBackpackArm</defName>
-		<label>servo-arm</label>
+		<defName>GF40K_Apparel_PowerPackArm</defName>
+		<label>powerpack with servo-arm</label>
 		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -101,6 +119,7 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
+			<displayPriority>502</displayPriority>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Armor/backpack/RoboPackArm/_item</texPath>
@@ -108,20 +127,21 @@
             <!--THIS--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
-			<WorkToMake>3000</WorkToMake>
-			<Mass>1.5</Mass>
-			<Flammability>0.4</Flammability>
-			<EquipDelay>1</EquipDelay>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+			<EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<thingCategories>
 			<li>ApparelUtility</li>
 		</thingCategories>
-		<generateAllowChance>0.15</generateAllowChance>
+		<generateAllowChance>0.05</generateAllowChance>
 		<apparel>
 			<wornGraphicPath>Armor/backpack/RoboPackArm/Arm</wornGraphicPath>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<mechanitorApparel>true</mechanitorApparel>
 			<bodyPartGroups>
 				<li>Waist</li>
 			</bodyPartGroups>
@@ -146,11 +166,18 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
+		<comps>
+		  <li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>GF40K_Hediff_PowerPackArm</hediff>
+		  </li>
+		</comps>
 		<equippedStatOffsets>
-			<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
-			<ConstructionSpeed>0.15</ConstructionSpeed>
-			<ConstructSuccessChance>0.1</ConstructSuccessChance>
-			<SmoothingSpeed>0.1</SmoothingSpeed>
+			<!-- hearing and manipulation are added via hediff -->
+			<MechBandwidth MayRequire="Ludeon.Rimworld.Biotech">6</MechBandwidth>
+			<MoveSpeed>0.25</MoveSpeed>
+			<MeleeDodgeChance>-8</MeleeDodgeChance>
+			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+			<CarryingCapacity>200</CarryingCapacity>
 		</equippedStatOffsets>
 		
 		<!-- Crafting Materials -->
@@ -172,14 +199,19 @@
 			</li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
+		
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_TechPriests</li>
+		</tradeTags>
+		
 	</ThingDef>
 	
 
-
 		<!-- Jet pack -->
 	<ThingDef ParentName="ApparelBase">
-    <defName>GF40K_Apparel_RoboBackpackJet</defName>
-    <label>jetpack</label>
+    <defName>GF40K_Apparel_PowerPackJet</defName>
+    <label>powerpack with jet</label>
     <description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
@@ -194,16 +226,17 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
-      <displayPriority>330</displayPriority>
+      <displayPriority>503</displayPriority>
     </recipeMaker>
 
 	<!-- Crafting Materials -->
 	<costList>
-		<Steel>80</Steel>
-		<ComponentIndustrial>3</ComponentIndustrial>
-		<Chemfuel>100</Chemfuel>
+		<Plasteel>40</Plasteel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+		<ComponentSpacer>1</ComponentSpacer>
+		<Chemfuel>175</Chemfuel> <!-- because you craft it max fueled (7 x 25 chem) -->
 	</costList>
 	
     <graphicData>
@@ -213,11 +246,11 @@
     </graphicData>
     <tickerType>Normal</tickerType>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
-      <Mass>3</Mass>
-      <Flammability>0.4</Flammability>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>4</Mass>
+      <Flammability>0.3</Flammability>
       <EquipDelay>2</EquipDelay>
-      <JumpRange MayRequire="Ludeon.Rimworld.Royalty">23.9</JumpRange>
+      <JumpRange MayRequire="Ludeon.Rimworld.Royalty">34.9</JumpRange>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -248,7 +281,7 @@
     </apparel>
     <tradeTags>
       <li>ExoticMisc</li>
-      <li>Clothing</li>
+	  <li>GF40K_TechPriests</li>
     </tradeTags>
 	
 	<!--3-->
