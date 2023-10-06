@@ -6,7 +6,7 @@
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_Soro_LPowerArmor</defName>
 		<label>sororitas power armor</label>
-		<description>Power Armour is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuits of power armor, commonly used by the Adepta Sororitas, are the only reminder of the Age of Apostasy. While this type of power armor does not require the enhancements of an Astartes Space Marine, such suits still utilize a similar principle and provide a remarkable level of protection, as long as the armor itself is properly maintained.</description>
+		<description>Power Armor is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuits of power armor, commonly used by the Adepta Sororitas, are the only reminder of the Age of Apostasy. While this type of power armor does not require the enhancements of an Astartes Space Marine, such suits still utilize a similar principle and provide a remarkable level of protection, as long as the armor itself is properly maintained.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/sororitas/_item</texPath>
 		</graphicData>
@@ -63,7 +63,7 @@
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_LPowerArmor</defName>
 		<label>light power armor</label>
-		<description>Power Armour is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuch suits are commonly used by the Inquisition, planetary governors and other members of the Imperial elite, as well as Rogue Traders and their retinue.</description>
+		<description>Power Armor is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuch suits are commonly used by the Inquisition, planetary governors and other members of the Imperial elite, as well as Rogue Traders and their retinue.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/lightpowerarmor/_item</texPath>
 		</graphicData>
