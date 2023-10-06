@@ -18,7 +18,7 @@
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_IA_AstraMilitarum</defName>
 		<label>Astra Militarum armory</label>
-		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<description>++++++ Adeptus Mechanicus Archives ++++++\n\n[STC Fragment Λ/Φ-96]\n\nThis STC fragment contains information regarding manufacturing means of personal protection equipment commonly used by the Astra Militarum (also known as the Imperial Guard) personnel. They range from lightweight flak armor, which is cheap and easy to manufacture, to heavier types, such as carapace armor, commonly used by stormtroopers and elite units.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>
@@ -36,8 +36,8 @@
 	
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_IA_AdeptusMechanicus</defName>
-		<label>Adeptus Mechanicus armory</label>
-		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<label>Adeptus Mechanicus gear</label>
+		<description>++++++ Adeptus Mechanicus Archives ++++++\n\n[STC Fragment Λ/Φ-98]\n\nThis STC fragment contains information regarding manufacturing means of personal protection equipment commonly used by the priesthood of the Adeptus Mechanicus and the Skitarii armor.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>
@@ -55,8 +55,8 @@
 	
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">
 		<defName>GF40K_IA_LightPowerArmor</defName>
-		<label>light power armor</label>
-		<description>ADD DESCRIPTION HERE</description> <!-- TODO: desc -->
+		<label>Imperium light power armor</label>
+		<description>++++++ Adeptus Mechanicus Archives ++++++\n\n[STC Fragment Λ/Φ-99]\n\nThis STC fragment contains information regarding manufacturing less advanced suits of power armor commonly used by the members of different branches of the Inquisition as well as the Adepta Sororitas.</description>
 		<baseCost>4000</baseCost>
 		<prerequisites>
 		  <li MayRequire="GF40K.IoM.Weaponry">GF40K_ImperiumCore</li>

@@ -5,8 +5,8 @@
 		<!-- === Tech Priest Robe === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_TP_Robe</defName>
-		<label>tech priest robe</label>
-		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
+		<label>Tech-priest robe</label>
+		<description>A sturdy long robe, usually worn by the priesthood of the Adeptus Mechanicus. The individual design may vary, depending on the Forge World and the position of the priest in the Mechanicus hierarchy, as well as their body structure. These robes are adorned with Mechanicus iconography and gear-like ornaments signifying the wearer's position in the Mechanicus hierarchy.\n\nSuch robes have been a tradition since the earliest days of the Age of Strife, when Mars was isolated from Terra and Mars' atmospheric shields gave away, leaving the planet exposed to deadly radiation, so such thick sturdy robes and hoods became a necessity.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/priest/_item</texPath>
 		</graphicData>
@@ -48,8 +48,8 @@
 		<!-- === Tech Priest Hood === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_TP_Hood</defName>
-		<label>tech priest hood</label>
-		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
+		<label>Tech-priest hood</label>
+		<description>A hood made out of sturdy material is the most common type of headgear for a member of the Adeptus Mechanicus. Usually it has the same color and ornament as the robe, however it's not required. Such hoods have been a tradition since the earliest days of the Age of Strife, when Mars was isolated from Terra and Mars' atmospheric shields gave away, leaving the planet exposed to deadly radiation, so such hoods and thick sturdy robes became a necessity.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/priest/helmet/_item</texPath>
 		</graphicData>
@@ -73,8 +73,8 @@
 		<!-- === Skitarii Ranger Armor === -->
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
 		<defName>GF40K_Apparel_Ski_RangerArmor</defName>
-		<label>ranger war plate</label>
-		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
+		<label>Skitarii ranger war plate</label>
+		<description>The Skitarii are also known as Tech-Guard to outsiders. Their wargear is somewhat unique compared to other servants of the Imperium of Mankind. The innermost layer of the Skitarii ranger war plate is coated with recombinant cells that collect the moisture from the wearer's skin and form an extra layer of defense. This layer is composed of thick gelatinous material, that both protects the user's body from the abrasion caused by ceramite armor plates and shields the wearer from the radiation emitted by the more dangerous weapons.\n\nSkitarii Rangers in particular are best known for their hunter-killer role due to their legendary stamina. They are capable of tracking and hunting their foe for weeks without rest or interruption.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/scout/_item</texPath>
 		</graphicData>
@@ -98,8 +98,8 @@
 		<!-- === Skitarii Vanguard Armor === -->
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
 		<defName>GF40K_Apparel_Ski_VanguardArmor</defName>
-		<label>vanguard war plate</label>
-		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
+		<label>Skitarii vanguard war plate</label>
+		<description>The Skitarii are also known as Tech-Guard to outsiders. Their wargear is somewhat unique compared to other servants of the Imperium of Mankind. The innermost layer of the Skitarii ranger war plate is coated with recombinant cells that collect the moisture from the wearer's skin and form an extra layer of defense. This layer is composed of thick gelatinous material, that both protects the user's body from the abrasion caused by ceramite armor plates and shields the wearer from the radiation emitted by the more dangerous weapons.\n\nThe Skitarii Vanguard are notable for their constant exposure to lethal amounts of radiation, which they harness to eliminate their enemies. Simply approaching them is akin to inviting death by radiation poisoning. However, this fate is not exclusive to their enemies, as the Skitarii Vanguard themselves also quickly become martyrs to their own exceedingly deadly weapons.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/soldier/_item</texPath>
 		</graphicData>
@@ -123,8 +123,8 @@
 		<!-- === Skitarii Ranger Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Ski_RangerHelmet</defName>
-		<label>ranger war plate helmet</label>
-		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
+		<label>Skitarii ranger helmet</label>
+		<description>he Skitarii Ranger helmet consists of two parts: the helmet itself and the hood of the Ranger's robe. The faceplate of the helmet serves a dual purpose. It not only protects the wearer's vital organs but also functions as a transmission device for all the sensory information a Skitarii Ranger gathers during their mission. The Ranger's eyes are always open, as their eyelids are surgically removed so that the Magos in control wouldn't miss a single detail. Additionally, the Skitarii helmet is equipped with a built-in rebreather, a vital necessity in the toxic atmosphere of Mars and on numerous battlefields across the galaxy.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/scout/helmet/_item</texPath>
 		</graphicData>
@@ -148,8 +148,8 @@
 		<!-- === Skitarii Vanguard Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Ski_VanguardHelmet</defName>
-		<label>vanguard war plate helmet</label>
-		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
+		<label>Skitarii vanguard helmet</label>
+		<description>Skitarii vanguard helmets are designed to provide a substantial degree of defense against most of types of damage, as well as shield its wearer from the deadly radiation emitted by the weapons most commonly used by the Skitarii Vanguard. However, with prolonged exposure to extreme levels of radiation, even this kind of protection does not suffice. And on the rare occasions when these warriors remove their helmets, the sight of their missing teeth and hairless, sore-pocked skin tells the terrible truth. It is a price they are willing to pay, for their devotion to the Machine God is absolute.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/soldier/helmet/_item</texPath>
 		</graphicData>
@@ -173,8 +173,8 @@
 		<!-- === Skitarii Vanguard Lieutenant Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Ski_VanguardLtnHelmet</defName>
-		<label>vanguard lieutenant war plate helmet</label>
-		<description>Skitarii War Plate is a type of armour of used by Adeptus Mechanicus Skitarii. These armoured plates are designed to be worn for several years at a time.\n\nSecreted under a superdermal layer of ceramite alloy are recombinant cells that harness moisture from the wearer and recycle it. This liquid is transmuted into a gelatinous unguent that coats the inside of the suit, preventing the slow abrasion of the wearer's body whilst affording a measure of protection from the harmful effects of their weaponry.</description> <!-- TODO: Edit Desc -->
+		<label>Skitarii vanguard alpha helmet</label>
+		<description>Skitarii vanguard helmets are designed to provide a substantial degree of defense against most of types of damage, as well as shield its wearer from the deadly radiation emitted by the weapons most commonly used by the Skitarii Vanguard. However, with prolonged exposure to extreme levels of radiation, even this kind of protection does not suffice. And on the rare occasions when these warriors remove their helmets, the sight of their missing teeth and hairless, sore-pocked skin tells the terrible truth. It is a price they are willing to pay, for their devotion to the Machine God is absolute.\n\nThis particular helmet has a distinctive feature: a golden crest adorning its top, signifying the wearer's status as an 'Alpha' or a Skitarii Vanguard Overseer — a cyborg, who has proven worthy of a degree of independence and autonomy on the battlefield, filling the role of an officer.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/soldier/helmetLtn/_item</texPath>
 		</graphicData>

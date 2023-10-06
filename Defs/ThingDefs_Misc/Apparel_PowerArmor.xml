@@ -5,8 +5,8 @@
 		<!-- === Sororitas Light Power Armor === -->
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_Soro_LPowerArmor</defName>
-		<label>sororitas light power armor</label>
-		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
+		<label>sororitas power armor</label>
+		<description>Power Armour is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuits of power armor, commonly used by the Adepta Sororitas, are the only reminder of the Age of Apostasy. While this type of power armor does not require the enhancements of an Astartes Space Marine, such suits still utilize a similar principle and provide a remarkable level of protection, as long as the armor itself is properly maintained.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/sororitas/_item</texPath>
 		</graphicData>
@@ -35,8 +35,8 @@
 		<!-- === Sororitas Light Power Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_Soro_LPowerHelmet</defName>
-		<label>sororitas light power helmet</label>
-		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
+		<label>sororitas power helmet</label>
+		<description>The 'Sabbat' Pattern Sororitas Helm is equipped with a communication device and a rebreather unit, making it suitable for operation in hazardous environments as well as those with little to no oxygen available. It is also capable of shielding the user's sensory organs from the dangerous psycho-visual and auditory influences commonly associated with the Chaos taint.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/sororitas/helmet/_item</texPath>
 		</graphicData>
@@ -63,7 +63,7 @@
 	<ThingDef ParentName="GF40K_ArmorCataphractBase">
 		<defName>GF40K_Apparel_LPowerArmor</defName>
 		<label>light power armor</label>
-		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
+		<description>Power Armour is a fully enclosed suit of armor, made from thick ceramite plates and equipped with plug ports that link directly to the user's muscular system. Its weight is mostly compensated by the fiber bundle network within the armor itself, making it significantly less restrictive than carapace armor.\n\nSuch suits are commonly used by the Inquisition, planetary governors and other members of the Imperial elite, as well as Rogue Traders and their retinue.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/lightpowerarmor/_item</texPath>
 		</graphicData>
@@ -92,7 +92,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_LPowerHelmet</defName>
 		<label>light power helmet</label>
-		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
+		<description>Light power armor helmets are designed to be used with power armor suits, ensuring closed air circulation to provide sufficient safety in hazardous environments and areas with little to no breathable air. In addition to providing a substantial degree of protection against most types of damage, these helmets are outfitted with photolenses, communication equipment, low-light vision devices and a rebreather.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/lightpowerarmor/helmet/_item</texPath>
 		</graphicData>
@@ -116,8 +116,8 @@
 		<!-- === Light Power Helmet Half-Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
 		<defName>GF40K_Apparel_LPowerHalfMask</defName>
-		<label>light power half-mask</label>
-		<description>Power Armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Heretic Astartes, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer.\n\nWhilst power armour is most commonly associated with the Space Marines of the Adeptus Astartes, the Sisters of Battle and many Inquisitors also use powered armour of one sort or another. Typically, however, these armours may not contain the same strength-enhancing properties or life-support functions of Space Marine power armour, nor do they always provide the same level of protection or mobility.</description> <!-- TODO: Edit Desc -->
+		<label>heavy rebreather mask</label>
+		<description>Rebreathing device commonly used in power armor helmets. It can be used in situations that require a sealed air circulation, but also require the user to rely on natural perception.</description>
 		<graphicData>
 			<texPath>Armor/powerarmor/mask/_item</texPath>
 		</graphicData>

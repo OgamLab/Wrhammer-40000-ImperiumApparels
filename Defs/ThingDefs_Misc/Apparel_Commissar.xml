@@ -5,8 +5,8 @@
 		<!-- === Commissar Coat === -->
 	<ThingDef ParentName="GF40K_FlakJacketBase">
 		<defName>GF40K_Apparel_Commissar_Coat</defName>
-		<label>commissar coat</label>
-		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
+		<label>commissar longcoat</label>
+		<description>This intricately decorated longcoat with golden trim is one of the most recognizable pieces of attire found in the Imperium of Mankind. It is not just a piece of uniform; it's a symbol of status, indicating that the person wearing it is a successful graduate of the Schola Progenium, who has dedicated their life to leading Astra Militarum soldiers by example.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/commissar/_item</texPath>
@@ -32,8 +32,8 @@
 		<!-- === Commissar Hat === -->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>GF40K_Apparel_Commissar_Hat</defName>
-		<label>commissar hat</label>
-		<description>Commissar is the title used to designate a political officer of the elite Officio Prefectus who serves in the regiments of the Astra Militarum or aboard the voidships of the Navis Imperialis.\n\nCommissars are tasked with the duty to maintain the morale of the troops during their massive campaigns, often in the face of staggering casualties. The commissar is empowered to use any means necessary to ensure the loyalty and moral purity of his or her charges, including overriding or even executing a regiment's commanding officer if necessary, and so is regarded with a mixture of fear and admiration by rank-and-file Guardsmen — and not a few of their officers.\n\nEvery Imperial citizen recognises the distinctive cap and greatcoat of the commissar, whether from hab-block propaganda frescoes or grainy Departmento Munitorum recruitment picts.</description> <!-- TODO: Edit Desc -->
+		<label>commissar peaked cap</label>
+		<description>Signature headwear of morale officers of the Imperium of Mankind, the commissar's peaked cap is meant to be recognized by any citizen of the Imperium, as it is depicted on hundreds of motivational posters. It is supposed to inspire and instill fear into men, making them fear the commissar much more, than they would fear the enemy.</description>
 		<graphicData>
 			<texPath>Armor/commissar/helmet/_item</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

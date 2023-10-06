@@ -6,8 +6,8 @@
 	
 	<ThingDef ParentName="ApparelBase">
 		<defName>GF40K_Apparel_PowerPack</defName>
-		<label>powerpack</label>
-		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
+		<label>skitarii powerpack</label>
+		<description>Powerpack is a common name for the devices resembling a backpack with power cells, or in certain cases — a miniature thermonuclear reactor, utilized by the Adeptus Mechanicus, the Adeptus Astartes and the Inquisition to ensure the operability of bionic implants, limbs and power armor.\n\nThis particular version of a powerpack is equipped with an auspex, allowing the Magos in charge of the Skitarii to receive the audio-pict feed directly from the units in real time, providing tactical assistance on the battlefield.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -105,8 +105,8 @@
 	
 	<ThingDef ParentName="ApparelBase">
 		<defName>GF40K_Apparel_PowerPackArm</defName>
-		<label>powerpack with servo-arm</label>
-		<description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
+		<label>powerpack with a servo-arm</label>
+		<description>Powerpack is a common name for the devices resembling a backpack with power cells, or in certain cases — a miniature thermonuclear reactor, utilized by the Adeptus Mechanicus, the Adeptus Astartes and the Inquisition to ensure the operability of bionic implants, limbs and power armor.\n\nThis particular version of a powerpack is equipped with an servo-arm, thus allowing the user to perform engineering and other tasks with ease, essentially being a third arm. Such powerpacks are commonly used by Tech-priests of various ranks, as well as Techmarines — Adeptus Astartes, who have passed a specialized training by the Techno-Magi of Mars.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -211,8 +211,8 @@
 		<!-- Jet pack -->
 	<ThingDef ParentName="ApparelBase">
     <defName>GF40K_Apparel_PowerPackJet</defName>
-    <label>powerpack with jet</label>
-    <description>The personal equipment and wargear of a Tech-Priest varies greatly and can consist of anything from standard weaponry to more exotic pieces of Archaeotech. However typical wargear includes their Mechadendrites and an Omnissian Axe which acts as a badge of office. Tech-Priests of militant orders such as a Dominus are equipped with more radical weaponry such as Eradication Rays, Macrostubbers, Phosphor Serpenta, and Volkite Blasters. They are also typically protected by a Refractor Field.\n\nStandard Tech-Priest Enginseers are equipped with less exotic weapons, such as a Laspistol and Servo-arms.</description>
+    <label>jump-pack</label>
+    <description>Jump pack, also commonly referred to as a 'jetpack', is a propulsion device, that is mounted on the user's back and consists of several thrusters and a control device. It can be utilized to traverse difficult terrain and perform deep strikes, quickly flanking an unsuspecting enemy. It has a limited fuel capacity and must be refueled with chemfuel for continuous use.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>

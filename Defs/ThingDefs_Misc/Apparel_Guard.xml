@@ -6,7 +6,7 @@
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Guard_FlakArmor</defName>
 		<label>guard flak armor</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<description>Flak armor is a light and relatively simple form of body armor used by the military forces of the Imperium of Man. It is relatively cheap and easy to produce on an average Imperial world. Usually flak armor consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the armor is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/_item</texPath>
@@ -32,8 +32,8 @@
 		<!-- === Flak Armor (Middle) === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Guard_FlakArmorMiddle</defName>
-		<label>guard flak armor (middle)</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>guard flak vest</label>
+		<description>Flak vest is a light and relatively simple form of body armor used by the military forces of the Imperium of Man. It is relatively cheap and easy to produce on an average Imperial world. Usually flak vest consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the vest is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/body/_item</texPath>
@@ -62,7 +62,7 @@
 	<ThingDef ParentName="GF40K_ArmorMarineBase">
 		<defName>GF40K_Apparel_Guard_CarapaceArmor</defName>
 		<label>guard carapace armor</label>
-		<description>Carapace Armour is a type of combat armour used by many Imperial military and para-military organisations, including the elite troops of the Astra Militarum, the Militarum Tempestus and the Adeptus Arbites. It is also utilised by those who have turned against the Imperium but still make use of much Astra Militarum wargear, such as regiments of the Traitoris Militarum and the secessionist forces of the Severan Dominate on the Spinward Front.\n\nCarapace Armour consists of large, rigid plates of armaplas or ceramite molded to fit parts of the body. It can range from complete armoured suits like those worn by the Arbitrators of the Adeptus Arbites to individual pieces such as chest plates, helmets, greaves, etc.\n\nCarapace Armour is stronger and thicker than the Flak Armour used by the common soldiers of the Imperial Guard and various Planetary Defence Forces and it provides the wearer a much higher chance of surviving a direct impact with standard small-arms kinetic rounds and laser strikes, though it does little to protect against stronger heavy weapons. Carapace Armour is used by a wide variety of the Imperial armed forces, including the elite special operations Tempestus Scions troops of the Militarum Tempestus, the other Storm Troopers and Grenadiers of the Imperial Guard and Inquisition, and the armsmen who defend the starships of the Navis Imperialis.</description> <!-- TODO: Edit Desc -->
+		<description>Carapace armor is a significantly heavier variant of flak armor most commonly issued to stormtroopers and commissars. In some rare cases, it can be worn by Planetary Defense Force troops. Carapace armor has noticeably better protective capabilities; however, it comes with the caveat of higher mass and no power assistance, thus tiring out the wearer much faster, compared to flak or power armor. The largest issue with the mass-scale production of carapace armor is its cost.</description>
 		<graphicData>
 			<texPath>Armor/guard/heavy/_item</texPath>
 		</graphicData>
@@ -84,7 +84,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmet</defName>
 		<label>guard flak helmet</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/helmet/_item</texPath>
@@ -107,7 +107,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmetGoggles</defName>
 		<label>guard flak helmet with goggles</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles attached to it.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/helmetGoggles/_item</texPath>
@@ -130,7 +130,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Guard_FullHelmet</defName>
 		<label>guard full helmet</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<description>A standard-issue carapace helmet commonly used by Astra Militarum stormtroopers and Tempestus Scions across the entire galaxy. This type of protective gear utilizes ceramite plates molded into the standard flak helmet design, resulting in increased protective capabilities at the expense of greater weight and production costs. Typically, a carapace helmet is equipped with an encrypted vox micro-bead, a rebreather and a portable light source.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/heavy/helmet/_item</texPath>
@@ -156,7 +156,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Guard_FullHelmetNoLogo</defName>
 		<label>guard full helmet (no logo)</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<description>A standard-issue carapace helmet commonly used by Astra Militarum stormtroopers and Tempestus Scions across the entire galaxy. This type of protective gear utilizes ceramite plates molded into the standard flak helmet design, resulting in increased protective capabilities at the expense of greater weight and production costs. Typically, a carapace helmet is equipped with an encrypted vox micro-bead, a rebreather and a portable light source.\n\nThis particular helmet has no Imperial Aquila, for whatever reason.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/heavy/helmetNoLogo/_item</texPath>
@@ -183,7 +183,7 @@
 	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
 		<defName>GF40K_Apparel_Guard_Uniform</defName>
 		<label>guard uniform</label>
-		<description>...</description>
+		<description>A standard-issue Astra Militarum uniform, consisting of a jacket and a pair of pants. It's made from a material sturdy enough to withstand wear and tear as well as grime. It also provides sufficient insulation for the wearer and doesn't restrict movement. The uniform itself can vary, depending on the world and even the regiment itself.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/_item</texPath>
@@ -201,8 +201,8 @@
 		<!-- === Half-Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
 		<defName>GF40K_Apparel_Guard_HalfMask</defName>
-		<label>guard half-mask</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>rebreather mask</label>
+		<description>A standard-issue rebreather mask commonly used by Astra Militarum soldiers in difficult conditions, such as low oxygen environments, or contaminated areas. This mask provides very little protection against physical damage, but it is capable of protecting its wearer from toxic gases.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/mask/_item</texPath>
@@ -230,8 +230,8 @@
 		<!-- === Helmet with Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
 		<defName>GF40K_Apparel_Guard_HelmetMask</defName>
-		<label>guard helmet with mask</label> 
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>guard flak helmet with rebreather</label> 
+		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles and a rebreather attached to it.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Armor/guard/light/helmetMask/_item</texPath>

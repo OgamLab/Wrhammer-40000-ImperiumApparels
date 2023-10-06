@@ -5,8 +5,8 @@
 		<!-- === Krieg Trench Coat === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_TrenchCoat</defName>
-		<label>krieg trench coat</label>
-		<description>...</description>	 <!-- TODO: Edit Desc -->
+		<label>Krieg trench coat</label>
+		<description>Krieg-pattern trench coat serves a dual purpose: it is both a military uniform and a fully sealed garment, designed to protect a guardsman from the radioactive soil and air of their homeworld, as well as from mud, rain and various other elements encountered on any battlefield where the Death Korps of Krieg set their feet.</description>
 		<graphicData>
 			<texPath>Armor/krieg/coat/_item</texPath>
 		</graphicData>
@@ -48,8 +48,8 @@
 		<!-- === Krieg Flak Armor === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmor</defName>
-		<label>krieg flak armor</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>Krieg-pattern flak armor</label>
+		<description>A standard-issue flak armor, designed on Krieg, the homeworld of Death Korps of Krieg. It is relatively cheap and easy to produce on an average Imperial world. Usually flak armor consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the armor is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular type of flak armor was designed and adopted by Death Korps of Krieg Astra Militarum Regiments, as the result of their more than millennia-long experience in siege warfare.</description>
 		<graphicData>
 			<texPath>Armor/krieg/_item</texPath>
 		</graphicData>
@@ -77,8 +77,8 @@
 		<!-- === Krieg Flak Armor (Middle) === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmorMiddle</defName>
-		<label>krieg flak armor (middle)</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>Krieg-pattern flak vest</label>
+		<description>A standard-issue flak vest, designed on Krieg, the homeworld of Death Korps of Krieg. It is relatively cheap and easy to produce on an average Imperial world. Usually flak vest consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the vest is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular type of flak armor was designed and adopted by Death Korps of Krieg Astra Militarum Regiments, as the result of their more than millennia-long experience in siege warfare. This particular vest lacks shoulder protection.</description>
 		<graphicData>
 			<texPath>Armor/krieg/body/_item</texPath>
 		</graphicData>
@@ -108,8 +108,8 @@
 		<!-- === Krieg Flak Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakHelmet</defName>
-		<label>krieg flak helmet</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>Krieg-pattern flak helmet</label>
+		<description>A standard-issue helmet used by Death Korps of Krieg regiments of Astra Militarum. Despite its design closely resembling the ones from the ancient days of Terra, dating back to M2, its rather archaic appearance shouldn't deceive you: such helmets are more than capable of providing a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
 		<graphicData>
 			<texPath>Armor/krieg/helmet/_item</texPath>
 		</graphicData>
@@ -130,8 +130,8 @@
 		<!-- === Krieg Gas Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
 		<defName>GF40K_Apparel_Krieg_HelmetGasMask</defName>
-		<label>krieg flak helmet with gas mask</label>
-		<description>Flak Armour is a light and relatively simple form of body armour used by the military forces of the Imperium of Man.\n\nIt is used as standard issue body armour for the countless millions of Imperial Guardsmen and Planetary Defence Force members across the galaxy.\n\nMany layers of ablative and impact absorbent material go into making each suit, enough to deflect or negate most low-level attacks such as small arms, shrapnel, and proximity blasts.\n\nSolid hits from high impact weapons can generally negate it, but given that it is relatively lightweight, cheap to produce, and dependable in most combat situations, many veterans keep using Flak Armour even when offered better.\n\nA Flak Armour set usually consists of a breastplate, shoulder pauldrons, knee plates, greaves and a helmet.</description>
+		<label>Krieg gas mask</label>
+		<description>A standard-issue gas mask is a necessary part of the uniform for every single Death Korps of Krieg guardsman. The main reason for this is the fact that Krieg is essentially a Death World, having survived a 500 years-long civil war that has been waged using nuclear weapons. Hundreds of years of nuclear winter have rendered Krieg's surface incapable of sustaining life, making a gas mask a necessity both on its desolate landscape and on any other battlefield where the Death Korps of Krieg fights for their retribution in the eyes of the Emperor of Mankind.</description>
 		<graphicData>
 			<texPath>Armor/krieg/helmet/gasmask/_item</texPath>
 		</graphicData>
