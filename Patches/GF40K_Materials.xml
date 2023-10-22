@@ -39,6 +39,110 @@
 						<GF40K_Adamantium>25</GF40K_Adamantium>
 					</value>
 				</li>
+				
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>GrimForge 40.000: Imperium Weaponry</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Adamantium</thingDef>
+									<countRange>30~60</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Auramite</thingDef>
+									<countRange>20~50</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Ceramite</thingDef>
+									<countRange>40~80</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Diamantine</thingDef>
+									<countRange>20~50</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Ferrocrete</thingDef>
+									<countRange>50~150</countRange>
+								  </li>
+								</value>
+							</li>
+						</operations>
+					</match>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Adamantium</thingDef>
+									<countRange>30~60</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Auramite</thingDef>
+									<countRange>20~50</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Ceramite</thingDef>
+									<countRange>40~80</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Diamantine</thingDef>
+									<countRange>20~50</countRange>
+								  </li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]/stockGenerators</xpath>
+								<value>
+								  <li Class="StockGenerator_SingleDef">
+									<thingDef>GF40K_Ferrocrete</thingDef>
+									<countRange>50~150</countRange>
+								  </li>
+								</value>
+							</li>
+						</operations>
+					</nomatch>
+				</li>
 			</operations>
 		</match>
 	</Operation>

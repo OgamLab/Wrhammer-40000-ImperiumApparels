@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>GrimForge 40k - Imperium Armory</name>
+	<name>Warhammer 40.000: Imperium Apparel</name> <!-- TODO: Edit -->
 	<author>flangopink, Ogam</author>
 	<supportedVersions>
 		<li>1.4</li>
@@ -10,7 +10,7 @@
 	<modDependencies>
 		<li>
 		  <packageId>gf40k.core</packageId>
-		  <displayName>GrimForge 40.000: Core</displayName>
+		  <displayName>Ogam's Lab Framework</displayName>
 		  <downloadUrl>https://github.com/OgamLab/GrimForge40K-Core</downloadUrl>
 		</li>
 	</modDependencies>

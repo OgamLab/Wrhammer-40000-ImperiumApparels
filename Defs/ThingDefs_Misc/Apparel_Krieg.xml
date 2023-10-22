@@ -20,12 +20,12 @@
 		
 		<!-- TODO: Edit Stats --> 
 		<statBases>
-		  <MaxHitPoints>200</MaxHitPoints>
-		  <WorkToMake>12000</WorkToMake>
+		  <MaxHitPoints>150</MaxHitPoints>
+		  <WorkToMake>8000</WorkToMake>
 		  <Mass>2</Mass>
-		  <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-		  <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+		  <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+		  <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
 		  <EquipDelay>3</EquipDelay>
 		</statBases>
 		
@@ -36,7 +36,8 @@
         </stuffCategories>
 		
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+			<SocialImpact>0.15</SocialImpact>
 		</equippedStatOffsets>
 		
 		<tradeTags>
@@ -48,7 +49,7 @@
 		<!-- === Krieg Flak Armor === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmor</defName>
-		<label>Krieg-pattern flak armor</label>
+		<label>Krieg flak armor</label>
 		<description>A standard-issue flak armor, designed on Krieg, the homeworld of Death Korps of Krieg. It is relatively cheap and easy to produce on an average Imperial world. Usually flak armor consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the armor is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular type of flak armor was designed and adopted by Death Korps of Krieg Astra Militarum Regiments, as the result of their more than millennia-long experience in siege warfare.</description>
 		<graphicData>
 			<texPath>Armor/krieg/_item</texPath>
@@ -77,7 +78,7 @@
 		<!-- === Krieg Flak Armor (Middle) === -->
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakArmorMiddle</defName>
-		<label>Krieg-pattern flak vest</label>
+		<label>Krieg flak vest</label>
 		<description>A standard-issue flak vest, designed on Krieg, the homeworld of Death Korps of Krieg. It is relatively cheap and easy to produce on an average Imperial world. Usually flak vest consists of a skeleton, composed of flexible, lightweight metals. The skeleton is wrapped in several layers of ablative, shock-resistant materials and ballistic textiles. Once multiple layers of fabric are affixed to the skeleton, the vest is given its toughened outer shell. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular type of flak armor was designed and adopted by Death Korps of Krieg Astra Militarum Regiments, as the result of their more than millennia-long experience in siege warfare. This particular vest lacks shoulder protection.</description>
 		<graphicData>
 			<texPath>Armor/krieg/body/_item</texPath>
@@ -108,7 +109,7 @@
 		<!-- === Krieg Flak Helmet === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Krieg_FlakHelmet</defName>
-		<label>Krieg-pattern flak helmet</label>
+		<label>Krieg flak helmet</label>
 		<description>A standard-issue helmet used by Death Korps of Krieg regiments of Astra Militarum. Despite its design closely resembling the ones from the ancient days of Terra, dating back to M2, its rather archaic appearance shouldn't deceive you: such helmets are more than capable of providing a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
 		<graphicData>
 			<texPath>Armor/krieg/helmet/_item</texPath>
@@ -127,13 +128,35 @@
 		
 	</ThingDef>
   
+		<!-- === Krieg Flak Helmet (Spike) === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Krieg_FlakHelmetSpike</defName>
+		<label>Krieg spiked flak helmet</label>
+		<description>A standard-issue helmet used by Death Korps of Krieg regiments of Astra Militarum. Despite its design closely resembling the ones from the ancient days of Terra, dating back to M2, its rather archaic appearance shouldn't deceive you: such helmets are more than capable of providing a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
+		<graphicData>
+			<texPath>Armor/krieg/helmet/spiked/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/krieg/helmet/spiked/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>231</displayPriority>
+		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Krieg</li>
+		</tradeTags> 
+		
+	</ThingDef>
+	
 		<!-- === Krieg Gas Mask === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
 		<defName>GF40K_Apparel_Krieg_HelmetGasMask</defName>
-		<label>Krieg gas mask</label>
+		<label>Krieg flak helmet with gas mask</label>
 		<description>A standard-issue gas mask is a necessary part of the uniform for every single Death Korps of Krieg guardsman. The main reason for this is the fact that Krieg is essentially a Death World, having survived a 500 years-long civil war that has been waged using nuclear weapons. Hundreds of years of nuclear winter have rendered Krieg's surface incapable of sustaining life, making a gas mask a necessity both on its desolate landscape and on any other battlefield where the Death Korps of Krieg fights for their retribution in the eyes of the Emperor of Mankind.</description>
 		<graphicData>
-			<texPath>Armor/krieg/helmet/gasmask/_item</texPath>
+			<texPath>Armor/krieg/helmet/gasmask/helmet/_item</texPath>
 		</graphicData>
 		
 		<costList>
@@ -150,7 +173,7 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>
-			<wornGraphicPath>Armor/krieg/helmet/gasmask/Helmet</wornGraphicPath>
+			<wornGraphicPath>Armor/krieg/helmet/gasmask/helmet/Helmet</wornGraphicPath>
 			<forceEyesVisibleForRotations>
 				<li>1</li>
 				<li>2</li>
@@ -159,14 +182,129 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
-			<displayPriority>231</displayPriority>
+			<displayPriority>232</displayPriority>
 		</recipeMaker>
 		
 		<tradeTags>
 			<li>GF40K_Krieg</li>
 		</tradeTags> 
-		
 	</ThingDef>
   
+		<!-- === Krieg Gas Mask === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
+		<defName>GF40K_Apparel_Krieg_HelmetSpikeGasMask</defName>
+		<label>Krieg spiked flak helmet with gas mask</label>
+		<description>A standard-issue gas mask is a necessary part of the uniform for every single Death Korps of Krieg guardsman. The main reason for this is the fact that Krieg is essentially a Death World, having survived a 500 years-long civil war that has been waged using nuclear weapons. Hundreds of years of nuclear winter have rendered Krieg's surface incapable of sustaining life, making a gas mask a necessity both on its desolate landscape and on any other battlefield where the Death Korps of Krieg fights for their retribution in the eyes of the Emperor of Mankind.</description>
+		<graphicData>
+			<texPath>Armor/krieg/helmet/gasmask/spiked/_item</texPath>
+		</graphicData>
+		
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>40</Plasteel>
+		  <Chemfuel>20</Chemfuel>
+		</costList>
+		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<wornGraphicPath>Armor/krieg/helmet/gasmask/spiked/Helmet</wornGraphicPath>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>233</displayPriority>
+		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Krieg</li>
+		</tradeTags> 
+	</ThingDef>
+  
+  
+  <ThingDef ParentName="HatMakeableBase">       
+    <defName>GF40K_Apparel_Krieg_GasMask</defName>
+    <label>Krieg gas mask</label>
+    <description>A flexible mask worn over the face with an embedded air filter. It dramatically reduces exposure to pollution through the lungs, but does not protect the skin on the rest of the body.\n\nIt prevents tox gas irritants from entering through the eyes and mouth.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Armor/krieg/helmet/gasmask/_item</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+      <!--1--><shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.4</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMask</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <displayPriority>234</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>20</Chemfuel>
+    </costList>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/krieg/helmet/gasmask/Helmet</wornGraphicPath>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+	<tradeTags>
+		<li>GF40K_Krieg</li>
+	</tradeTags> 
+	<!--THIS-->
+	<thingClass>ThingColor.ApparelColored</thingClass>
+	<modExtensions>
+		<li Class="ThingColor.ThingExtension">
+			<colorOneStuff>
+				<li>Metallic</li>
+			</colorOneStuff>
+			<colorTwoStuff>
+				<li>Metallic</li>
+				<!--
+				<li>Fabric</li>
+				<li>Leathery</li>
+				-->
+			</colorTwoStuff>
+		</li>
+	</modExtensions>
+	<colorGenerator IsNull="True"/>
+  </ThingDef>
   
 </Defs>

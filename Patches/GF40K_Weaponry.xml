@@ -9,7 +9,7 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmourSupplier"]</xpath>
+					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumArmorSupplier"]</xpath>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/TraderKindDef[defName="GF40K_ImperiumCombatSupplier"]/stockGenerators</xpath>

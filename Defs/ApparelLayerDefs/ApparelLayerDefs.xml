@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ApparelLayerDef>
+        <defName>GF40K_AboveOuter</defName>
+        <label>above outer</label>
+        <drawOrder>250</drawOrder> <!-- between outer and on-top -->
+    </ApparelLayerDef>
+
+</Defs>
