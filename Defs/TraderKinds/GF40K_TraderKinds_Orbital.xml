@@ -2,7 +2,7 @@
 <Defs>
 
   <TraderKindDef>
-    <defName>GF40K_ImperiumArmourSupplier</defName>
+    <defName>GF40K_ImperiumArmorSupplier</defName>
     <label>Imperial rogue trader</label>
     <orbital>true</orbital>
     <stockGenerators>

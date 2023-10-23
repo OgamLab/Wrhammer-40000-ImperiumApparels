@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
 		<value>		
-			<li>GF40K_ImperiumArmoury_Cogitator</li>
+			<li>GF40K_ImperiumArmory_Cogitator</li>
 		</value>
 	</Operation>
 </Patch>

@@ -11,7 +11,7 @@
 		<techLevel>Ultra</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
-		  <li>GF40K_ImperiumArmoury_Cogitator</li>
+		  <li>GF40K_ImperiumArmory_Cogitator</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
