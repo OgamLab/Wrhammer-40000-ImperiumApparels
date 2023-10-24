@@ -3,7 +3,7 @@
 			<!-- Krieg Apparel -->
 	
 		<!-- === Krieg Trench Coat === -->
-	<ThingDef ParentName="GF40K_ArmorReconBase">
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
 		<defName>GF40K_Apparel_Krieg_TrenchCoat</defName>
 		<label>Krieg trench coat</label>
 		<description>Krieg-pattern trench coat serves a dual purpose: it is both a military uniform and a fully sealed garment, designed to protect a guardsman from the radioactive soil and air of their homeworld, as well as from mud, rain and various other elements encountered on any battlefield where the Death Korps of Krieg set their feet.</description>
@@ -12,6 +12,11 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/krieg/coat/Coat</wornGraphicPath>
+			<bodyPartGroups Inherit="False">
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
