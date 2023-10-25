@@ -75,7 +75,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Armor/commissar/helmet/CommissarHat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath> <!-- TODO: Edit Tex -->
 			<layers>
 				<li>Overhead</li>
 			</layers>
