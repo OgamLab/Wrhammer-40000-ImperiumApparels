@@ -43,7 +43,7 @@
 			<careIfDamaged>false</careIfDamaged>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
-				<li>Waist</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Belt</li>
@@ -143,7 +143,7 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<mechanitorApparel>true</mechanitorApparel>
 			<bodyPartGroups>
-				<li>Waist</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Belt</li>
@@ -270,7 +270,7 @@
       <careIfDamaged>false</careIfDamaged>
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
-        <li>Waist</li>
+        <li>Torso</li>
       </bodyPartGroups>
       <layers>
         <li>Belt</li>
@@ -299,5 +299,83 @@
 	<colorGenerator IsNull="True"/>
 	
   </ThingDef>
+
+
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>GF40K_Apparel_ConversionFieldBelt</defName>
+    <label>conversion field belt</label>
+    <description>A Conversion Field is a moderately powerful energy shield that surrounds the user who wears a Conversion Field emitter as a form of personal protection. The field's effect is to convert the kinetic energy of an impact into harmless light. When the field stops a shot, a blinding flash of light is produced as the energetic conversion occurs.</description>
+    <graphicData>
+      <texPath>Armor/belt/_item</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <WorkToMake>15000</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>0.8</EnergyShieldEnergyMax>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>50</Steel>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisites>
+		<li>ShieldBelt</li>
+		<li>GF40K_IA_AdeptusMechanicus</li>
+	  </researchPrerequisites>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>504</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Shield">
+		<blocksRangedWeapons>false</blocksRangedWeapons>
+	  </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+	  <li>GF40K_TechPriests</li>
+    </tradeTags>
+	<thingClass>Apparel</thingClass>
+  </ThingDef>
+
 
 </Defs>
