@@ -8,7 +8,7 @@
   
 	<ResearchProjectDef Name="GF40K_ResearchBase" Abstract="True">
 		<tab>GF40K</tab>
-		<techLevel>Ultra</techLevel>
+		<techLevel>Industrial</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 		  <li>GF40K_ImperiumArmory_Cogitator</li>
