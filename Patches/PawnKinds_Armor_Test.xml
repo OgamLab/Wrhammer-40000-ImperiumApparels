@@ -59,9 +59,11 @@
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]</xpath>
 					<value>
 						<apparelRequired Inherit="False">
-							<li>GF40K_Apparel_TP_Robe</li>
-							<li>GF40K_Apparel_TP_Hood</li>
+							<li>GF40K_Apparel_Ski_Robe</li>
+							<li>GF40K_Apparel_Ski_WarPlate</li>
+							<li>GF40K_Apparel_Ski_Cuirass</li>
 							<li>GF40K_Apparel_Guard_Uniform</li>
+							<li>GF40K_Apparel_Ski_RangerHelmet</li>
 						</apparelRequired>
 					</value>
 				</li>

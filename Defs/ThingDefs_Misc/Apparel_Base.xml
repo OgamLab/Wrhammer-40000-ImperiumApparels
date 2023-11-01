@@ -25,7 +25,7 @@
 			<li>Armor</li>
 		</tradeTags> 
 		<thingCategories>
-			<li>ApparelArmor</li> <!-- probably shouldn't edit this? -->
+			<li>IA_Armor</li>
 		</thingCategories>
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
@@ -113,6 +113,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<thingCategories>
+			<li>IA_Headgear</li>
+		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li> <!-- TODO: Edit Tags? -->
 		</tradeTags>
@@ -246,7 +249,7 @@
 			<MoveSpeed>-0.4</MoveSpeed> <!-- TODO: Edit offsets, if needed -->
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li> <!-- probably shouldn't edit this? -->
+			<li>IA_Armor</li>
 		</thingCategories>
 		<tradeTags>
 			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
@@ -291,6 +294,9 @@
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale> <!-- TODO: Edit as needed -->
+		<thingCategories>
+			<li>IA_Headgear</li>
+		</thingCategories>
 		<tradeTags> <!-- TODO: Edit Tags -->
 		  <li>HiTechArmor</li>
 		  <li>Armor</li>
@@ -401,7 +407,7 @@
 			<li>HiTechArmor</li>
 		</tradeTags>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>IA_Armor</li>
 		</thingCategories>
 		
 		
@@ -470,6 +476,9 @@
             <!--1--><shaderType>CutoutComplex</shaderType>
 		  <drawSize>(0.9, 0.9)</drawSize>
 		</graphicData>
+		<thingCategories>
+			<li>IA_Headgear</li>
+		</thingCategories>
 		<tradeTags>
 		  <li>HiTechArmor</li>
 		  <li>Armor</li>
@@ -545,7 +554,7 @@
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>IA_Armor</li>
 		</thingCategories>
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
@@ -622,8 +631,8 @@
             <!--1--><shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingCategories>
-			<li>ApparelMisc</li> <!-- TODO: Edit Categories -->
-		</thingCategories> 
+			<li>IA_Armor</li>
+		</thingCategories>
 		
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		

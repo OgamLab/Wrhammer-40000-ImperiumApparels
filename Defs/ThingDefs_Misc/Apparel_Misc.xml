@@ -34,7 +34,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
-			<li>ApparelUtility</li>
+			<li>IA_Utility</li>
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
@@ -133,7 +133,7 @@
 			<EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<thingCategories>
-			<li>ApparelUtility</li>
+			<li>IA_Utility</li>
 		</thingCategories>
 		<generateAllowChance>0.05</generateAllowChance>
 		<apparel>
@@ -226,10 +226,22 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
       <displayPriority>503</displayPriority>
     </recipeMaker>
+	
+	<equippedStatOffsets>
+		<!-- moving and manipulation are added via hediff -->
+		<MoveSpeed>0.4</MoveSpeed>
+		<MeleeDodgeChance>2</MeleeDodgeChance>
+	</equippedStatOffsets>
+	
+	<comps>
+	  <li Class="CompProperties_CauseHediff_Apparel">
+		<hediff>GF40K_Hediff_PowerPackJet</hediff>
+	  </li>
+	</comps>
 
 	<!-- Crafting Materials -->
 	<costList>
@@ -255,15 +267,38 @@
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
-    <thingCategories>
-      <li>ApparelUtility</li>
-    </thingCategories>
+	<thingCategories>
+		<li>IA_Utility</li>
+	</thingCategories>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <scoreOffset>4</scoreOffset>
       <wornGraphicPath>Armor/backpack/RoboPackJet/Jet</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(0,-0.15)</offset>
+        </north>
+        <south>
+          <offset>(0,-0.15)</offset>
+        </south>
+        <east>
+          <offset>(0.10,-0.1)</offset>
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.05,0)</offset></hulk>
+          <fat> <offset>(-0.15,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(-0.10,-0.1)</offset>
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.05,0)</offset></hulk>
+          <fat> <offset>(0.15,0)</offset></fat>
+        </west>
+        <male>  <scale>(1.2,1.2)</scale></male>
+        <female><scale>(1.2,1.2)</scale></female>
+        <thin>  <scale>(1.0,1.0)</scale></thin>
+        <hulk>  <scale>(1.3,1.3)</scale></hulk>
+        <fat>   <scale>(1.3,1.3)</scale></fat>
       </wornGraphicData>
 	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
       <careIfWornByCorpse>false</careIfWornByCorpse>
@@ -314,17 +349,17 @@
     <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>3</Mass>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>20000</WorkToMake>
       <Flammability>0.4</Flammability>
-      <EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>0.8</EnergyShieldEnergyMax>
+      <EnergyShieldRechargeRate>0.80</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.80</EnergyShieldEnergyMax>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <costList>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
       <Steel>50</Steel>
       <Plasteel>20</Plasteel>
     </costList>
@@ -342,13 +377,13 @@
         <li>TableMachining</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
       <displayPriority>504</displayPriority>
     </recipeMaker>
-    <thingCategories>
-      <li>ApparelUtility</li>
-    </thingCategories>
+	<thingCategories>
+		<li>IA_Utility</li>
+	</thingCategories>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfWornByCorpse>false</careIfWornByCorpse>

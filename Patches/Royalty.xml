@@ -9,10 +9,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]</xpath>
+					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]/comps</xpath>
 					<value>
-						<comps>
-						  <li Class="CompProperties_Reloadable">
+						<li Class="CompProperties_Reloadable">
 							<maxCharges>7</maxCharges>
 							<ammoDef>Chemfuel</ammoDef>
 							<ammoCountPerCharge>25</ammoCountPerCharge>
@@ -21,8 +20,7 @@
 							<hotKey>Misc4</hotKey>
 							<chargeNoun>jump</chargeNoun>
 							<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-						  </li>
-						</comps>
+					    </li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">

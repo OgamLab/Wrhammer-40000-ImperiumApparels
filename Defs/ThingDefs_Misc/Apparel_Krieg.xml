@@ -290,6 +290,9 @@
       </forceEyesVisibleForRotations>
 	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
+	<thingCategories>
+		<li>IA_Headgear</li>
+	</thingCategories>
 	<tradeTags>
 		<li>GF40K_Krieg</li>
 	</tradeTags> 

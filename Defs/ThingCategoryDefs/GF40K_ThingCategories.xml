@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Apparel -->
+
+    <ThingCategoryDef>
+      <defName>GF40K_Cat_IA</defName>
+      <label>imperium armory</label>
+      <parent>Apparel</parent>
+    </ThingCategoryDef>
+	
+		<ThingCategoryDef>
+		  <defName>IA_Headgear</defName>
+		  <label>headgear</label>
+		  <parent>GF40K_Cat_IA</parent>
+		</ThingCategoryDef>
+	  
+		<ThingCategoryDef>
+		  <defName>IA_Armor</defName>
+		  <label>armor</label>
+		  <parent>GF40K_Cat_IA</parent>
+		</ThingCategoryDef>
+		
+		<ThingCategoryDef>
+		  <defName>IA_Utility</defName>
+		  <label>utility</label>
+		  <parent>GF40K_Cat_IA</parent>
+		</ThingCategoryDef>
+
+</Defs>
