@@ -158,7 +158,7 @@
 			<texPath>Armor/guard/helmets/helmetStrap/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Armor/guard/light/helmet/emblem/Helmet</wornGraphicPath>
+			<wornGraphicPath>Armor/guard/helmets/helmetStrap/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 

@@ -4,7 +4,7 @@
 	<!-- Add materials to recipes -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>GrimForge 40.000: Imperium Weaponry</li>
+			<li>Warhammer 40.000: Imperium Weaponry</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
