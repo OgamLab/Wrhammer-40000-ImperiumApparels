@@ -10,9 +10,9 @@
 		<tab>GF40K</tab>
 		<techLevel>Industrial</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
+		<!--<requiredResearchFacilities>
 		  <li>GF40K_ImperiumArmory_Cogitator</li>
-		</requiredResearchFacilities>
+		</requiredResearchFacilities>-->
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GF40K_ResearchBase">

@@ -12,6 +12,9 @@
 			<texPath>Armor/guard/light/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakArmor</li>
+			</tags>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -39,6 +42,9 @@
 			<texPath>Armor/guard/light/body/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakArmor</li>
+			</tags>
 			<layers Inherit="False">
 				<li>Middle</li>
 			</layers>
@@ -67,6 +73,9 @@
 			<texPath>Armor/guard/heavy/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakArmor</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/heavy/GuardsmanHeavy</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -90,6 +99,9 @@
 			<texPath>Armor/guard/helmets/helmet/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmet/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -113,6 +125,9 @@
 			<texPath>Armor/guard/helmets/helmet/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmet/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -135,6 +150,9 @@
 			<texPath>Armor/guard/helmets/helmetStrap/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetStrap/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -158,6 +176,9 @@
 			<texPath>Armor/guard/helmets/helmetStrap/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetStrap/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -181,6 +202,9 @@
 			<texPath>Armor/guard/helmets/helmetGoggles/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetGoggles/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -204,6 +228,9 @@
 			<texPath>Armor/guard/helmets/helmetGoggles/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetGoggles/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -228,6 +255,9 @@
 			<texPath>Armor/guard/helmets/helmetFull/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetFull/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -254,6 +284,9 @@
 			<texPath>Armor/guard/helmets/helmetFull/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetFull/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -281,6 +314,9 @@
 			<texPath>Armor/guard/helmets/helmetMask/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetMask/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -307,6 +343,9 @@
 			<texPath>Armor/guard/helmets/helmetMask/emblem/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/helmets/helmetMask/emblem/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
@@ -335,6 +374,9 @@
 			<texPath>Armor/guard/_item</texPath>
 		</graphicData>
 		<apparel>
+			<tags>
+				<li>GF40K_Uniform</li>
+			</tags>
 			<wornGraphicPath>Armor/guard/Uniform</wornGraphicPath>
 		</apparel>
 		<recipeMaker>

@@ -115,13 +115,7 @@
       
       <!-- Buying -->
       <li Class="StockGenerator_BuySlaves"/>
-      <li Class="StockGenerator_BuyExpensiveSimple"/>
-      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="GF40K_Misc.StockGenerator_BuyAnything"/>
       
     </stockGenerators>
   </TraderKindDef>
