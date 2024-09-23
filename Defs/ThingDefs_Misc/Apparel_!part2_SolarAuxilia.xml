@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Solar Auxilia Apparel -->
+	
+		<!-- === Flak Armor === -->
+	<ThingDef ParentName="GF40K_ArmorReconPlus20Base">
+		<defName>GF40K_Apparel_SolarAuxilia_FlakArmor</defName>
+		<label>Solar Auxilia flak armor</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/SolarAuxilia/SolarAuxiliaArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_SolarAuxiliaFlakArmor</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/SolarAuxilia/SolarAuxiliaArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_SolarAuxilia</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+			<!-- Headgear -->
+			
+	<ThingDef Name="GF40K_SolarAuxiliaHelmetBase" ParentName="GF40K_ArmorHelmetReconPlus20Base" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<apparel>
+			<tags>
+				<li>GF40K_SolarAuxiliaHelmet</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>421</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_SolarAuxilia</li>
+		</tradeTags> 
+	</ThingDef>			
+	<ThingDef Name="GF40K_SolarAuxiliaHelmetHeavyBase" ParentName="GF40K_ArmorHelmetReconPlus40Base" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<apparel>
+			<tags>
+				<li>GF40K_SolarAuxiliaHelmet</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>422</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_SolarAuxilia</li>
+		</tradeTags> 
+	</ThingDef>
+			
+			
+	<ThingDef ParentName="GF40K_SolarAuxiliaHelmetBase">
+		<defName>GF40K_Apparel_SolarAuxilia_Helmet</defName>
+		<label>Solar Auxilia helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/SolarAuxilia/SolarAuxiliaHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/SolarAuxilia/SolarAuxiliaHelmet/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_SolarAuxiliaHelmetHeavyBase">
+		<defName>GF40K_Apparel_JSolarAuxilia_HelmetHeavy</defName>
+		<label>Solar Auxilia heavy helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/SolarAuxilia/SolarAuxiliaHelmetHeavy/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/SolarAuxilia/SolarAuxiliaHelmetHeavy/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

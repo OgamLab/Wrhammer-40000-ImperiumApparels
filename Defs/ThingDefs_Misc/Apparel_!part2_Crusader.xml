@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- TEXTURES MISSING -->
+
+
+			<!-- Crusader Apparel -->
+	
+		<!-- === Power Armor === -->
+	<!--
+	<ThingDef ParentName="GF40K_ArmorCataphractBase">
+		<defName>GF40K_Apparel_Crusader_Armor</defName>
+		<label>crusader power armor</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/powerarmor/lightpowerarmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/powerarmor/lightpowerarmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
+			<displayPriority>277</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+		  <li>GF40K_PowerArmor</li>
+		</tradeTags>
+		
+	</ThingDef>
+	-->
+		<!-- === Power Helmet === -->
+	<!--
+	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
+		<defName>GF40K_Apparel_Crusader_Helmet</defName>
+		<label>crusader power helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/powerarmor/lightpowerarmor/helmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/powerarmor/lightpowerarmor/helmet/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 
+			<displayPriority>276</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+		  <li>GF40K_PowerArmor</li>
+		</tradeTags>
+		
+	</ThingDef>
+	-->
+	
+	
+	<!-- <ThingDef> -->
+		<!-- CAPE HERE -->
+	<!-- </ThingDef> -->
+	
+</Defs>

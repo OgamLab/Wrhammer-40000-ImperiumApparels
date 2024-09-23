@@ -30,81 +30,28 @@
 	</ThingDef>
 	
 		<!-- === Commissar Hat === -->
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="GF40K_HatBase">
 		<defName>GF40K_Apparel_Commissar_Hat</defName>
 		<label>commissar peaked cap</label>
 		<description>Signature headwear of morale officers of the Imperium of Mankind, the commissar's peaked cap is meant to be recognized by any citizen of the Imperium, as it is depicted on hundreds of motivational posters. It is supposed to inspire and instill fear into men, making them fear the commissar much more, than they would fear the enemy.</description>
 		<graphicData>
 			<texPath>Armor/commissar/helmet/_item</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		
+		<apparel>
+			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath> <!-- TODO: Edit Tex -->
+		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>145</displayPriority>
-		</recipeMaker>
+		</recipeMaker> 
 		
-		<!-- Crafting Materials -->
-		<costStuffCount>50</costStuffCount>
-        <stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-        </stuffCategories>
-		
-		<statBases>
-			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>0.8</Mass>
-			<Flammability>0.5</Flammability>
-			<ArmorRating_Sharp>0.38</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.28</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
-			<Insulation_Heat>6</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
 		
-		<apparel>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<developmentalStageFilter>Child, Adult</developmentalStageFilter> <!-- ah yes, a child commissar -->
-			<bodyPartGroups>
-				<li>UpperHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath> <!-- TODO: Edit Tex -->
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<defaultOutfitTags>
-				<li>Worker</li>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<thingCategories>
-			<li>IA_Headgear</li>
-		</thingCategories>
 		<tradeTags>
-			<li>Clothing</li>
 			<li>GF40K_Commissar</li>
 		</tradeTags>
-		
-		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
-		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
-		</modExtensions>
-		<colorGenerator IsNull="True"/>
 	</ThingDef>
 </Defs>

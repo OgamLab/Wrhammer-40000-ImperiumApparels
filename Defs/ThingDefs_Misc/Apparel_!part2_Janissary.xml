@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Janissary Apparel -->
+	
+		<!-- === Flak Armor === -->
+	<ThingDef ParentName="GF40K_ArmorReconPlus20Base">
+		<defName>GF40K_Apparel_Janissary_FlakArmor</defName>
+		<label>janissary flak armor</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryFlakArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_JanissaryFlakArmor</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryFlakArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>400</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Janissary</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+			<!-- Headgear -->
+			
+	<ThingDef Name="GF40K_JanissaryHelmetBase" ParentName="GF40K_ArmorHelmetReconPlus20Base" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<apparel>
+			<tags>
+				<li>GF40K_JanissaryHelmet</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>401</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Janissary</li>
+		</tradeTags> 
+	</ThingDef>
+			
+			
+	<ThingDef ParentName="GF40K_JanissaryHelmetBase">
+		<defName>GF40K_Apparel_Janissary_Helmet</defName>
+		<label>janissary helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryHelmet/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_JanissaryHelmetBase">
+		<defName>GF40K_Apparel_Janissary_HelmetSkull</defName>
+		<label>janissary skull helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryHelmetSkull/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryHelmetSkull/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_JanissaryHelmetBase">
+		<defName>GF40K_Apparel_Janissary_HelmetHood</defName>
+		<label>janissary hooded helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryHelmetHood/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryHelmetHood/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_JanissaryHelmetBase">
+		<defName>GF40K_Apparel_Janissary_HelmetHoodSkull</defName>
+		<label>janissary hooded skull helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryHelmetHoodSkull/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryHelmetHoodSkull/Helmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

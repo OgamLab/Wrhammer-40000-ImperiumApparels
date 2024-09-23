@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Commissar Apparel -->
+	
+		<!-- === Commissar Coat === -->
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_IronGuard_Coat</defName>
+		<label>iron guard uniform</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/IronGuard/IronGuardUniform/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_IronGuardUniform</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/IronGuard/IronGuardUniform/Uniform</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>430</displayPriority>
+		</recipeMaker>
+		
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_IronGuard</li>
+		</tradeTags> 
+		
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="GF40K_HatBase">
+		<defName>GF40K_Apparel_IronGuard_Hat</defName>
+		<label>iron guard cap</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/IronGuard/IronGuardCap/_item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		
+		
+		<!-- Crafting Materials -->
+		<costStuffCount>45</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+		<costList>
+		  <Steel>15</Steel>
+		</costList>
+		
+		<statBases>
+			<WorkToMake>13500</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1.2</Mass>
+			<Flammability>0.5</Flammability>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.30</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		
+		<apparel>			
+			<tags>
+				<li>GF40K_IronGuardCap</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/IronGuard/IronGuardCap/Hat</wornGraphicPath>
+		</apparel>
+		
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>431</displayPriority>
+		</recipeMaker> 
+		
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_IronGuard</li>
+		</tradeTags>
+	</ThingDef>
+	
+</Defs>

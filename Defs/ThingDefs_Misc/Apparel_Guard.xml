@@ -90,7 +90,7 @@
 	</ThingDef>
 		
 		<!-- === Flak Helmet === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmet</defName>
 		<label>guard flak helmet</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
@@ -116,7 +116,7 @@
 	</ThingDef>
 	
 		<!-- === Flak Helmet (Emblem) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmet_Emblem</defName>
 		<label>guard flak helmet (emblem)</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
@@ -141,7 +141,7 @@
 		
 	</ThingDef>
 		<!-- === Flak Helmet (Strap) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmetStrap</defName>
 		<label>guard flak helmet with strap</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
@@ -167,7 +167,7 @@
 	</ThingDef>
 	
 		<!-- === Flak Helmet (Strap) (Emblem) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmetStrap_Emblem</defName>
 		<label>guard flak helmet with strap (emblem)</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.</description>
@@ -193,7 +193,7 @@
 	</ThingDef>
 
 		<!-- === Flak Helmet (Goggles) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmetGoggles</defName>
 		<label>guard flak helmet with goggles</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles attached to it.</description>
@@ -219,7 +219,7 @@
 	</ThingDef>
 	
 		<!-- === Flak Helmet (Goggles) (Emblem) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FlakHelmetGoggles_Emblem</defName>
 		<label>guard flak helmet with goggles (emblem)</label>
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles attached to it.</description>
@@ -246,7 +246,7 @@
 
 
 		<!-- === Full Helmet === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FullHelmet</defName>
 		<label>guard full helmet</label>
 		<description>A standard-issue carapace helmet commonly used by Astra Militarum stormtroopers and Tempestus Scions across the entire galaxy. This type of protective gear utilizes ceramite plates molded into the standard flak helmet design, resulting in increased protective capabilities at the expense of greater weight and production costs. Typically, a carapace helmet is equipped with an encrypted vox micro-bead, a rebreather and a portable light source.\n\nThis particular helmet has no Imperial Aquila, for whatever reason.</description>
@@ -275,7 +275,7 @@
 	</ThingDef>
 	
 		<!-- === Full Helmet (Emblem) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Guard_FullHelmet_Emblem</defName>
 		<label>guard full helmet (emblem)</label>
 		<description>A standard-issue carapace helmet commonly used by Astra Militarum stormtroopers and Tempestus Scions across the entire galaxy. This type of protective gear utilizes ceramite plates molded into the standard flak helmet design, resulting in increased protective capabilities at the expense of greater weight and production costs. Typically, a carapace helmet is equipped with an encrypted vox micro-bead, a rebreather and a portable light source.</description>
@@ -305,7 +305,7 @@
 	
 	
 		<!-- === Helmet with Mask === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
 		<defName>GF40K_Apparel_Guard_HelmetMask</defName>
 		<label>guard flak helmet with rebreather</label> 
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles and a rebreather attached to it.</description>
@@ -334,7 +334,7 @@
 	</ThingDef>
 	
 		<!-- === Helmet with Mask (Emblem) === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
 		<defName>GF40K_Apparel_Guard_HelmetMask_Emblem</defName>
 		<label>guard flak helmet with rebreather (emblem)</label> 
 		<description>A standard-issue helmet commonly used by Astra Militarum regiments across the entire galaxy. Its design may vary, but the main principle remains the same: a relatively light and flexible metal base, coated with several layers of ablative and shock-absorbing materials, as well as ballistic textiles. This combination of materials provides a decent degree of protection against most stub-weaponry and energy weapons, comparable to a lasgun.\n\nThis particular helmet has a pair of ballistic goggles and a rebreather attached to it.</description>

@@ -210,207 +210,207 @@
 
 		<!-- Jet pack -->
 	<ThingDef ParentName="ApparelBase">
-    <defName>GF40K_Apparel_PowerPackJet</defName>
-    <label>jump-pack</label>
-    <description>Jump pack, also commonly referred to as a 'jetpack', is a propulsion device, that is mounted on the user's back and consists of several thrusters and a control device. It can be utilized to traverse difficult terrain and perform deep strikes, quickly flanking an unsuspecting enemy. It has a limited fuel capacity and must be refueled with chemfuel for continuous use.</description>
-    <techLevel>Spacer</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
-	  <researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <useIngredientsForColor>false</useIngredientsForColor>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-      <displayPriority>503</displayPriority>
-    </recipeMaker>
-	
-	<equippedStatOffsets>
-		<!-- moving and manipulation are added via hediff -->
-		<MoveSpeed>0.4</MoveSpeed>
-		<MeleeDodgeChance>2</MeleeDodgeChance>
-	</equippedStatOffsets>
-	
-	<comps>
-	  <li Class="CompProperties_CauseHediff_Apparel">
-		<hediff>GF40K_Hediff_PowerPackJet</hediff>
-	  </li>
-	</comps>
+		<defName>GF40K_Apparel_PowerPackJet</defName>
+		<label>jump-pack</label>
+		<description>Jump pack, also commonly referred to as a 'jetpack', is a propulsion device, that is mounted on the user's back and consists of several thrusters and a control device. It can be utilized to traverse difficult terrain and perform deep strikes, quickly flanking an unsuspecting enemy. It has a limited fuel capacity and must be refueled with chemfuel for continuous use.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+		  <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+		  <researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
+		  <recipeUsers>
+			<li>TableMachining</li>
+		  </recipeUsers>
+		  <useIngredientsForColor>false</useIngredientsForColor>
+		  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		  <workSkill>Crafting</workSkill>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Recipe_Machining</soundWorking>
+		  <skillRequirements>
+			<Crafting>8</Crafting>
+		  </skillRequirements>
+		  <displayPriority>503</displayPriority>
+		</recipeMaker>
+		
+		<equippedStatOffsets>
+			<!-- moving and manipulation are added via hediff -->
+			<MoveSpeed>0.4</MoveSpeed>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+		</equippedStatOffsets>
+		
+		<comps>
+		  <li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>GF40K_Hediff_PowerPackJet</hediff>
+		  </li>
+		</comps>
 
-	<!-- Crafting Materials -->
-	<costList>
-		<Plasteel>40</Plasteel>
-		<ComponentIndustrial>4</ComponentIndustrial>
-		<ComponentSpacer>1</ComponentSpacer>
-		<Chemfuel>175</Chemfuel> <!-- because you craft it max fueled (7 x 25 chem) -->
-	</costList>
-	
-    <graphicData>
-      <texPath>Armor/backpack/RoboPackJet/_item</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-       <!--THIS--><shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <statBases>
-      <WorkToMake>16000</WorkToMake>
-      <Mass>4</Mass>
-      <Flammability>0.3</Flammability>
-      <EquipDelay>2</EquipDelay>
-      <JumpRange MayRequire="Ludeon.Rimworld.Royalty">34.9</JumpRange>
-    </statBases>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
-	<thingCategories>
-		<li>IA_Utility</li>
-	</thingCategories>
-    <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <scoreOffset>4</scoreOffset>
-      <wornGraphicPath>Armor/backpack/RoboPackJet/Jet</wornGraphicPath>
-      <wornGraphicData>
-        <renderUtilityAsPack>true</renderUtilityAsPack>
-        <north>
-          <offset>(0,-0.15)</offset>
-        </north>
-        <south>
-          <offset>(0,-0.15)</offset>
-        </south>
-        <east>
-          <offset>(0.10,-0.1)</offset>
-          <thin><offset>(0.05,0)</offset></thin>
-          <hulk><offset>(-0.05,0)</offset></hulk>
-          <fat> <offset>(-0.15,0)</offset></fat>
-        </east>
-        <west>
-          <offset>(-0.10,-0.1)</offset>
-          <thin><offset>(-0.05,0)</offset></thin>
-          <hulk><offset>(0.05,0)</offset></hulk>
-          <fat> <offset>(0.15,0)</offset></fat>
-        </west>
-        <male>  <scale>(1.2,1.2)</scale></male>
-        <female><scale>(1.2,1.2)</scale></female>
-        <thin>  <scale>(1.0,1.0)</scale></thin>
-        <hulk>  <scale>(1.3,1.3)</scale></hulk>
-        <fat>   <scale>(1.3,1.3)</scale></fat>
-      </wornGraphicData>
-	  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
-      <careIfDamaged>false</careIfDamaged>
-      <wearPerDay>0</wearPerDay>
-      <bodyPartGroups>
-        <li>Torso</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <tags>
-        <li>PackJump</li>
-      </tags>
-    </apparel>
-    <tradeTags>
-      <li>ExoticMisc</li>
-	  <li>GF40K_TechPriests</li>
-    </tradeTags>
-	
-	<!--3-->
-	<thingClass>ThingColor.ApparelColored</thingClass>
-	<modExtensions>
-		<li Class="ThingColor.ThingExtension">
-			<colorOneStuff>
-				<li>Metallic</li>
-			</colorOneStuff>
-			<colorTwoStuff>
-				<li>Metallic</li>
-			</colorTwoStuff>
-		</li>
-	</modExtensions>
-	<colorGenerator IsNull="True"/>
-	
-  </ThingDef>
+		<!-- Crafting Materials -->
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Chemfuel>175</Chemfuel> <!-- because you craft it max fueled (7 x 25 chem) -->
+		</costList>
+		
+		<graphicData>
+		  <texPath>Armor/backpack/RoboPackJet/_item</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		   <!--THIS--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+		  <WorkToMake>16000</WorkToMake>
+		  <Mass>4</Mass>
+		  <Flammability>0.3</Flammability>
+		  <EquipDelay>2</EquipDelay>
+		  <JumpRange MayRequire="Ludeon.Rimworld.Royalty">34.9</JumpRange>
+		</statBases>
+		<thingSetMakerTags>
+		  <li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>IA_Utility</li>
+		</thingCategories>
+		<apparel>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <scoreOffset>4</scoreOffset>
+		  <wornGraphicPath>Armor/backpack/RoboPackJet/Jet</wornGraphicPath>
+		  <wornGraphicData>
+			<renderUtilityAsPack>true</renderUtilityAsPack>
+			<north>
+			  <offset>(0,-0.15)</offset>
+			</north>
+			<south>
+			  <offset>(0,-0.15)</offset>
+			</south>
+			<east>
+			  <offset>(0.10,-0.1)</offset>
+			  <thin><offset>(0.05,0)</offset></thin>
+			  <hulk><offset>(-0.05,0)</offset></hulk>
+			  <fat> <offset>(-0.15,0)</offset></fat>
+			</east>
+			<west>
+			  <offset>(-0.10,-0.1)</offset>
+			  <thin><offset>(-0.05,0)</offset></thin>
+			  <hulk><offset>(0.05,0)</offset></hulk>
+			  <fat> <offset>(0.15,0)</offset></fat>
+			</west>
+			<male>  <scale>(1.2,1.2)</scale></male>
+			<female><scale>(1.2,1.2)</scale></female>
+			<thin>  <scale>(1.0,1.0)</scale></thin>
+			<hulk>  <scale>(1.3,1.3)</scale></hulk>
+			<fat>   <scale>(1.3,1.3)</scale></fat>
+		  </wornGraphicData>
+		  <!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		  <careIfWornByCorpse>false</careIfWornByCorpse>
+		  <careIfDamaged>false</careIfDamaged>
+		  <wearPerDay>0</wearPerDay>
+		  <bodyPartGroups>
+			<li>Torso</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Belt</li>
+		  </layers>
+		  <tags>
+			<li>PackJump</li>
+		  </tags>
+		</apparel>
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_TechPriests</li>
+		</tradeTags>
+		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Metallic</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+	</ThingDef>
 
 
-
-  <ThingDef ParentName="ApparelBase">
-    <defName>GF40K_Apparel_ConversionFieldBelt</defName>
-    <label>conversion field belt</label>
-    <description>A Conversion Field is a moderately powerful energy shield that surrounds the user who wears a Conversion Field emitter as a form of personal protection. The field's effect is to convert the kinetic energy of an impact into harmless light. When the field stops a shot, a blinding flash of light is produced as the energetic conversion occurs.</description>
-    <graphicData>
-      <texPath>Armor/belt/_item</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <techLevel>Spacer</techLevel>
-    <statBases>
-      <Mass>3</Mass>
-      <WorkToMake>20000</WorkToMake>
-      <Flammability>0.4</Flammability>
-      <EnergyShieldRechargeRate>0.80</EnergyShieldRechargeRate>
-      <EnergyShieldEnergyMax>1.80</EnergyShieldEnergyMax>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
-    <costList>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Steel>50</Steel>
-      <Plasteel>20</Plasteel>
-    </costList>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-      <researchPrerequisites>
-		<li>ShieldBelt</li>
-		<li>GF40K_IA_AdeptusMechanicus</li>
-	  </researchPrerequisites>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-      <displayPriority>504</displayPriority>
-    </recipeMaker>
-	<thingCategories>
-		<li>IA_Utility</li>
-	</thingCategories>
-    <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
-      <careIfDamaged>false</careIfDamaged>
-      <wearPerDay>0</wearPerDay>
-      <bodyPartGroups>
-        <li>Waist</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Belt</li>
-      </layers>
-      <tags>
-        <li>BeltDefense</li>
-      </tags>
-      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
-    </apparel>
-    <comps>
-      <li Class="CompProperties_Shield">
-		<blocksRangedWeapons>false</blocksRangedWeapons>
-	  </li>
-    </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
-	  <li>GF40K_TechPriests</li>
-    </tradeTags>
-	<thingClass>Apparel</thingClass>
-  </ThingDef>
+		<!-- Shield -->
+	<ThingDef ParentName="ApparelBase">
+		<defName>GF40K_Apparel_ConversionFieldBelt</defName>
+		<label>conversion field belt</label>
+		<description>A Conversion Field is a moderately powerful energy shield that surrounds the user who wears a Conversion Field emitter as a form of personal protection. The field's effect is to convert the kinetic energy of an impact into harmless light. When the field stops a shot, a blinding flash of light is produced as the energetic conversion occurs.</description>
+		<graphicData>
+		  <texPath>Armor/belt/_item</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+		  <Mass>3</Mass>
+		  <WorkToMake>20000</WorkToMake>
+		  <Flammability>0.4</Flammability>
+		  <EnergyShieldRechargeRate>0.80</EnergyShieldRechargeRate>
+		  <EnergyShieldEnergyMax>1.80</EnergyShieldEnergyMax>
+		  <EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingSetMakerTags>
+		  <li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<costList>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Steel>50</Steel>
+		  <Plasteel>20</Plasteel>
+		</costList>
+		<recipeMaker>
+		  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+		  <researchPrerequisites>
+			<li>ShieldBelt</li>
+			<li>GF40K_IA_AdeptusMechanicus</li>
+		  </researchPrerequisites>
+		  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		  <workSkill>Crafting</workSkill>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Recipe_Machining</soundWorking>
+		  <recipeUsers>
+			<li>TableMachining</li>
+		  </recipeUsers>
+		  <skillRequirements>
+			<Crafting>8</Crafting>
+		  </skillRequirements>
+		  <displayPriority>504</displayPriority>
+		</recipeMaker>
+		<thingCategories>
+			<li>IA_Utility</li>
+		</thingCategories>
+		<apparel>
+		  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+		  <careIfWornByCorpse>false</careIfWornByCorpse>
+		  <careIfDamaged>false</careIfDamaged>
+		  <wearPerDay>0</wearPerDay>
+		  <bodyPartGroups>
+			<li>Waist</li>
+		  </bodyPartGroups>
+		  <layers>
+			<li>Belt</li>
+		  </layers>
+		  <tags>
+			<li>BeltDefense</li>
+		  </tags>
+		  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		</apparel>
+		<comps>
+		  <li Class="CompProperties_Shield">
+			<blocksRangedWeapons>false</blocksRangedWeapons>
+		  </li>
+		</comps>
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_TechPriests</li>
+		</tradeTags>
+		<thingClass>Apparel</thingClass>
+	</ThingDef>
 
 
 </Defs>

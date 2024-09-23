@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Firstborn Apparel -->
+	
+		<!-- Armor -->
+	<ThingDef ParentName="GF40K_ArmorReconPlus20Base">
+		<defName>GF40K_Apparel_Firstborn_FlakArmor</defName>
+		<label>firstborn flak armor</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Firstborn/FirstbornArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_FirstbornFlakArmor</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Firstborn/FirstbornArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Firstborn</li>
+		</tradeTags>
+	</ThingDef>
+	
+		<!-- Coat -->
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_Firstborn_Coat</defName>
+		<label>firstborn coat</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Firstborn/FirstbornCoat/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_FirstbornCoat</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Firstborn/FirstbornCoat/Coat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Firstborn</li>
+		</tradeTags>
+	</ThingDef>
+	
+		<!-- Helmet -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconPlus20Base">
+		<defName>GF40K_Apparel_Firstborn_Helmet</defName>
+		<label>firstborn helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Firstborn/FirstbornHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Firstborn/FirstbornHelmet/Helmet</wornGraphicPath>
+		</apparel>
+		<techLevel>Industrial</techLevel>
+		<apparel>
+			<tags>
+				<li>GF40K_FirstbornHelmet</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>411</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Firstborn</li>
+		</tradeTags> 
+	</ThingDef>
+	
+	
+	
+</Defs>

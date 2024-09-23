@@ -96,6 +96,35 @@
 		
 	</ThingDef>
 	
+	
+	<ThingDef Name="GF40K_ArmorReconPlus20Base" ParentName="GF40K_ArmorReconBase" Abstract="True">
+	
+		<statBases>
+		  <WorkToMake>50000</WorkToMake>
+		  <MaxHitPoints>300</MaxHitPoints>
+		  <Mass>10</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>1.10</ArmorRating_Sharp> <!-- it's better than the marine armor. it shouldn't be. fix this -->
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.55</ArmorRating_Heat>
+		  <Insulation_Cold>32</Insulation_Cold>
+		  <Insulation_Heat>10</Insulation_Heat>
+		  <EquipDelay>12</EquipDelay>
+		</statBases>
+		
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Plasteel>90</Plasteel>
+		  <Uranium>15</Uranium>
+		</costList>
+	
+	</ThingDef>
+	
+	
 		<!-- === Recon Helmet Base === -->
 	<ThingDef Name="GF40K_ArmorHelmetReconBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
 		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
@@ -124,7 +153,7 @@
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 			
 		<statBases>
-		  <WorkToMake>15750</WorkToMake>
+		  <WorkToMake>16000</WorkToMake>
 		  <MaxHitPoints>120</MaxHitPoints>
 		  <Mass>1</Mass>
 		  <Flammability>0.4</Flammability>
@@ -182,6 +211,53 @@
 			</forceEyesVisibleForRotations>
 		</apparel>
 	</ThingDef>
+	
+	
+	
+	<ThingDef Name="GF40K_ArmorHelmetReconPlus20Base" ParentName="GF40K_ArmorHelmetReconBase" Abstract="True">
+	
+		<statBases>
+		  <WorkToMake>18000</WorkToMake>
+		  <MaxHitPoints>150</MaxHitPoints>
+		  <Mass>1.5</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.55</ArmorRating_Heat>
+		  <Insulation_Cold>4</Insulation_Cold>
+		  <Insulation_Heat>2</Insulation_Heat>
+		  <EquipDelay>4</EquipDelay>
+		</statBases>
+		
+		<costList>
+		  <ComponentSpacer>1</ComponentSpacer>
+		  <Plasteel>35</Plasteel>
+		</costList>
+		
+	</ThingDef>
+	
+	<ThingDef Name="GF40K_ArmorHelmetReconPlus40Base" ParentName="GF40K_ArmorHelmetReconBase" Abstract="True">
+	
+		<statBases>
+		  <WorkToMake>20000</WorkToMake>
+		  <MaxHitPoints>175</MaxHitPoints>
+		  <Mass>2.5</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.65</ArmorRating_Heat>
+		  <Insulation_Cold>6</Insulation_Cold>
+		  <Insulation_Heat>4</Insulation_Heat>
+		  <EquipDelay>5</EquipDelay>
+		</statBases>
+		
+		<costList>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Plasteel>45</Plasteel>
+		</costList>
+		
+	</ThingDef>
+	
 	
 	
 		<!-- === Marine Armor Base === -->
@@ -306,18 +382,18 @@
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
 		
 		<statBases>
-		  <WorkToMake>15750</WorkToMake>
-		  <MaxHitPoints>120</MaxHitPoints>
-		  <Mass>1</Mass>
+		  <WorkToMake>21000</WorkToMake>
+		  <MaxHitPoints>150</MaxHitPoints>
+		  <Mass>1.5</Mass>
 		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
+		  <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.54</ArmorRating_Heat>
 		  <Insulation_Cold>4</Insulation_Cold>
 		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>2</EquipDelay>
+		  <EquipDelay>4</EquipDelay>
 		</statBases>
-		
+			
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
@@ -341,7 +417,7 @@
 		<!-- Crafting Materials -->
 		<costList>
 		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>30</Plasteel>
+		  <Plasteel>40</Plasteel>
 		</costList>
 		
 		<apparel>
@@ -695,6 +771,77 @@
 		<tradeTags>
 			<li>BasicClothing</li> <!-- TODO: Edit Tags -->
 		</tradeTags>
+	</ThingDef>
+
+
+	<ThingDef Name="GF40K_HatBase" ParentName="HatMakeableBase" Abstract="True">
+		<graphicData>
+			<texPath>Armor/commissar/helmet/_item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		
+		<!-- Crafting Materials -->
+		<costStuffCount>50</costStuffCount>
+        <stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+		
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.8</Mass>
+			<Flammability>0.5</Flammability>
+			<ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.28</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		
+		<apparel>
+			<tags>
+				<li>GF40K_Hat</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter> <!-- ah yes, a child commissar -->
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>IA_Headgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>GF40K_Hat</li>
+			<li>Clothing</li>
+		</tradeTags>
+		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Fabric</li>
+					<li>Leathery</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
 	</ThingDef>
 
 </Defs>

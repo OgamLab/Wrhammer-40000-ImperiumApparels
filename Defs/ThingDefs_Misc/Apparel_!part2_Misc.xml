@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Padded Surcoat -->
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_Firstborn_Coat</defName>
+		<label>firstborn coat</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/PaddedSurcoat/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_PaddedSurcoat</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Misc/PaddedSurcoat/Coat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Misc</li>
+		</tradeTags>
+		<statBases>
+		  <MaxHitPoints>250</MaxHitPoints>
+		  <WorkToMake>18000</WorkToMake>
+		  <Mass>5</Mass>
+		  <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+		  <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+		  <EquipDelay>5</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	
+		<!-- === Commissar Coat with fur === -->
+	<ThingDef ParentName="GF40K_FlakJacketBase">
+		<defName>GF40K_Apparel_Commissar_Coat</defName>
+		<label>commissar longcoat with fur</label>
+		<description>This intricately decorated longcoat with golden trim is one of the most recognizable pieces of attire found in the Imperium of Mankind. It is not just a piece of uniform; it's a symbol of status, indicating that the person wearing it is a successful graduate of the Schola Progenium, who has dedicated their life to leading Astra Militarum soldiers by example.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/CommissarCoatFur/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/CommissarCoatFur/Coat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>225</displayPriority>
+		</recipeMaker>
+		
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		
+		<statBases>
+		  <MaxHitPoints>200</MaxHitPoints>
+		  <WorkToMake>15000</WorkToMake>
+		  <Mass>8</Mass>
+		  <Flammability>0.6</Flammability>
+		  <Insulation_Cold>20</Insulation_Cold>
+		  <Insulation_Heat>5</Insulation_Heat>
+		  <EquipDelay>3</EquipDelay>
+		</statBases>
+		
+		<tradeTags>
+			<li>GF40K_Commissar</li>
+		</tradeTags> 
+		
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	<ThingDef ParentName="GF40K_HatBase">
+		<defName>GF40K_Apparel_HatFlaps</defName>
+		<label>trapper hat</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/FlapsHat/_item</texPath>
+		</graphicData>
+		
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Misc/FlapsHat/Hat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite> 
+			<displayPriority>145</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_HatBase">
+		<defName>GF40K_Apparel_HatFlapsFolded</defName>
+		<label>trapper hat (folded)</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/FlapsHatFolded/_item</texPath>
+		</graphicData>
+		
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Misc/FlapsHatFolded/Hat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite> 
+			<displayPriority>145</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_HatBase">
+		<defName>GF40K_Apparel_HatForage</defName>
+		<label>forage cap</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/ForageCap/_item</texPath>
+		</graphicData>
+		
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Misc/ForageCap/Hat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite> 
+			<displayPriority>145</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+		<!-- === Pressure helmet === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Guard_FlakHelmetPressure</defName>
+		<label>pressure flak helmet</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/PressureFlakHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_GuardFlakHelmet</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Misc/PressureFlakHelmet/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>204</displayPriority>
+		</recipeMaker>
+		
+		<tradeTags>
+			<li>GF40K_Guard</li>
+		</tradeTags> 
+		
+	</ThingDef>
+	
+	
+</Defs>
