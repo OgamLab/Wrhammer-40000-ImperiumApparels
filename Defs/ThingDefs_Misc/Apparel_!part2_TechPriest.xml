@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+		<!-- === Skitarii Ranger Helmet (variant 2) === -->
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Ski_RangerHelmetAlt</defName>
+		<label>Skitarii ranger helmet alt.</label>
+		<description>The Skitarii Ranger helmet consists of two parts: the helmet itself and the hood of the Ranger's robe. The faceplate of the helmet serves a dual purpose. It not only protects the wearer's vital organs but also functions as a transmission device for all the sensory information a Skitarii Ranger gathers during their mission. The Ranger's eyes are always open, as their eyelids are surgically removed so that the Magos in control wouldn't miss a single detail. Additionally, the Skitarii helmet is equipped with a built-in rebreather, a vital necessity in the toxic atmosphere of Mars and on numerous battlefields across the galaxy.</description>
+		<graphicData>
+			<texPath>Armor/_part2/TechPriestHood/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/TechPriestHood/Hood</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
+			<displayPriority>256</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		
+		<tradeTags>
+			<li>GF40K_Skitarii</li>
+		</tradeTags> 
+		
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Gheist Apparel -->
+	
+	<ThingDef ParentName="GF40K_ArmorShouldersBase">
+		<defName>GF40K_Apparel_Gheist_Pads</defName>
+		<label>gheist pads</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Gheist/GheistPads/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Gheist</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Gheist/GheistPads/Pads</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>471</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Gheist</li>
+		</tradeTags>
+		<equippedStatOffsets>
+		  <PsychicSensitivityOffset>0.025</PsychicSensitivityOffset>
+		  <PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_Gheist_Coat</defName>
+		<label>gheist armor</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Gheist/GheistOvercoat/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Gheist</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Shoulders</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Gheist/GheistOvercoat/Coat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>471</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Gheist</li>
+		</tradeTags>
+		<equippedStatOffsets>
+		  <PsychicSensitivityOffset>0.10</PsychicSensitivityOffset>
+		  <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	
+			<!-- Headgear -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Gheist_Helmet</defName>
+		<label>gheist helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Gheist/GheistHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Gheist/GheistHelmet/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>472</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+		  <PsychicSensitivityOffset>0.075</PsychicSensitivityOffset>
+		  <PsychicEntropyRecoveryRate>0.025</PsychicEntropyRecoveryRate>
+		  <ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>GF40K_Apparel_Gheist_ServoTail</defName>
+		<label>gheist servo-tail</label>
+		<description>...</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>473</displayPriority>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Armor/_part2/Gheist/GheistServoTail/_item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--THIS--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>IA_Utility</li>
+		</thingCategories>
+		<generateAllowChance>0.05</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Gheist/GheistServoTail/Backpack</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<mechanitorApparel>true</mechanitorApparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>GF40K_Gheist</li>
+			</tags>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(-0.3275, 0.25)</offset> <!-- still off center, but it's barely noticeable -->
+				</north>
+				<south>
+					<offset>(0.3275, 0.25)</offset>
+				</south>
+				<east>
+					<offset>(-0.2, 0.25)</offset>
+				</east>
+				<west>
+					<offset>(0.2, 0.25)</offset>
+				</west>
+			</wornGraphicData>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		
+		<!-- <comps> -->
+		  <!-- <li Class="CompProperties_CauseHediff_Apparel"> -->
+			<!-- <hediff>GF40K_Hediff_PowerPackArm</hediff> -->
+		  <!-- </li> -->
+		<!-- </comps> -->
+		<equippedStatOffsets>
+		    <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+		    <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<CarryingCapacity>50</CarryingCapacity>
+		</equippedStatOffsets>
+		
+		<!-- Crafting Materials -->
+		<costList>
+		  <Steel>120</Steel>
+		  <ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		
+		<!--3-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Metallic</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_Gheist</li>
+		</tradeTags>
+		
+	</ThingDef>
+			
+</Defs>

@@ -95,6 +95,99 @@
 		</apparel> 
 		
 	</ThingDef>
+
+
+
+		<!-- === Shoulders/Neck outer layer armor === -->
+	<ThingDef Name="GF40K_ArmorShouldersBase" ParentName="ArmorMachineableBase" Abstract="True">
+		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath> <!-- Default to vanilla tex -->
+			<graphicClass>Graphic_Single</graphicClass>
+            <!--1--><shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<tradeTags>
+			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>Armor</li>
+		</tradeTags> 
+		<thingCategories>
+			<li>IA_Armor</li>
+		</thingCategories>
+		
+		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
+		
+		<!-- TODO: Edit Stats -->
+		<statBases>
+		  <WorkToMake>20000</WorkToMake>
+		  <MaxHitPoints>175</MaxHitPoints>
+		  <Mass>4</Mass>
+		  <Flammability>0.4</Flammability>
+		  <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.25</ArmorRating_Heat>
+		  <Insulation_Cold>2</Insulation_Cold>
+		  <Insulation_Heat>2</Insulation_Heat>
+		  <EquipDelay>5</EquipDelay>
+		</statBases>
+		
+		<!--THIS-->
+		<thingClass>ThingColor.ApparelColored</thingClass>
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Metallic</li>
+					<!--
+					<li>Fabric</li>
+					<li>Leathery</li>
+					-->
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<!-- Crafting Materials -->
+		<costList>
+		  <Plasteel>30</Plasteel>
+		  <Uranium>3</Uranium>
+		</costList>
+		
+		<!-- /\/\/\ /\/\/\ -->
+		
+		<apparel>
+			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath> <!-- Default to vanilla tex -->
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li> <!-- ? -->
+			</defaultOutfitTags>
+			<tags>
+				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+		</apparel> 
+		
+	</ThingDef>
+	
+	
 	
 	
 	<ThingDef Name="GF40K_ArmorReconPlus20Base" ParentName="GF40K_ArmorReconBase" Abstract="True">
@@ -843,5 +936,61 @@
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
+
+
+	<ThingDef Name="GF40K_FlakCapeBase" ParentName="ApparelMakeableBase" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+		<graphicData>
+		  <texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.05</drawSize>
+		</graphicData>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+		  <li>Fabric</li>
+		  <li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
+		<statBases>
+		  <MaxHitPoints>250</MaxHitPoints>
+		  <WorkToMake>18000</WorkToMake>
+		  <Mass>3</Mass>
+		  <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor> <!-- nerfed stats due to being on top of armor -->
+		  <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
+		  <EquipDelay>4</EquipDelay>
+		</statBases>
+		<apparel>
+		  <bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		  </bodyPartGroups>
+		  <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
+		  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		  <shellRenderedBehindHead>true</shellRenderedBehindHead>
+		  <layers>
+			<li>OnTop</li> <!-- Automatic VEF Dependency. Yippee!!!    i hate this. -->
+		  </layers>
+		  <tags>
+			<li>Cape</li>
+			<li>GF40K_Cape</li>
+		  </tags>
+		</apparel>
+		<!--<colorGenerator Class="ColorGenerator_StandardApparel" />-->
+		<recipeMaker>
+		  <displayPriority>235</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Cape</li>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+
 
 </Defs>

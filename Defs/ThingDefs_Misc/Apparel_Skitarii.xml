@@ -67,7 +67,7 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
 		<defName>GF40K_Apparel_Ski_RangerHelmet</defName>
 		<label>Skitarii ranger helmet</label>
-		<description>he Skitarii Ranger helmet consists of two parts: the helmet itself and the hood of the Ranger's robe. The faceplate of the helmet serves a dual purpose. It not only protects the wearer's vital organs but also functions as a transmission device for all the sensory information a Skitarii Ranger gathers during their mission. The Ranger's eyes are always open, as their eyelids are surgically removed so that the Magos in control wouldn't miss a single detail. Additionally, the Skitarii helmet is equipped with a built-in rebreather, a vital necessity in the toxic atmosphere of Mars and on numerous battlefields across the galaxy.</description>
+		<description>The Skitarii Ranger helmet consists of two parts: the helmet itself and the hood of the Ranger's robe. The faceplate of the helmet serves a dual purpose. It not only protects the wearer's vital organs but also functions as a transmission device for all the sensory information a Skitarii Ranger gathers during their mission. The Ranger's eyes are always open, as their eyelids are surgically removed so that the Magos in control wouldn't miss a single detail. Additionally, the Skitarii helmet is equipped with a built-in rebreather, a vital necessity in the toxic atmosphere of Mars and on numerous battlefields across the galaxy.</description>
 		<graphicData>
 			<texPath>Armor/skitarii/hood_mask/_item</texPath>
 		</graphicData>

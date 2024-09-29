@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Servitor Apparel -->
+	
+	<ThingDef ParentName="GF40K_ArmorShouldersBase">
+		<defName>GF40K_Apparel_Servitor_Cape</defName>
+		<label>servitor cape restraints</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Servitor/ServitorCape/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Servitor</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Servitor/ServitorCape/Cape</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>466</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Servitor</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.05</SlaveSuppressionOffset>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_Servitor_Armor</defName>
+		<label>servitor restraints</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Servitor/ServitorArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Servitor</li>
+			</tags>
+			<layers Inherit="False">
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Servitor/ServitorArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>466</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Servitor</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	
+			<!-- Headgear -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Servitor_Mask</defName>
+		<label>servitor mask</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Servitor/ServitorMask/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Servitor/ServitorMask/Mask</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>467</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+		
+			<!-- Headgear -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Servitor_Hood</defName>
+		<label>servitor hooded mask</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Servitor/ServitorMaskHood/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Servitor/ServitorMaskHood/Hood</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>467</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+			
+</Defs>

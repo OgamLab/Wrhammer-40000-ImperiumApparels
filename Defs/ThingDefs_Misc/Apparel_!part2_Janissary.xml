@@ -30,6 +30,36 @@
 		</tradeTags>
 	</ThingDef>
 	
+		<!-- === Flak Armor === -->
+	<ThingDef ParentName="GF40K_ArmorReconPlus20Base">
+		<defName>GF40K_Apparel_Janissary_FlakVest</defName>
+		<label>janissary flak vest</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Janissary/JanissaryFlakArmorNoPads/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_JanissaryFlakArmorNoPads</li>
+			</tags>
+			<layers Inherit="False">
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Janissary/JanissaryFlakArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>400</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Janissary</li>
+		</tradeTags>
+	</ThingDef>
+	
 	
 			<!-- Headgear -->
 			

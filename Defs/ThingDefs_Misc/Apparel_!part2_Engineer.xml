@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+			<!-- Engineer Apparel -->
+	
+	<ThingDef ParentName="GF40K_ArmorShouldersBase">
+		<defName>GF40K_Apparel_Engineer_Pads</defName>
+		<label>engineer pads</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Engineer/EngineerPads/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Engineer</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Engineer/EngineerPads/Pads</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>454</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Engineer</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.025</GeneralLaborSpeed>
+			<ConstructionSpeed>0.025</ConstructionSpeed>
+			<ConstructSuccessChance>0.025</ConstructSuccessChance>
+			<ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_ArmorReconBase">
+		<defName>GF40K_Apparel_Engineer_Armor</defName>
+		<label>engineer armor</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Engineer/EngineerArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_Engineer</li>
+			</tags>
+			<layers Inherit="False">
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Engineer/EngineerArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<displayPriority>454</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Engineer</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+			<ConstructionSpeed>0.05</ConstructionSpeed>
+			<ConstructSuccessChance>0.05</ConstructSuccessChance>
+			<ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	
+			<!-- Headgear -->
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
+		<defName>GF40K_Apparel_Engineer_Helmet</defName>
+		<label>engineer helmet</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Engineer/EngineerHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Engineer/EngineerHelmet/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>455</displayPriority>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+			<ConstructionSpeed>0.05</ConstructionSpeed>
+			<ConstructSuccessChance>0.05</ConstructSuccessChance>
+			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+	</ThingDef>
+			
+</Defs>

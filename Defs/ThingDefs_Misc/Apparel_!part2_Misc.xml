@@ -3,8 +3,8 @@
 
 	<!-- Padded Surcoat -->
 	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
-		<defName>GF40K_Apparel_Firstborn_Coat</defName>
-		<label>firstborn coat</label>
+		<defName>GF40K_Apparel_PaddedSurcoat</defName>
+		<label>padded surcoat</label>
 		<description>...</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
@@ -22,7 +22,7 @@
 			<wornGraphicPath>Armor/_part2/Misc/PaddedSurcoat/Coat</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<tradeTags>
@@ -36,6 +36,42 @@
 		  <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
 		  <StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
 		  <EquipDelay>5</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+
+	<!-- Priest Robe -->
+	<ThingDef ParentName="GF40K_ArmorOnSkinBase">
+		<defName>GF40K_Apparel_PriestRobe</defName>
+		<label>firstborn coat</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Misc/PaddedSurcoat/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_PriestRobe</li>
+			</tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/_part2/Misc/PaddedSurcoat/Coat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_TechPriests</li>
+			<li>Clothing</li>
+		</tradeTags>
+		<statBases>
+		  <PsychicSensitivityOffset>0.10</PsychicSensitivityOffset>
+		  <PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
 		</statBases>
 	</ThingDef>
 	
@@ -78,6 +114,74 @@
 	</ThingDef>
 	
 	
+		<!-- Cape -->
+	<ThingDef ParentName="GF40K_FlakCapeBase">
+		<defName>GF40K_Apparel_FlakCape</defName>
+		<label>flak cape</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/FlakCape/_item</texPath>
+		</graphicData>		
+		<costStuffCount Inherit="False" IsNull="True"/>
+		<stuffCategories Inherit="False" IsNull="True"/>
+		<statBases Inherit="False">
+		  <WorkToMake>10000</WorkToMake>
+		  <MaxHitPoints>175</MaxHitPoints>
+		  <Mass>4</Mass>
+		  <Flammability>0.6</Flammability>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.35</ArmorRating_Heat>
+		  <Insulation_Cold>2</Insulation_Cold>
+		  <Insulation_Heat>4</Insulation_Heat>
+		  <EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+		  <MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+		  <li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+		  <Cloth>50</Cloth>
+		  <Steel>40</Steel>
+		  <ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/FlakCape/Cape</wornGraphicPath>
+		  <defaultOutfitTags>
+			<li>Soldier</li>
+		  </defaultOutfitTags>
+		  <tags>
+			<li>IndustrialMilitaryBasic</li>
+		  </tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<displayPriority>220</displayPriority>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options"> <!-- remove if needed -->
+		  <options>
+			<li>
+			  <only>(0.33,0.33,0.33)</only>
+			</li>
+			<li>
+			  <only>(0.65,0.65,0.65)</only>
+			</li>
+			<li>
+			  <weight>0.5</weight>
+			  <min>(0.3,0.3,0.3)</min>
+			  <max>(0.5,0.5,0.5)</max>
+			</li>
+		  </options>
+		</colorGenerator>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
 	
 	
 	
