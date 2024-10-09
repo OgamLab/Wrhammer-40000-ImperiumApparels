@@ -379,6 +379,8 @@
 			</tags>
 			<wornGraphicPath>Armor/guard/Uniform</wornGraphicPath>
 		</apparel>
+		
+		<costStuffCount>70</costStuffCount>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>199</displayPriority> 
@@ -386,23 +388,23 @@
 		
 		<statBases>
 		  <MaxHitPoints>100</MaxHitPoints>
-		  <WorkToMake>7000</WorkToMake>
+		  <WorkToMake>5000</WorkToMake>
 		  <Mass>0.5</Mass>
 		  <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-		  <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>0.8</StuffEffectMultiplierInsulation_Heat>
+		  <StuffEffectMultiplierInsulation_Cold>0.33</StuffEffectMultiplierInsulation_Cold>
+		  <StuffEffectMultiplierInsulation_Heat>0.33</StuffEffectMultiplierInsulation_Heat>
 		  <EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 		  <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 		  <SocialImpact>0.10</SocialImpact>
-          <MoveSpeed>0.15</MoveSpeed>
+          <MoveSpeed>0.10</MoveSpeed>
 		</equippedStatOffsets>
 		
 	</ThingDef>
   
 		<!-- === Half-Mask === -->
-	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">       
+	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">       
 		<defName>GF40K_Apparel_Guard_HalfMask</defName>
 		<label>rebreather mask</label>
 		<description>A standard-issue rebreather mask commonly used by Astra Militarum soldiers in difficult conditions, such as low oxygen environments, or contaminated areas. This mask provides very little protection against physical damage, but it is capable of protecting its wearer from toxic gases.</description>

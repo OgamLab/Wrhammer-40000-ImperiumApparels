@@ -173,7 +173,7 @@
 		</costList>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
 			<li Class="ThingColor.ThingExtension">
 				<colorOneStuff>

@@ -121,4 +121,36 @@
 		</equippedStatOffsets>
 	</ThingDef>
 	
+	
+	
+  <ThingDef ParentName="GF40K_ArmorShouldersBase">
+    <defName>GF40K_Apparel_SteelLegion_Pads</defName>
+    <label>steel legion pads</label>
+    <description>...</description>	
+	<techLevel>Industrial</techLevel>
+	<graphicData>
+		<texPath>Armor/_part2/SteelLegion/SteelLegionPads/_item</texPath>
+	</graphicData>
+	<apparel>
+		<tags>
+			<li>GF40K_SteelLegionPads</li>
+		</tags>
+		<wornGraphicPath>Armor/_part2/SteelLegion/SteelLegionPads/Pads</wornGraphicPath>
+	</apparel>
+	<recipeMaker>
+		<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+		<displayPriority>440</displayPriority>
+	</recipeMaker>
+	<tradeTags>
+		<li>GF40K_SteelLegion</li>
+	</tradeTags>
+	<equippedStatOffsets>
+		<AimingDelayFactor>-0.05</AimingDelayFactor>
+		<RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">-0.05</RangedCooldownFactor>
+		<CarryingCapacity>25</CarryingCapacity>
+		<MoveSpeed>-0.04</MoveSpeed>
+	</equippedStatOffsets>
+  </ThingDef>
+	
+	
 </Defs>

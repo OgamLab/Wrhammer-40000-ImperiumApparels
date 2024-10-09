@@ -92,4 +92,31 @@
 		  </li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>GF40K_Hediff_TempestusPack</defName>
+		<label>tempestus scions backpack</label>
+		<description>This pawn's capabilities are enhanced by a Tempestus Scions backpack.</description>
+		<defaultLabelColor>(0.4, 0.75, 0.9)</defaultLabelColor> <!-- light blue -->
+		<hediffClass>HediffWithComps</hediffClass>
+		<tags>
+			<li>Powerpack</li>
+		</tags>
+		<comps>
+		  <li>
+			<compClass>HediffComp_RemoveIfApparelDropped</compClass>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<label>active</label>
+			<capMods>
+			  <li>
+				<capacity>Sight</capacity>
+				<offset>0.1</offset>
+			  </li>
+			</capMods>
+		  </li>
+		</stages>
+	</HediffDef>
 </Defs>

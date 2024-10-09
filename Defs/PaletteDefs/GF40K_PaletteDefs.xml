@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RWPaintingTool.PaletteDef>
+		<defName>GF40K_Ultramarines</defName>
+		<label>ultramarines</label>
+		<palette>
+			<colorOne>(13,64,127)</colorOne> <!-- Macragge Blue -->
+			<colorTwo>(255,215,0)</colorTwo> <!-- Auric Gold -->
+			<colorThree>(250,250,250)</colorThree> <!-- Ceramite White -->
+		</palette>
+	</RWPaintingTool.PaletteDef>
+	
+	<RWPaintingTool.PaletteDef>
+		<defName>GF40K_Cadian</defName>
+		<label>cadian</label>
+		<palette>
+			<colorOne>(183,173,120)</colorOne> <!-- Khaki -->
+			<colorTwo>(0,64,30)</colorTwo> <!-- Caliban Green -->
+			<colorThree>(20,20,20)</colorThree> <!-- Black -->
+		</palette>
+	</RWPaintingTool.PaletteDef>
+	
+	<RWPaintingTool.PaletteDef>
+		<defName>GF40K_Eldar</defName>
+		<label>eldar</label>
+		<palette>
+			<colorOne>(71,31,94)</colorOne> <!-- Webway Purple -->
+			<colorTwo>(188,188,128)</colorTwo> <!-- Bone White ? -->
+			<colorThree>(199,197,184)</colorThree> <!-- Silver -->
+		</palette>
+	</RWPaintingTool.PaletteDef>
+	
+	<RWPaintingTool.PaletteDef>
+		<defName>GF40K_Orks</defName>
+		<label>orks</label>
+		<palette>
+			<colorOne>(194,25,32)</colorOne> <!-- Evil Sunz Scarlet -->
+			<colorTwo>(105,81,84)</colorTwo> <!-- Warplock Bronze -->
+			<colorThree>(20,20,20)</colorThree> <!-- Black -->
+		</palette>
+	</RWPaintingTool.PaletteDef>
+	
+	<RWPaintingTool.PaletteDef>
+		<defName>GF40K_Tyranids</defName>
+		<label>tyranids</label>
+		<palette>
+			<colorOne>(119,97,170)</colorOne> <!-- Genestealer Purple -->
+			<colorTwo>(0,64,30)</colorTwo> <!-- Caliban Green -->
+			<colorThree>(188,188,128)</colorThree> <!-- Bone White ? -->
+		</palette>
+	</RWPaintingTool.PaletteDef>
+</Defs>

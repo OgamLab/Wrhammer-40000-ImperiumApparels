@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ApparelLayerDef>
-        <defName>GF40K_AboveOuter</defName>
-        <label>above outer</label>
-        <drawOrder>250</drawOrder> <!-- between outer and on-top -->
-    </ApparelLayerDef>
-
+    <!-- <ApparelLayerDef> -->
+        <!-- <defName>GF40K_AboveOuter</defName> -->
+        <!-- <label>above outer</label> -->
+        <!-- <drawOrder>250</drawOrder> -->
+    <!-- </ApparelLayerDef> -->
+	
+	<ApparelLayerDef>
+		<defName>PacksAreNotBelts_Tactical</defName> <!-- automatic compatibility with "Packs Are Not Belts" mod -->
+		<label>tactical</label>
+		<drawOrder>515</drawOrder>
+	</ApparelLayerDef>
+	
 </Defs>

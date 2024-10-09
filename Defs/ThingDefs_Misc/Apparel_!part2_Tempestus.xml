@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+			<!-- Tempestus Apparel -->
+	<!--
+	<ThingDef ParentName="GF40K_ArmorMarineBase">
+		<defName>GF40K_Apparel_Tempestus_Armor</defName>
+		<label>tempestus scions flak armor</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Tempestus/TempestusArmor/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_TempestusArmor</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Tempestus/TempestusArmor/Armor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>487</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Tempestus</li>
+		</tradeTags>
+	</ThingDef>
+		
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Tempestus_Helmet</defName>
+		<label>tempestus scions flak helmet</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Tempestus/TempestusHelmet/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_TempestusHelmet</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Tempestus/TempestusHelmet/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>488</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Tempestus</li>
+		</tradeTags> 
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_ArmorHelmetMarineBase">
+		<defName>GF40K_Apparel_Tempestus_Mask</defName>
+		<label>tempestus scions flak mask</label>
+		<description>...</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Armor/_part2/Tempestus/TempestusMask/_item</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GF40K_TempestusHelmet</li>
+			</tags>
+			<wornGraphicPath>Armor/_part2/Tempestus/TempestusMask/Helmet</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>488</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>GF40K_Tempestus</li>
+		</tradeTags> 
+	</ThingDef>
+	
+	<ThingDef ParentName="GF40K_HatBase">
+		<defName>GF40K_Apparel_Tempestus_Beret</defName>
+		<label>tempestus scions beret</label>
+		<description>...</description>
+		<graphicData>
+			<texPath>Armor/_part2/Tempestus/TempestusBeret/_item</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Tempestus/TempestusBeret/Hat</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite> 
+			<displayPriority>488</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>GF40K_Apparel_Tempestus_Backpack</defName>
+		<label>tempestus scions backpack</label>
+		<description>...</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<displayPriority>489</displayPriority>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Armor/_part2/Tempestus/TempestusBackpack/_item</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>IA_Utility</li>
+		</thingCategories>
+		<generateAllowChance>0.05</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Armor/_part2/Tempestus/TempestusBackpack/Backpack</wornGraphicPath>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<mechanitorApparel>true</mechanitorApparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>GF40K_Tempestus</li>
+			</tags>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		
+		<comps>
+		  <li Class="CompProperties_CauseHediff_Apparel">
+			<hediff>GF40K_Hediff_TempestusPack</hediff>
+		  </li>
+		</comps>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<CarryingCapacity>75</CarryingCapacity>
+			<RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">-0.1</RangedCooldownFactor>
+            <AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
+		
+		<costList>
+		  <Cloth>100</Cloth>
+		  <Steel>20</Steel>
+		  <ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		
+		<modExtensions>
+			<li Class="ThingColor.ThingExtension">
+				<colorOneStuff>
+					<li>Metallic</li>
+				</colorOneStuff>
+				<colorTwoStuff>
+					<li>Metallic</li>
+				</colorTwoStuff>
+			</li>
+		</modExtensions>
+		<colorGenerator IsNull="True"/>
+		
+		<tradeTags>
+		  <li>ExoticMisc</li>
+		  <li>GF40K_Tempestus</li>
+		</tradeTags>
+		
+	</ThingDef> -->
+	
+</Defs>

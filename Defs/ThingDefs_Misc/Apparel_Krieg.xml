@@ -297,7 +297,7 @@
 		<li>GF40K_Krieg</li>
 	</tradeTags> 
 	<!--THIS-->
-	<thingClass>ThingColor.ApparelColored</thingClass>
+	<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 	<modExtensions>
 		<li Class="ThingColor.ThingExtension">
 			<colorOneStuff>

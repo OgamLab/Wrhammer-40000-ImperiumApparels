@@ -45,20 +45,11 @@
 		</statBases>
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -141,20 +132,11 @@
 		</statBases>
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -167,6 +149,7 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>  <!-- TODO: Edit as needed -->
 				<li>Neck</li>
 				<li>Shoulders</li>
@@ -261,20 +244,11 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -388,20 +362,11 @@
 		</statBases>
 
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -490,20 +455,11 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -581,20 +537,11 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -668,20 +615,11 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-					<!--
-					<li>Fabric</li>
-					<li>Leathery</li>
-					-->
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -745,17 +683,11 @@
 		
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -819,18 +751,11 @@
 		<!-- /\/\/\ /\/\/\ -->
 		
 		<!--THIS-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -922,23 +847,17 @@
 		</tradeTags>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Fabric</li>
-					<li>Leathery</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
 
 
-	<ThingDef Name="GF40K_FlakCapeBase" ParentName="ApparelMakeableBase" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+	<ThingDef Name="GF40K_FlakCapeBase" ParentName="ApparelMakeableBase" Abstract="True"> <!--  MayRequire="oskarpotocki.vanillafactionsexpanded.core"  more like WILL require. -->
 		<graphicData>
 		  <texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -953,7 +872,7 @@
 		  <li>Apparel</li>
 		</thingCategories>
 		<statBases>
-		  <MaxHitPoints>250</MaxHitPoints>
+		  <MaxHitPoints>200</MaxHitPoints>
 		  <WorkToMake>18000</WorkToMake>
 		  <Mass>3</Mass>
 		  <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor> <!-- nerfed stats due to being on top of armor -->
@@ -975,13 +894,21 @@
 		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		  <shellRenderedBehindHead>true</shellRenderedBehindHead>
 		  <layers>
-			<li>OnTop</li> <!-- Automatic VEF Dependency. Yippee!!!    i hate this. -->
+			<li>VFEC_OuterShell</li> <!-- i hate VEF dependencies -->
 		  </layers>
 		  <tags>
 			<li>Cape</li>
 			<li>GF40K_Cape</li>
+			<li>Royal</li>
+			<li>RoyalTier2</li>
+			<li>RoyalTier5</li>
 		  </tags>
 		</apparel>
+		<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
+		</modExtensions>
 		<!--<colorGenerator Class="ColorGenerator_StandardApparel" />-->
 		<recipeMaker>
 		  <displayPriority>235</displayPriority>
@@ -992,5 +919,66 @@
 		</tradeTags>
 	</ThingDef>
 
+
+	<ThingDef Name="GF40K_WebbingBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<recipeMaker>
+		  <researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+		  <texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+		  <li>Fabric</li>
+		  <li>Leathery</li>
+		</stuffCategories>
+		<costList>
+		  <Steel>10</Steel>
+		</costList>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
+		<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>7000</WorkToMake>
+		<Mass>2</Mass> 
+		<Flammability>0.3</Flammability>
+		<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
+		<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">-0.05</RangedCooldownFactor>
+			<CarryingCapacity>25</CarryingCapacity>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
+			<layers>
+				<li>PacksAreNotBelts_Tactical</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>GF40K_Webbings</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		</apparel>
+		<modExtensions>
+			<li Class="RWPaintingTool.PaintableExtension">
+                <maskCount>1</maskCount>
+            </li>
+		</modExtensions>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+	</ThingDef>
 
 </Defs>

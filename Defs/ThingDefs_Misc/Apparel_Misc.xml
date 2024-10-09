@@ -80,16 +80,9 @@
 		</costList>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -187,16 +180,9 @@
 		</costList>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		
@@ -214,6 +200,9 @@
 		<label>jump-pack</label>
 		<description>Jump pack, also commonly referred to as a 'jetpack', is a propulsion device, that is mounted on the user's back and consists of several thrusters and a control device. It can be utilized to traverse difficult terrain and perform deep strikes, quickly flanking an unsuspecting enemy. It has a limited fuel capacity and must be refueled with chemfuel for continuous use.</description>
 		<techLevel>Spacer</techLevel>
+		
+		<!-- ROYALTY PATCH ADDS COMP AND VERB -->
+		
 		<recipeMaker>
 		  <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 		  <researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
@@ -236,12 +225,6 @@
 			<MoveSpeed>0.4</MoveSpeed>
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 		</equippedStatOffsets>
-		
-		<comps>
-		  <li Class="CompProperties_CauseHediff_Apparel">
-			<hediff>GF40K_Hediff_PowerPackJet</hediff>
-		  </li>
-		</comps>
 
 		<!-- Crafting Materials -->
 		<costList>
@@ -320,16 +303,9 @@
 		</tradeTags>
 		
 		<!--3-->
-		<thingClass>ThingColor.ApparelColored</thingClass>
+		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<modExtensions>
-			<li Class="ThingColor.ThingExtension">
-				<colorOneStuff>
-					<li>Metallic</li>
-				</colorOneStuff>
-				<colorTwoStuff>
-					<li>Metallic</li>
-				</colorTwoStuff>
-			</li>
+			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
 		</modExtensions>
 		<colorGenerator IsNull="True"/>
 		

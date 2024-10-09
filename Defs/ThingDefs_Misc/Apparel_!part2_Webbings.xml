@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="GF40K_WebbingBase">
+    <defName>GF40K_Apparel_Webbings_Tactical</defName>
+    <label>tactical webbing</label>
+    <description>...</description>		
+	<graphicData>
+		<texPath>Armor/_part2/Webbings/Webbing/_item</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Armor/_part2/Webbings/Webbing/Webbing</wornGraphicPath>
+	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="GF40K_WebbingBase">
+    <defName>GF40K_Apparel_Webbings_Sharpshooter</defName>
+    <label>sharpshooter webbing</label>
+    <description>...</description>		
+	<graphicData>
+		<texPath>Armor/_part2/Webbings/WebbingSharpshooter/_item</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Armor/_part2/Webbings/WebbingSharpshooter/Webbing</wornGraphicPath>
+	</apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="GF40K_WebbingBase">
+    <defName>GF40K_Apparel_Webbings_SteelLegion</defName>
+    <label>steel legion webbing</label>
+    <description>...</description>		
+	<graphicData>
+		<texPath>Armor/_part2/Webbings/WebbingSteelLegion/_item</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Armor/_part2/Webbings/WebbingSteelLegion/Webbing</wornGraphicPath>
+	</apparel>
+  </ThingDef>
+  
+  <!-- <ThingDef ParentName="GF40K_WebbingBase"> -->
+    <!-- <defName>GF40K_Apparel_Webbings_Spy</defName> -->
+    <!-- <label>spy equipment</label> -->
+    <!-- <description>...</description>		 -->
+	<!-- <graphicData> -->
+		<!-- <texPath>Armor/_part2/Misc/SpyEquipment/_item</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <apparel> -->
+		<!-- <wornGraphicPath>Armor/_part2/Misc/SpyEquipment/Webbing</wornGraphicPath> -->
+	<!-- </apparel> -->
+  <!-- </ThingDef> -->
+  
+</Defs>

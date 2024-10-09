@@ -67,11 +67,9 @@
 		<graphicData>
 			<texPath>Armor/_part2/Firstborn/FirstbornHelmet/_item</texPath>
 		</graphicData>
-		<apparel>
-			<wornGraphicPath>Armor/_part2/Firstborn/FirstbornHelmet/Helmet</wornGraphicPath>
-		</apparel>
 		<techLevel>Industrial</techLevel>
 		<apparel>
+			<wornGraphicPath>Armor/_part2/Firstborn/FirstbornHelmet/Helmet</wornGraphicPath>
 			<tags>
 				<li>GF40K_FirstbornHelmet</li>
 			</tags>
