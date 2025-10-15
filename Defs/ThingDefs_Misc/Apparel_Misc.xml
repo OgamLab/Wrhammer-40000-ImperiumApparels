@@ -81,9 +81,9 @@
 		
 		<!--3-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
-		</modExtensions>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor"><colorMaskAmount>1</colorMaskAmount></li>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<tradeTags>
@@ -181,9 +181,9 @@
 		
 		<!--3-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
-		</modExtensions>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor"><colorMaskAmount>1</colorMaskAmount></li>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<tradeTags>
@@ -304,9 +304,9 @@
 		
 		<!--3-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
-		</modExtensions>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor"><colorMaskAmount>1</colorMaskAmount></li>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 	</ThingDef>

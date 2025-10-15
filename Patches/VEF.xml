@@ -23,7 +23,7 @@
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]</xpath>
 					<value>
-						<li Class="VFECore.ApparelExtension">
+						<li Class="VEF.Apparels.ApparelExtension">
 							<equippedStatFactors>
 								<MoveSpeed>1.1</MoveSpeed> <!-- need to test -->
 							</equippedStatFactors>

@@ -1,52 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<RWPaintingTool.PaletteDef>
+
+<Genes40k.ChapterColourDef Name="GF40K_ColourBase" Abstract="True">
+        <appliesTo>
+            <li>GF40K_Apparel_Crusader_Armor</li>
+			<li>GF40K_Apparel_Crusader_Helmet</li>
+			<li>GF40K_Apparel_Crusader_Helmet_Hooded</li>
+			<li>GF40K_Apparel_Crusader_Cape</li>
+			<li>GF40K_Apparel_Engineer_Pads</li>
+			<li>GF40K_Apparel_Engineer_Helmet</li>
+			<li>GF40K_Apparel_Engineer_Armor</li>
+			<li>GF40K_Apparel_Firstborn_FlakArmor</li>
+			<li>GF40K_Apparel_Firstborn_Coat</li>
+			<li>GF40K_Apparel_Firstborn_Helmet</li>
+			<li>GF40K_Apparel_Gheist_Pads</li>
+			<li>GF40K_Apparel_Gheist_Coat</li>
+			<li>GF40K_Apparel_Gheist_Helmet</li>
+			<li>GF40K_Apparel_Gheist_ServoTail</li>
+			<li>GF40K_Apparel_IronGuard_Coat</li>
+			<li>GF40K_Apparel_IronGuard_Hat</li>
+			<li>GF40K_Apparel_Janissary_FlakArmor</li>
+			<li>GF40K_Apparel_Janissary_Helmet</li>
+			<li>GF40K_Apparel_Janissary_HelmetSkull</li>
+			<li>GF40K_Apparel_Janissary_HelmetHood</li>
+			<li>GF40K_Apparel_Janissary_HelmetHoodSkull</li>
+			<li>GF40K_Apparel_PaddedSurcoat</li>
+			<li>GF40K_Apparel_PriestRobe</li>
+			<li>GF40K_Apparel_ArchpriestRobe</li>
+			<li>GF40K_Apparel_PsykerCoat</li>
+			<li>GF40K_Apparel_Commissar_Coat_Fur</li>
+			<li>GF40K_Apparel_FlakCape</li>
+			<li>GF40K_Apparel_HatFlaps</li>
+			<li>GF40K_Apparel_HatFlapsFolded</li>
+			<li>GF40K_Apparel_Guard_FlakHelmetPressure</li>
+			<li>GF40K_Apparel_Turban</li>
+			<li>GF40K_Apparel_Bandana</li>
+			<li>GF40K_Apparel_Poncho</li>
+			<li>GF40K_Apparel_Cape</li>
+			<li>GF40K_Apparel_Cloak</li>
+			<li>GF40K_Apparel_FlakBackpack</li>
+			<li>GF40K_Apparel_FineCape</li>
+			<li>GF40K_Apparel_FineSuit</li>
+			<li>GF40K_Apparel_TomeShieldBelt</li>
+			<li>GF40K_Apparel_GravChute</li>
+			<li>GF40K_Apparel_Servitor_Cape</li>
+			<li>GF40K_Apparel_Servitor_Armor</li>
+			<li>GF40K_Apparel_Servitor_Mask</li>
+			<li>GF40K_Apparel_Servitor_Hood</li>
+			<li>GF40K_Apparel_SolarAuxilia_FlakArmor</li>
+			<li>GF40K_Apparel_SolarAuxilia_Helmet</li>
+			<li>GF40K_Apparel_JSolarAuxilia_HelmetHeavy</li>
+			<li>GF40K_Apparel_SteelLegion_Coat</li>
+			<li>GF40K_Apparel_SteelLegion_Helmet</li>
+			<li>GF40K_Apparel_SteelLegion_HelmetGlasses</li>
+			<li>GF40K_Apparel_SteelLegion_HelmetFull</li>
+			<li>GF40K_Apparel_SteelLegion_Gasmask</li>
+			<li>GF40K_Apparel_SteelLegion_Pads</li>
+			<li>GF40K_Apparel_Ski_RangerHelmetAlt</li>
+			<li>GF40K_Apparel_Webbings_Tactical</li>
+			<li>GF40K_Apparel_Webbings_Sharpshooter</li>
+			<li>GF40K_Apparel_Webbings_SteelLegion</li>
+			<li>GF40K_Apparel_Commissar_Coat</li>
+			<li>GF40K_Apparel_Commissar_Hat</li>
+			<li>GF40K_Apparel_Guard_FlakArmor</li>
+			<li>GF40K_Apparel_Guard_FlakArmorMiddle</li>
+			<li>GF40K_Apparel_Guard_CarapaceArmor</li>
+			<li>GF40K_Apparel_Guard_FlakHelmet</li>
+			<li>GF40K_Apparel_Guard_FlakHelmet_Emblem</li>
+			<li>GF40K_Apparel_Guard_FlakHelmetStrap_Emblem</li>
+			<li>GF40K_Apparel_Guard_FlakHelmetGoggles</li>
+			<li>GF40K_Apparel_Guard_FlakHelmetGoggles_Emblem</li>
+			<li>GF40K_Apparel_Guard_FullHelmet</li>
+			<li>GF40K_Apparel_Guard_FullHelmet_Emblem</li>
+			<li>GF40K_Apparel_Guard_HelmetMask</li>
+			<li>GF40K_Apparel_Guard_HelmetMask_Emblem</li>
+			<li>GF40K_Apparel_Guard_Uniform</li>
+			<li>GF40K_Apparel_Guard_HalfMask</li>
+			<li>GF40K_Apparel_Krieg_TrenchCoat</li>
+			<li>GF40K_Apparel_Krieg_FlakArmor</li>
+			<li>GF40K_Apparel_Krieg_FlakArmorMiddle</li>
+			<li>GF40K_Apparel_Krieg_FlakHelmet</li>
+			<li>GF40K_Apparel_Krieg_FlakHelmetSpike</li>
+			<li>GF40K_Apparel_Krieg_HelmetGasMask</li>
+			<li>GF40K_Apparel_Krieg_GasMask</li>
+			<li>GF40K_Apparel_PowerPack</li>
+			<li>GF40K_Apparel_PowerPackArm</li>
+			<li>GF40K_Apparel_PowerPackJet</li>
+			<li>GF40K_Apparel_ConversionFieldBelt</li>
+			<li>GF40K_Apparel_Soro_LPowerArmor</li>
+			<li>GF40K_Apparel_Soro_LPowerHelmet</li>
+			<li>GF40K_Apparel_LPowerArmor</li>
+			<li>GF40K_Apparel_LPowerHelmet</li>
+			<li>GF40K_Apparel_LPowerHalfMask</li>
+			<li>GF40K_Apparel_Ski_WarPlate</li>
+			<li>GF40K_Apparel_Ski_Cuirass</li>
+			<li>GF40K_Apparel_Ski_RangerHelmet</li>
+			<li>GF40K_Apparel_Ski_VanguardHelmet</li>
+			<li>GF40K_Apparel_Ski_VanguardLtnHelmet</li>
+			<li>GF40K_Apparel_Ski_Robe</li>
+			<li>GF40K_Apparel_Ski_Hood</li>
+        </appliesTo>
+        <appliesToKind>Armor</appliesToKind>
+        <colorAmount>3</colorAmount>
+    </Genes40k.ChapterColourDef>
+
+
+	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">
 		<defName>GF40K_Ultramarines</defName>
 		<label>ultramarines</label>
-		<palette>
-			<colorOne>(13,64,127)</colorOne> <!-- Macragge Blue -->
-			<colorTwo>(255,215,0)</colorTwo> <!-- Auric Gold -->
-			<colorThree>(250,250,250)</colorThree> <!-- Ceramite White -->
-		</palette>
-	</RWPaintingTool.PaletteDef>
-	
-	<RWPaintingTool.PaletteDef>
+		<primaryColour>(13,64,127)</primaryColour>		<!-- Macragge Blue -->
+		<secondaryColour>(255,215,0)</secondaryColour>		<!-- Auric Gold -->
+		<tertiaryColour>(250,250,250)</tertiaryColour>		<!-- Ceramite White -->
+	</Genes40k.ChapterColourDef>
+
+	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">
 		<defName>GF40K_Cadian</defName>
 		<label>cadian</label>
-		<palette>
-			<colorOne>(183,173,120)</colorOne> <!-- Khaki -->
-			<colorTwo>(0,64,30)</colorTwo> <!-- Caliban Green -->
-			<colorThree>(20,20,20)</colorThree> <!-- Black -->
-		</palette>
-	</RWPaintingTool.PaletteDef>
-	
-	<RWPaintingTool.PaletteDef>
+		<primaryColour>(183,173,120)</primaryColour>		<!-- Khaki -->
+		<secondaryColour>(0,64,30)</secondaryColour>		<!-- Caliban Green -->
+		<tertiaryColour>(20,20,20)</tertiaryColour>			<!-- Black -->
+	</Genes40k.ChapterColourDef>
+
+	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">
 		<defName>GF40K_Eldar</defName>
 		<label>eldar</label>
-		<palette>
-			<colorOne>(71,31,94)</colorOne> <!-- Webway Purple -->
-			<colorTwo>(188,188,128)</colorTwo> <!-- Bone White ? -->
-			<colorThree>(199,197,184)</colorThree> <!-- Silver -->
-		</palette>
-	</RWPaintingTool.PaletteDef>
-	
-	<RWPaintingTool.PaletteDef>
+		<primaryColour>(71,31,94)</primaryColour>		<!-- Webway Purple -->
+		<secondaryColour>(188,188,128)</secondaryColour>		<!-- Bone White ? -->
+		<tertiaryColour>(199,197,184)</tertiaryColour>			<!-- Silver -->
+	</Genes40k.ChapterColourDef>
+
+	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">
 		<defName>GF40K_Orks</defName>
 		<label>orks</label>
-		<palette>
-			<colorOne>(194,25,32)</colorOne> <!-- Evil Sunz Scarlet -->
-			<colorTwo>(105,81,84)</colorTwo> <!-- Warplock Bronze -->
-			<colorThree>(20,20,20)</colorThree> <!-- Black -->
-		</palette>
-	</RWPaintingTool.PaletteDef>
-	
-	<RWPaintingTool.PaletteDef>
+		<primaryColour>(194,25,32)</primaryColour>		<!-- Evil Sunz Scarlet -->
+		<secondaryColour>(105,81,84)</secondaryColour>		<!-- Warplock Bronze -->
+		<tertiaryColour>(20,20,20)</tertiaryColour>			<!-- Black -->
+	</Genes40k.ChapterColourDef>
+
+	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">
 		<defName>GF40K_Tyranids</defName>
 		<label>tyranids</label>
-		<palette>
-			<colorOne>(119,97,170)</colorOne> <!-- Genestealer Purple -->
-			<colorTwo>(0,64,30)</colorTwo> <!-- Caliban Green -->
-			<colorThree>(188,188,128)</colorThree> <!-- Bone White ? -->
-		</palette>
-	</RWPaintingTool.PaletteDef>
+		<primaryColour>(119,97,170)</primaryColour>		<!-- Genestealer Purple -->
+		<secondaryColour>(0,64,30)</secondaryColour>		<!-- Caliban Green -->
+		<tertiaryColour>(188,188,128)</tertiaryColour>			<!-- Bone White ? -->
+	</Genes40k.ChapterColourDef>
 </Defs>

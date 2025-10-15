@@ -4,14 +4,15 @@
 	<author>flangopink, Ogam</author>
 	<supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<packageId>flangopink.GF40KArmoury</packageId> <!-- TODO: Edit -->
 	<description>Warhammer 40.000 - is a collaboration project between many artists and coders to bring vanilla taste to the blood of Warhammer world. Motto of this project is: "Vanilla art, vanilla balance, fuck the VOID".\n\nThe Imperium Apparel module adds various armour and clothing from the Warhammer 40k universe.</description>
 	<modDependencies>
 		<li>
-		  <packageId>gf40k.core</packageId>
-		  <displayName>Ogam's Lab Framework</displayName>
-		  <downloadUrl>https://github.com/OgamLab/GrimForge40K-Core</downloadUrl>
+		<packageId>Phonicmas.RimDark.FrameworkCore</packageId>
+			<displayName>RimDark 40k - Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3267464767</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

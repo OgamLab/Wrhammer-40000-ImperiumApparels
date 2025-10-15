@@ -279,7 +279,6 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Armor/krieg/helmet/gasmask/Helmet</wornGraphicPath>
-      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -298,20 +297,16 @@
 	</tradeTags> 
 	<!--THIS-->
 	<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-	<modExtensions>
+	<!--<modExtensions>
 		<li Class="ThingColor.ThingExtension">
 			<colorOneStuff>
 				<li>Metallic</li>
 			</colorOneStuff>
 			<colorTwoStuff>
 				<li>Metallic</li>
-				<!--
-				<li>Fabric</li>
-				<li>Leathery</li>
-				-->
 			</colorTwoStuff>
 		</li>
-	</modExtensions>
+	</modExtensions>-->
 	<colorGenerator IsNull="True"/>
   </ThingDef>
   

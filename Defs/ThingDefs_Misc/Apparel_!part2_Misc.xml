@@ -194,7 +194,7 @@
 	
 		<!-- === Commissar Coat with fur === -->
 	<ThingDef ParentName="GF40K_FlakJacketBase">
-		<defName>GF40K_Apparel_Commissar_Coat</defName>
+		<defName>GF40K_Apparel_Commissar_Coat_Fur</defName>
 		<label>commissar longcoat with fur</label>
 		<description>This intricately decorated longcoat with golden trim is one of the most recognizable pieces of attire found in the Imperium of Mankind. It is not just a piece of uniform; it's a symbol of status, indicating that the person wearing it is a successful graduate of the Schola Progenium, who has dedicated their life to leading Astra Militarum soldiers by example.</description>
 		<techLevel>Industrial</techLevel>
@@ -629,7 +629,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
-        <li>VFEC_OuterShell</li>
+        <li>GF40K_AboveOuter</li>
       </layers>
       <tags>
         <li>BestowerHood</li>
@@ -982,9 +982,10 @@
 		
 		<!--3-->
 		<!--<thingClass>ThingColor.ApparelColored</thingClass>-->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension"><maskCount>1</maskCount></li>
-		</modExtensions>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor"><colorMaskAmount>1</colorMaskAmount></li>
+		</comps>
+
 		<colorGenerator IsNull="True"/>
 		
 	</ThingDef>

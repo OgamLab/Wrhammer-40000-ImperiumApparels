@@ -11,7 +11,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="GF40K_Apparel_PowerPackJet"]/comps</xpath>
 					<value>
-						<li Class="CompProperties_Reloadable">
+						<li Class="CompProperties_ApparelReloadable">
 							<maxCharges>7</maxCharges>
 							<ammoDef>Chemfuel</ammoDef>
 							<ammoCountPerCharge>25</ammoCountPerCharge>
@@ -63,7 +63,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="GF40K_Apparel_GravChute"]/comps</xpath>
 					<value>
-						<li Class="CompProperties_Reloadable">
+						<li Class="CompProperties_ApparelReloadable">
 							<maxCharges>10</maxCharges>
 							<ammoDef>Chemfuel</ammoDef>
 							<ammoCountPerCharge>20</ammoCountPerCharge>

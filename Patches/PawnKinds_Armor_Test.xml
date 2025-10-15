@@ -115,14 +115,6 @@
 						<apparelColor>(68,126,210)</apparelColor>
 					</value>
 				</li>
-				<li Class="PatchOperationAddModExtension">
-				  <xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]</xpath>
-				  <value>
-					<li Class="ThingColor.ModExt_PawnKindApparelColorTwo">
-					  <colorTwo>(68,126,210)</colorTwo>
-					</li>
-				  </value>
-				</li>
 			</operations>
 		</match>
 	</Operation>

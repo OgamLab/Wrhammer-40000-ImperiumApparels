@@ -125,8 +125,6 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/powerarmor/mask/Mask</wornGraphicPath>
-			<forceRenderUnderHair>true</forceRenderUnderHair>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_LightPowerArmor</researchPrerequisite> 

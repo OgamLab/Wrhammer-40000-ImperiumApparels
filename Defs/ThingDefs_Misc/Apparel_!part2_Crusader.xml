@@ -63,7 +63,7 @@
 	
 		<!-- === Power Helmet Hooded === -->
 	<ThingDef ParentName="GF40K_ArmorHelmetCataphractBase">
-		<defName>GF40K_Apparel_Crusader_Helmet</defName>
+		<defName>GF40K_Apparel_Crusader_Helmet_Hooded</defName>
 		<label>crusader hooded power helmet</label>
 		<description>...</description>
 		<graphicData>

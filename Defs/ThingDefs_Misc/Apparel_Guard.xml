@@ -414,8 +414,6 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/guard/helmets/mask/Mask</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			<forceRenderUnderHair>true</forceRenderUnderHair>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 

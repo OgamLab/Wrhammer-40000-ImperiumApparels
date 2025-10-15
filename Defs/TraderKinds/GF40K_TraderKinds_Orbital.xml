@@ -115,7 +115,6 @@
       
       <!-- Buying -->
       <li Class="StockGenerator_BuySlaves"/>
-      <li Class="GF40K_Misc.StockGenerator_BuyAnything"/>
       
     </stockGenerators>
   </TraderKindDef>

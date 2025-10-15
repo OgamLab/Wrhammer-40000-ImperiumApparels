@@ -46,11 +46,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -133,11 +133,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -245,11 +245,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -363,11 +363,11 @@
 
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -456,11 +456,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -538,11 +538,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -616,11 +616,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -684,11 +684,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -752,11 +752,11 @@
 		
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 		
 		<!-- Crafting Materials -->
@@ -848,11 +848,11 @@
 		
 		<!--3-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
 
@@ -894,7 +894,7 @@
 		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		  <shellRenderedBehindHead>true</shellRenderedBehindHead>
 		  <layers>
-			<li>VFEC_OuterShell</li> <!-- i hate VEF dependencies -->
+			<li>GF40K_AboveOuter</li> <!-- i hate VEF dependencies -->
 		  </layers>
 		  <tags>
 			<li>Cape</li>
@@ -904,11 +904,11 @@
 			<li>RoyalTier5</li>
 		  </tags>
 		</apparel>
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<!--<colorGenerator Class="ColorGenerator_StandardApparel" />-->
 		<recipeMaker>
 		  <displayPriority>235</displayPriority>
@@ -973,11 +973,11 @@
 			</defaultOutfitTags>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
-		<modExtensions>
-			<li Class="RWPaintingTool.PaintableExtension">
-                <maskCount>1</maskCount>
+		<comps>
+			<li Class="Core40k.CompProperties_MultiColor">
+                <colorMaskAmount>1</colorMaskAmount>
             </li>
-		</modExtensions>
+		</comps>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 	</ThingDef>
 
