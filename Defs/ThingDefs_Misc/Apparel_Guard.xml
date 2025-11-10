@@ -25,7 +25,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>210</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>120</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToMake>35000</WorkToMake>
+			<Mass>8</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -57,7 +72,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>211</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>20</Plasteel>
+			<Steel>90</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>6</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-12</Insulation_Cold>
+			<Insulation_Heat>-9</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -82,7 +112,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>212</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>120</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToMake>35000</WorkToMake>
+			<Mass>8</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -108,7 +153,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>200</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -134,7 +194,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>201</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -159,7 +234,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>202</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -185,7 +275,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>203</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -211,7 +316,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>204</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -237,7 +357,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>205</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -267,7 +402,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -296,7 +446,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -326,7 +491,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 
@@ -355,7 +535,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>50</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<Insulation_Cold>-8</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Guard</li>
 		</tradeTags> 

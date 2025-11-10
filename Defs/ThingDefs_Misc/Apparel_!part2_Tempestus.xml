@@ -19,6 +19,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>487</displayPriority>
 		</recipeMaker>
+		<costList>
+			<Plasteel>70</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>3200</MaxHitPoints>
+			<WorkToMake>85000</WorkToMake>
+			<Mass>12</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>-18</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Tempestus</li>
 		</tradeTags>
@@ -42,6 +58,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>488</displayPriority>
 		</recipeMaker>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<Steel>80</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1600</MaxHitPoints>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>3.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.28</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>-12</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Tempestus</li>
 		</tradeTags> 

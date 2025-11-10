@@ -154,11 +154,14 @@
 			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		
-		<!-- <comps> -->
-		  <!-- <li Class="CompProperties_CauseHediff_Apparel"> -->
-			<!-- <hediff>GF40K_Hediff_PowerPackArm</hediff> -->
-		  <!-- </li> -->
-		<!-- </comps> -->
+		 <comps> 
+		  <li Class="Core40k.CompProperties_MultiColor">
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
+		 </comps> 
 		<equippedStatOffsets>
 		    <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
 		    <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>

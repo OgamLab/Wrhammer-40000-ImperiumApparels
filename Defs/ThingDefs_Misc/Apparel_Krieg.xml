@@ -24,21 +24,22 @@
 		</recipeMaker>
 		
 		<!-- TODO: Edit Stats --> 
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>100</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
 		<statBases>
-		  <MaxHitPoints>150</MaxHitPoints>
-		  <WorkToMake>8000</WorkToMake>
-		  <Mass>2</Mass>
-		  <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-		  <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
-		  <EquipDelay>3</EquipDelay>
+			<MaxHitPoints>950</MaxHitPoints>
+			<WorkToMake>28000</WorkToMake>
+			<Mass>7</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.31</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.19</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
 		</statBases>
-		
-		<costStuffCount>150</costStuffCount>
-        <stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-        </stuffCategories>
 		
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
@@ -73,7 +74,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>100</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>950</MaxHitPoints>
+			<WorkToMake>28000</WorkToMake>
+			<Mass>7</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.31</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.19</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Krieg</li>
 		</tradeTags> 
@@ -104,7 +120,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>100</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>950</MaxHitPoints>
+			<WorkToMake>28000</WorkToMake>
+			<Mass>7</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.31</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.19</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>-5</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Krieg</li>
 		</tradeTags> 
@@ -126,7 +157,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>230</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>18</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Krieg</li>
 		</tradeTags> 
@@ -148,7 +194,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>231</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>18</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Krieg</li>
 		</tradeTags> 
@@ -165,11 +226,21 @@
 		</graphicData>
 		
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>40</Plasteel>
-		  <Chemfuel>20</Chemfuel>
+			<Plasteel>18</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
-		
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
@@ -205,11 +276,21 @@
 		</graphicData>
 		
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>40</Plasteel>
-		  <Chemfuel>20</Chemfuel>
+			<Plasteel>18</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
-		
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
@@ -247,15 +328,22 @@
       <drawSize>0.8</drawSize>
       <!--1--><shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
-      <Mass>0.4</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>0.8</EquipDelay>
-    </statBases>
+   <costList>
+			<Plasteel>18</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </equippedStatOffsets>
@@ -267,10 +355,6 @@
       </recipeUsers>
       <displayPriority>234</displayPriority>
     </recipeMaker>
-    <costList>
-      <Steel>20</Steel>
-      <Chemfuel>20</Chemfuel>
-    </costList>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <developmentalStageFilter>Child, Adult</developmentalStageFilter>

@@ -83,6 +83,7 @@
 			<li>GF40K_Apparel_Krieg_FlakHelmetSpike</li>
 			<li>GF40K_Apparel_Krieg_HelmetGasMask</li>
 			<li>GF40K_Apparel_Krieg_GasMask</li>
+			<li>GF40K_Apparel_Krieg_HelmetSpikeGasMask</li>
 			<li>GF40K_Apparel_PowerPack</li>
 			<li>GF40K_Apparel_PowerPackArm</li>
 			<li>GF40K_Apparel_PowerPackJet</li>
@@ -100,8 +101,6 @@
 			<li>GF40K_Apparel_Ski_Robe</li>
 			<li>GF40K_Apparel_Ski_Hood</li>
         </appliesTo>
-        <appliesToKind>Armor</appliesToKind>
-        <colorAmount>3</colorAmount>
     </Genes40k.ChapterColourDef>
 
 
@@ -109,8 +108,7 @@
 		<defName>GF40K_Ultramarines</defName>
 		<label>ultramarines</label>
 		<primaryColour>(13,64,127)</primaryColour>		<!-- Macragge Blue -->
-		<secondaryColour>(255,215,0)</secondaryColour>		<!-- Auric Gold -->
-		<tertiaryColour>(250,250,250)</tertiaryColour>		<!-- Ceramite White -->
+		<secondaryColour>(255,215,0)</secondaryColour>	<!-- Ceramite White -->
 	</Genes40k.ChapterColourDef>
 
 	<Genes40k.ChapterColourDef ParentName="GF40K_ColourBase">

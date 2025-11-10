@@ -75,13 +75,29 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Servitor_Mask</defName>
 		<label>servitor mask</label>
-		<description>...</description>
+		<description>Servitor helmet with neural implants</description>
 		<graphicData>
 			<texPath>Armor/_part2/Servitor/ServitorMask/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/_part2/Servitor/ServitorMask/Mask</wornGraphicPath>
 		</apparel>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>65</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>4.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>467</displayPriority>
@@ -96,13 +112,29 @@
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Servitor_Hood</defName>
 		<label>servitor hooded mask</label>
-		<description>...</description>
+		<description>Servitor helmet with neural implants</description>
 		<graphicData>
 			<texPath>Armor/_part2/Servitor/ServitorMaskHood/_item</texPath>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Armor/_part2/Servitor/ServitorMaskHood/Hood</wornGraphicPath>
 		</apparel>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>65</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>4.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>467</displayPriority>

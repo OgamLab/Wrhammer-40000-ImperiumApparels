@@ -19,12 +19,32 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
 			<wornGraphicPath>Armor/_part2/SolarAuxilia/SolarAuxiliaArmor/Armor</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
+		<costList>
+			<Plasteel>65</Plasteel>
+			<Steel>140</Steel>
+			<ComponentIndustrial>9</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>2800</MaxHitPoints>
+			<WorkToMake>75000</WorkToMake>
+			<Mass>11</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<Insulation_Cold>-35</Insulation_Cold>
+			<Insulation_Heat>-15</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_SolarAuxilia</li>
 		</tradeTags>
@@ -44,6 +64,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>421</displayPriority>
 		</recipeMaker>
+		<costList>
+			<Plasteel>38</Plasteel>
+			<Steel>75</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1400</MaxHitPoints>
+			<WorkToMake>48000</WorkToMake>
+			<Mass>3.8</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.26</ArmorRating_Heat>
+			<Insulation_Cold>-20</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_SolarAuxilia</li>
 		</tradeTags> 

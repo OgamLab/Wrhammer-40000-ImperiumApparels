@@ -14,8 +14,25 @@
 			<wornGraphicPath>Armor/skitarii/robe/Robe</wornGraphicPath>
 			<layers Inherit="False">
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 		</apparel>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>130</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>2200</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<Mass>9</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.30</ArmorRating_Heat>
+			<Insulation_Cold>-20</Insulation_Cold>
+			<Insulation_Heat>-15</Insulation_Heat>
+		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>255</displayPriority>

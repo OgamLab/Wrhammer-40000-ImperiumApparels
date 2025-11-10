@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-			<!-- Engineer Apparel -->
-	
+	<!-- Engineer Apparel -->
+
 	<ThingDef ParentName="GF40K_ArmorShouldersBase">
 		<defName>GF40K_Apparel_Engineer_Pads</defName>
 		<label>engineer pads</label>
@@ -17,7 +17,7 @@
 			<wornGraphicPath>Armor/_part2/Engineer/EngineerPads/Pads</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>			<!-- TODO: Change this later! -->
 			<displayPriority>454</displayPriority>
 		</recipeMaker>
 		<tradeTags>
@@ -30,7 +30,7 @@
 			<ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="GF40K_ArmorReconBase">
 		<defName>GF40K_Apparel_Engineer_Armor</defName>
 		<label>engineer armor</label>
@@ -53,7 +53,7 @@
 			<wornGraphicPath>Armor/_part2/Engineer/EngineerArmor/Armor</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>  <!-- TODO: Change this later! -->
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>			<!-- TODO: Change this later! -->
 			<displayPriority>454</displayPriority>
 		</recipeMaker>
 		<tradeTags>
@@ -66,9 +66,9 @@
 			<ToxicEnvironmentResistance>0.10</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 	</ThingDef>
-	
-	
-			<!-- Headgear -->
+
+
+	<!-- Headgear -->
 	<ThingDef ParentName="GF40K_ArmorHelmetReconBase">
 		<defName>GF40K_Apparel_Engineer_Helmet</defName>
 		<label>engineer helmet</label>
@@ -80,9 +80,25 @@
 			<wornGraphicPath>Armor/_part2/Engineer/EngineerHelmet/Helmet</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
+			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite>
 			<displayPriority>455</displayPriority>
 		</recipeMaker>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<Steel>55</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>750</MaxHitPoints>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>3</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>-15</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<GeneralLaborSpeed>0.05</GeneralLaborSpeed>
 			<ConstructionSpeed>0.05</ConstructionSpeed>
@@ -90,5 +106,5 @@
 			<ToxicEnvironmentResistance>0.20</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 	</ThingDef>
-			
+
 </Defs>

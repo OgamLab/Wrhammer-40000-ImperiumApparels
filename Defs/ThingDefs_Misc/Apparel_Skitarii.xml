@@ -81,7 +81,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>-12</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Skitarii</li>
 		</tradeTags> 
@@ -106,7 +121,22 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>-12</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Skitarii</li>
 		</tradeTags> 
@@ -128,7 +158,22 @@
 			<researchPrerequisite>GF40K_IA_AdeptusMechanicus</researchPrerequisite> 
 			<displayPriority>259</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>70</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>-12</Insulation_Cold>
+			<Insulation_Heat>-10</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>6</ShootingAccuracyPawn>
 			<HuntingStealth>1</HuntingStealth>

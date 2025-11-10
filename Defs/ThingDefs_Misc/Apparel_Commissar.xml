@@ -18,7 +18,22 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>225</displayPriority>
 		</recipeMaker>
-		
+		<costList>
+			<Cloth>80</Cloth>
+			<Steel>20</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>3.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.12</ArmorRating_Heat>
+			<Insulation_Cold>-18</Insulation_Cold>
+			<Insulation_Heat>-8</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
@@ -45,7 +60,21 @@
 			<researchPrerequisite>GF40K_IA_AstraMilitarum</researchPrerequisite> 
 			<displayPriority>145</displayPriority>
 		</recipeMaker> 
-		
+		<costList>
+			<Cloth>25</Cloth>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<Insulation_Cold>-5</Insulation_Cold>
+			<Insulation_Heat>-3</Insulation_Heat>
+		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>

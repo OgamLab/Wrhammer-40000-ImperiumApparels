@@ -26,11 +26,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/apparelColor</xpath>
-					<value>
-						<apparelColor>(107,122,92)</apparelColor>
-					</value>
 				</li>
 				
 				<li Class="PatchOperationReplace">
@@ -43,11 +40,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/apparelColor</xpath>
-					<value>
-						<apparelColor>(95,102,112)</apparelColor>
-					</value>
 				</li>
 				
 				
@@ -67,11 +61,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/apparelColor</xpath>
-					<value>
-						<apparelColor>(198,51,46)</apparelColor>
-					</value>
 				</li>
 				
 				
@@ -87,11 +78,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/apparelColor</xpath>
-					<value>
-						<apparelColor>(48,48,48)</apparelColor>
-					</value>
 				</li>
 				
 				
@@ -109,11 +97,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
 					<xpath>Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/apparelColor</xpath>
-					<value>
-						<apparelColor>(68,126,210)</apparelColor>
-					</value>
 				</li>
 			</operations>
 		</match>

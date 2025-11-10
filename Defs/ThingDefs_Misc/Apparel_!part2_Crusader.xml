@@ -19,6 +19,7 @@
 			</bodyPartGroups>
 			<layers Inherit="False">
 				<li>Middle</li>
+				<li>Shell</li>
 			</layers>
 			<wornGraphicPath>Armor/_part2/Crusader/Armor/Armor</wornGraphicPath>
 		</apparel>
@@ -29,7 +30,23 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>90</Plasteel>
+			<Steel>180</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Gold>10</Gold>
+		</costList>
+		<statBases>
+			<MaxHitPoints>4500</MaxHitPoints>
+			<WorkToMake>110000</WorkToMake>
+			<Mass>16</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.62</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>-30</Insulation_Cold>
+			<Insulation_Heat>-22</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 		  <li>GF40K_PowerArmor</li>
 		</tradeTags>
@@ -54,11 +71,26 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
 		<tradeTags>
 		  <li>GF40K_PowerArmor</li>
 		</tradeTags>
-		
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>100</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Gold>5</Gold>
+		</costList>
+		<statBases>
+			<MaxHitPoints>2200</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<Mass>5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.52</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.32</ArmorRating_Heat>
+			<Insulation_Cold>-18</Insulation_Cold>
+			<Insulation_Heat>-14</Insulation_Heat>
+		</statBases>
 	</ThingDef>
 	
 		<!-- === Power Helmet Hooded === -->
@@ -79,7 +111,6 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
 		<tradeTags>
 		  <li>GF40K_PowerArmor</li>
 		</tradeTags>

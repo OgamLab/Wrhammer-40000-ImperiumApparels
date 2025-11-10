@@ -1,354 +1,369 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-			<!-- Bases -->
+	<!-- Bases -->
 
-		<!-- === Recon Armor Base === -->
+	<!-- === Recon Armor Base === -->
 	<ThingDef Name="GF40K_ArmorReconBase" ParentName="ArmorMachineableBase" Abstract="True">
-		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<techLevel>Spacer</techLevel>		<!-- TODO: Edit Tech? -->
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>6</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+				<li>FabricationBench</li>				<!-- TODO: Edit Workstation -->
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath> <!-- Default to vanilla tex -->
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>			<!-- Default to vanilla tex -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
 		<tradeTags>
-			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>HiTechArmor</li>			<!-- TODO: Edit Tags -->
 			<li>Armor</li>
-		</tradeTags> 
+		</tradeTags>
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
-		
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
+
 		<!-- TODO: Edit Stats -->
 		<statBases>
-		  <WorkToMake>45000</WorkToMake>
-		  <MaxHitPoints>280</MaxHitPoints>
-		  <Mass>9</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
-		  <Insulation_Cold>32</Insulation_Cold>
-		  <Insulation_Heat>9</Insulation_Heat>
-		  <EquipDelay>11</EquipDelay>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>280</MaxHitPoints>
+			<Mass>9</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Insulation_Heat>9</Insulation_Heat>
+			<EquipDelay>11</EquipDelay>
 		</statBases>
-		
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Plasteel>80</Plasteel>
-		  <Uranium>10</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<Uranium>10</Uranium>
 		</costList>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<apparel>
-			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+			<bodyPartGroups>				<!-- TODO: Edit as needed -->
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath> <!-- Default to vanilla tex -->
+			</bodyPartGroups>		<!-- Default to vanilla tex -->
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
-				<li>Soldier</li> <!-- ? -->
+				<li>Soldier</li>				<!-- ? -->
 			</defaultOutfitTags>
 			<tags>
-				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+				<li>SpacerMilitary</li>				<!-- TODO: Edit Tags -->
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
-		</apparel> 
-		
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+
 	</ThingDef>
 
 
 
-		<!-- === Shoulders/Neck outer layer armor === -->
+	<!-- === Shoulders/Neck outer layer armor === -->
 	<ThingDef Name="GF40K_ArmorShouldersBase" ParentName="ArmorMachineableBase" Abstract="True">
-		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<techLevel>Spacer</techLevel>		<!-- TODO: Edit Tech? -->
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>6</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+				<li>FabricationBench</li>				<!-- TODO: Edit Workstation -->
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath> <!-- Default to vanilla tex -->
+			<texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>			<!-- Default to vanilla tex -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
 		<tradeTags>
-			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>HiTechArmor</li>			<!-- TODO: Edit Tags -->
 			<li>Armor</li>
-		</tradeTags> 
+		</tradeTags>
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
-		
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
+
 		<!-- TODO: Edit Stats -->
 		<statBases>
-		  <WorkToMake>20000</WorkToMake>
-		  <MaxHitPoints>175</MaxHitPoints>
-		  <Mass>4</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.25</ArmorRating_Heat>
-		  <Insulation_Cold>2</Insulation_Cold>
-		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>5</EquipDelay>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
-		
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <Plasteel>30</Plasteel>
-		  <Uranium>3</Uranium>
+			<Plasteel>30</Plasteel>
+			<Uranium>3</Uranium>
 		</costList>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+			<bodyPartGroups>				<!-- TODO: Edit as needed -->
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath> <!-- Default to vanilla tex -->
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>			<!-- Default to vanilla tex -->
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
-				<li>Soldier</li> <!-- ? -->
+				<li>Soldier</li>				<!-- ? -->
 			</defaultOutfitTags>
 			<tags>
-				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+				<li>SpacerMilitary</li>				<!-- TODO: Edit Tags -->
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
-		</apparel> 
-		
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+
 	</ThingDef>
-	
-	
-	
-	
+
+
+
+
 	<ThingDef Name="GF40K_ArmorReconPlus20Base" ParentName="GF40K_ArmorReconBase" Abstract="True">
-	
+
 		<statBases>
-		  <WorkToMake>50000</WorkToMake>
-		  <MaxHitPoints>300</MaxHitPoints>
-		  <Mass>10</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>1.10</ArmorRating_Sharp> <!-- it's better than the marine armor. it shouldn't be. fix this -->
-		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.55</ArmorRating_Heat>
-		  <Insulation_Cold>32</Insulation_Cold>
-		  <Insulation_Heat>10</Insulation_Heat>
-		  <EquipDelay>12</EquipDelay>
+			<WorkToMake>50000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>			<!-- it's better than the marine armor. it shouldn't be. fix this -->
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>12</EquipDelay>
 		</statBases>
-		
+
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-		
+
 		<costList>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Plasteel>90</Plasteel>
-		  <Uranium>15</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>90</Plasteel>
+			<Uranium>15</Uranium>
 		</costList>
-	
+
 	</ThingDef>
-	
-	
-		<!-- === Recon Helmet Base === -->
+
+
+	<!-- === Recon Helmet Base === -->
 	<ThingDef Name="GF40K_ArmorHelmetReconBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
-		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<techLevel>Spacer</techLevel>		<!-- TODO: Edit Tech? -->
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>6</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>6</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+				<li>FabricationBench</li>				<!-- TODO: Edit Workstation -->
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath> <!-- Default -->
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath>			<!-- Default -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingCategories>
 			<li>IA_Headgear</li>
 		</thingCategories>
 		<tradeTags>
-			<li>HiTechArmor</li> <!-- TODO: Edit Tags? -->
+			<li>HiTechArmor</li>			<!-- TODO: Edit Tags? -->
 		</tradeTags>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->		
-		
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-			
+
 		<statBases>
-		  <WorkToMake>16000</WorkToMake>
-		  <MaxHitPoints>120</MaxHitPoints>
-		  <Mass>1</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.46</ArmorRating_Heat>
-		  <Insulation_Cold>4</Insulation_Cold>
-		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>2</EquipDelay>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>30</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
 		</costList>
-		
+
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath> <!-- Default -->
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath>			<!-- Default -->
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<defaultOutfitTags>
-				<li>Soldier</li> <!-- ? -->
+				<li>Soldier</li>				<!-- ? -->
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<forceEyesVisibleForRotations> <!-- ? -->
+			<forceEyesVisibleForRotations>				<!-- ? -->
 				<li>1</li>
 				<li>2</li>
 				<li>3</li>
 			</forceEyesVisibleForRotations>
 		</apparel>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef Name="GF40K_ArmorHelmetReconPlus20Base" ParentName="GF40K_ArmorHelmetReconBase" Abstract="True">
-	
+
 		<statBases>
-		  <WorkToMake>18000</WorkToMake>
-		  <MaxHitPoints>150</MaxHitPoints>
-		  <Mass>1.5</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.55</ArmorRating_Heat>
-		  <Insulation_Cold>4</Insulation_Cold>
-		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>4</EquipDelay>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
-		
+
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>35</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>35</Plasteel>
 		</costList>
-		
+
 	</ThingDef>
-	
+
 	<ThingDef Name="GF40K_ArmorHelmetReconPlus40Base" ParentName="GF40K_ArmorHelmetReconBase" Abstract="True">
-	
+
 		<statBases>
-		  <WorkToMake>20000</WorkToMake>
-		  <MaxHitPoints>175</MaxHitPoints>
-		  <Mass>2.5</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.65</ArmorRating_Heat>
-		  <Insulation_Cold>6</Insulation_Cold>
-		  <Insulation_Heat>4</Insulation_Heat>
-		  <EquipDelay>5</EquipDelay>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<Mass>2.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
 		</statBases>
-		
+
 		<costList>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Plasteel>45</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>45</Plasteel>
 		</costList>
-		
+
 	</ThingDef>
-	
-	
-	
-		<!-- === Marine Armor Base === -->
+
+
+
+	<!-- === Marine Armor Base === -->
 	<ThingDef Name="GF40K_ArmorMarineBase" ParentName="ArmorMachineableBase" Abstract="True">
-		<techLevel>Spacer</techLevel> <!-- TODO: Edit Tech? -->
+		<techLevel>Spacer</techLevel>		<!-- TODO: Edit Tech? -->
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>7</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>7</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+				<li>FabricationBench</li>				<!-- TODO: Edit Workstation -->
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath> <!-- default -->
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>			<!-- default -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
-		
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
-		<statBases> <!-- TODO: Edit Stats -->
+
+		<statBases>			<!-- TODO: Edit Stats -->
 			<WorkToMake>60000</WorkToMake>
 			<MaxHitPoints>340</MaxHitPoints>
 			<Mass>12</Mass>
@@ -365,136 +380,144 @@
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Plasteel>100</Plasteel>
-		  <Uranium>20</Uranium>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Uranium>20</Uranium>
 		</costList>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<equippedStatOffsets>
-			<MoveSpeed>-0.4</MoveSpeed> <!-- TODO: Edit offsets, if needed -->
+			<MoveSpeed>-0.4</MoveSpeed>			<!-- TODO: Edit offsets, if needed -->
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
 		<tradeTags>
-			<li>HiTechArmor</li> <!-- TODO: Edit Tags -->
+			<li>HiTechArmor</li>			<!-- TODO: Edit Tags -->
 			<li>Armor</li>
 		</tradeTags>
 		<apparel>
-			<bodyPartGroups>  <!-- TODO: Edit as needed -->
+			<bodyPartGroups>				<!-- TODO: Edit as needed -->
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath> <!-- default -->
+			</bodyPartGroups>		<!-- default -->
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
 			<defaultOutfitTags>
-				<li>Soldier</li> <!-- ? -->
+				<li>Soldier</li>				<!-- ? -->
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
-	
-		<!-- === Marine Helmet Base === -->
+
+	<!-- === Marine Helmet Base === -->
 	<ThingDef Name="GF40K_ArmorHelmetMarineBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
-		<techLevel>Spacer</techLevel>  <!-- TODO: Edit Tech? -->
+		<techLevel>Spacer</techLevel>		<!-- TODO: Edit Tech? -->
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>7</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>7</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-				<li>FabricationBench</li> <!-- TODO: Edit Workstation -->
+				<li>FabricationBench</li>				<!-- TODO: Edit Workstation -->
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-		  <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath> <!-- Default -->
-		  <graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>			<!-- Default -->
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.25</uiIconScale> <!-- TODO: Edit as needed -->
+		<uiIconScale>1.25</uiIconScale>		<!-- TODO: Edit as needed -->
 		<thingCategories>
 			<li>IA_Headgear</li>
 		</thingCategories>
-		<tradeTags> <!-- TODO: Edit Tags -->
-		  <li>HiTechArmor</li>
-		  <li>Armor</li>
+		<tradeTags>			<!-- TODO: Edit Tags -->
+			<li>HiTechArmor</li>
+			<li>Armor</li>
 		</tradeTags>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
-		
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
+
 		<statBases>
-		  <WorkToMake>21000</WorkToMake>
-		  <MaxHitPoints>150</MaxHitPoints>
-		  <Mass>1.5</Mass>
-		  <Flammability>0.4</Flammability>
-		  <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.54</ArmorRating_Heat>
-		  <Insulation_Cold>4</Insulation_Cold>
-		  <Insulation_Heat>2</Insulation_Heat>
-		  <EquipDelay>4</EquipDelay>
+			<WorkToMake>21000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.54</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
-			
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>40</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
 		</costList>
-		
+
 		<apparel>
-			<tags> 
-				<li>SpacerMilitary</li> <!-- TODO: Edit Tags -->
+			<tags>
+				<li>SpacerMilitary</li>				<!-- TODO: Edit Tags -->
 			</tags>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath> <!-- Default -->
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>			<!-- Default -->
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<defaultOutfitTags>
-				<li>Soldier</li>  <!-- ? -->
+				<li>Soldier</li>				<!-- ? -->
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<forceEyesVisibleForRotations> <!-- ? -->
+			<forceEyesVisibleForRotations>				<!-- ? -->
 				<li>1</li>
 				<li>2</li>
 				<li>3</li>
 			</forceEyesVisibleForRotations>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 
 
-		<!-- Cataphract Armor Base -->
+	<!-- Cataphract Armor Base -->
 	<ThingDef Name="GF40K_ArmorCataphractBase" ParentName="ArmorMachineableBase" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -507,12 +530,12 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/CataphractArmor/CataphractArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
 		<statBases>
 			<WorkToMake>75000</WorkToMake>
 			<MaxHitPoints>400</MaxHitPoints>
@@ -534,25 +557,28 @@
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
-		
-		
+
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>6</ComponentSpacer>
-		  <Plasteel>150</Plasteel>
-		  <Uranium>50</Uranium>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>150</Plasteel>
+			<Uranium>50</Uranium>
 		</costList>
-		
-		
+
+
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -561,7 +587,6 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/CataphractArmor/CataphractArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -570,15 +595,16 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 
-		<!-- Cataphract Helmet Base -->
+	<!-- Cataphract Helmet Base -->
 	<ThingDef Name="GF40K_ArmorHelmetCataphractBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -587,19 +613,20 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-		  <texPath>Things/Pawn/Humanlike/Apparel/CataphractArmorHelmet/CataphractHelmet</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
-		  <drawSize>(0.9, 0.9)</drawSize>
+			<texPath>Things/Pawn/Humanlike/Apparel/CataphractArmorHelmet/CataphractHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.9, 0.9)</drawSize>
 		</graphicData>
 		<thingCategories>
 			<li>IA_Headgear</li>
 		</thingCategories>
 		<tradeTags>
-		  <li>HiTechArmor</li>
-		  <li>Armor</li>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
 		</tradeTags>
-		<generateCommonality>1</generateCommonality> <!-- TODO: Edit Rarity -->
+		<generateCommonality>1</generateCommonality>		<!-- TODO: Edit Rarity -->
 		<statBases>
 			<WorkToMake>26250</WorkToMake>
 			<MaxHitPoints>180</MaxHitPoints>
@@ -612,24 +639,27 @@
 			<Insulation_Heat>2</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
 		</statBases>
-		
-		
+
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Plasteel>50</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>50</Plasteel>
 		</costList>
-		
-		
+
+
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -642,62 +672,67 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 	</ThingDef>
 
 
-		<!-- === Flak Jacket Base === -->
+	<!-- === Flak Jacket Base === -->
 	<ThingDef Name="GF40K_FlakJacketBase" ParentName="ArmorMachineableBase" Abstract="True">
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
-				<Crafting>4</Crafting> <!-- TODO: Edit skillRequirements -->
+				<Crafting>4</Crafting>				<!-- TODO: Edit skillRequirements -->
 			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath> <!-- Default -->
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</texPath>			<!-- Default -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
-		
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
+
 		<statBases>
-		  <MaxHitPoints>200</MaxHitPoints>
-		  <WorkToMake>14000</WorkToMake>
-		  <Mass>7</Mass>
-		  <Flammability>0.6</Flammability>
-		  <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-		  <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-		  <ArmorRating_Heat>0.10</ArmorRating_Heat>
-		  <Insulation_Cold>14.4</Insulation_Cold> <!-- like a cloth jacket -->
-		  <Insulation_Heat>3</Insulation_Heat>
-		  <EquipDelay>3</EquipDelay>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>14000</WorkToMake>
+			<Mass>7</Mass>
+			<Flammability>0.6</Flammability>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
+			<Insulation_Cold>14.4</Insulation_Cold>			<!-- like a cloth jacket -->
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
 		</statBases>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
-		
+
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costList>
-		  <Cloth>50</Cloth>
-		  <Steel>70</Steel>
-		  <ComponentIndustrial>1</ComponentIndustrial>
+			<Cloth>50</Cloth>
+			<Steel>70</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-		
+
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -705,17 +740,18 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath> <!-- Default -->
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakJacket/FlakJacket</wornGraphicPath>			<!-- Default -->
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialAdvanced</li> <!-- TODO: Edit Tags -->
+				<li>IndustrialAdvanced</li>				<!-- TODO: Edit Tags -->
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
 			<li>Clothing</li>
@@ -724,49 +760,53 @@
 	</ThingDef>
 
 
-		<!-- === OnSkin Apparel Base === -->
+	<!-- === OnSkin Apparel Base === -->
 	<ThingDef Name="GF40K_ArmorOnSkinBase" ParentName="ApparelMakeableBase" Abstract="True">
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath> <!-- TODO: Edit Tex -->
+			<texPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</texPath>			<!-- TODO: Edit Tex -->
 			<graphicClass>Graphic_Single</graphicClass>
-            <!--1--><shaderType>CutoutComplex</shaderType>
+			<!--1-->
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<thingCategories>
 			<li>IA_Armor</li>
 		</thingCategories>
-		
+
 		<!-- \/\/\/ This whole part can be removed and added individually to child items \/\/\/ -->
-		
-		<!-- TODO: Edit Stats --> 
+
+		<!-- TODO: Edit Stats -->
 		<statBases>
-		  <MaxHitPoints>200</MaxHitPoints>
-		  <WorkToMake>12000</WorkToMake>
-		  <Mass>2</Mass>
-		  <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-		  <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
-		  <EquipDelay>3</EquipDelay>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
 		</statBases>
-		
+
 		<!-- /\/\/\ /\/\/\ -->
-		
+
 		<!--THIS-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
-		
+
 		<!-- Crafting Materials -->
 		<costStuffCount>120</costStuffCount>
 		<stuffCategories>
-		  <li>Fabric</li>
-		  <li>Leathery</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
 		</stuffCategories>
-		
-		
+
+
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -774,20 +814,21 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtButton/ShirtButton</wornGraphicPath>			<!-- TODO: Edit Tex -->
 			<layers>
 				<li>OnSkin</li>
 			</layers>
 			<tags>
-				<li>IndustrialBasic</li> <!-- TODO: Edit Tags -->
+				<li>IndustrialBasic</li>				<!-- TODO: Edit Tags -->
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<!--2--><useWornGraphicMask>true</useWornGraphicMask>
+			<!--2-->
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
-			<li>BasicClothing</li> <!-- TODO: Edit Tags -->
+			<li>BasicClothing</li>			<!-- TODO: Edit Tags -->
 		</tradeTags>
 	</ThingDef>
 
@@ -796,16 +837,16 @@
 		<graphicData>
 			<texPath>Armor/commissar/helmet/_item</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		
+
 		<!-- Crafting Materials -->
 		<costStuffCount>50</costStuffCount>
-        <stuffCategories>
+		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
-        </stuffCategories>
-		
+		</stuffCategories>
+
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -818,18 +859,18 @@
 			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		
+
 		<apparel>
 			<tags>
 				<li>GF40K_Hat</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<developmentalStageFilter>Child, Adult</developmentalStageFilter> <!-- ah yes, a child commissar -->
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>			<!-- ah yes, a child commissar -->
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath> <!-- TODO: Edit Tex -->
+			<wornGraphicPath>Armor/commissar/helmet/Hat</wornGraphicPath>			<!-- TODO: Edit Tex -->
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -845,73 +886,79 @@
 			<li>GF40K_Hat</li>
 			<li>Clothing</li>
 		</tradeTags>
-		
+
 		<!--3-->
 		<!-- <thingClass>ThingColor.ApparelColored</thingClass> -->
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator IsNull="True"/>
 	</ThingDef>
 
 
-	<ThingDef Name="GF40K_FlakCapeBase" ParentName="ApparelMakeableBase" Abstract="True"> <!--  MayRequire="oskarpotocki.vanillafactionsexpanded.core"  more like WILL require. -->
+	<ThingDef Name="GF40K_FlakCapeBase" ParentName="ApparelMakeableBase" Abstract="True">		<!-- MayRequire="oskarpotocki.vanillafactionsexpanded.core"  more like WILL require. -->
 		<graphicData>
-		  <texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.05</drawSize>
+			<texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.05</drawSize>
 		</graphicData>
 		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
-		  <li>Fabric</li>
-		  <li>Leathery</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
 		</stuffCategories>
 		<thingCategories>
-		  <li>Apparel</li>
+			<li>Apparel</li>
 		</thingCategories>
 		<statBases>
-		  <MaxHitPoints>200</MaxHitPoints>
-		  <WorkToMake>18000</WorkToMake>
-		  <Mass>3</Mass>
-		  <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor> <!-- nerfed stats due to being on top of armor -->
-		  <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
-		  <EquipDelay>4</EquipDelay>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>3</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>			<!-- nerfed stats due to being on top of armor -->
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.70</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<apparel>
-		  <bodyPartGroups>
-			<li>Torso</li>
-			<li>Neck</li>
-			<li>Shoulders</li>
-			<li>Arms</li>
-			<li>Legs</li>
-		  </bodyPartGroups>
-		  <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
-		  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-		  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-		  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
-		  <shellRenderedBehindHead>true</shellRenderedBehindHead>
-		  <layers>
-			<li>GF40K_AboveOuter</li> <!-- i hate VEF dependencies -->
-		  </layers>
-		  <tags>
-			<li>Cape</li>
-			<li>GF40K_Cape</li>
-			<li>Royal</li>
-			<li>RoyalTier2</li>
-			<li>RoyalTier5</li>
-		  </tags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
+			<layers>
+				<li>GF40K_AboveOuter</li>				<!-- i hate VEF dependencies -->
+			</layers>
+			<tags>
+				<li>Cape</li>
+				<li>GF40K_Cape</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier5</li>
+			</tags>
 		</apparel>
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<!--<colorGenerator Class="ColorGenerator_StandardApparel" />-->
 		<recipeMaker>
-		  <displayPriority>235</displayPriority>
+			<displayPriority>235</displayPriority>
 		</recipeMaker>
 		<tradeTags>
 			<li>GF40K_Cape</li>
@@ -922,31 +969,31 @@
 
 	<ThingDef Name="GF40K_WebbingBase" ParentName="ApparelMakeableBase" Abstract="True">
 		<recipeMaker>
-		  <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-		  <texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>50</costStuffCount>
-		<stuffCategories>
-		  <li>Fabric</li>
-		  <li>Leathery</li>
-		</stuffCategories>
 		<costList>
-		  <Steel>10</Steel>
+			<Steel>8</Steel>
+			<Cloth>15</Cloth>
 		</costList>
 		<thingCategories>
-		  <li>Apparel</li>
+			<li>Apparel</li>
 		</thingCategories>
 		<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-		<WorkToMake>7000</WorkToMake>
-		<Mass>2</Mass> 
-		<Flammability>0.3</Flammability>
-		<StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
-		<EquipDelay>4</EquipDelay>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>1.2</Mass>
+			<Flammability>0.3</Flammability>
+			<EquipDelay>4</EquipDelay>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>0</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
@@ -960,9 +1007,9 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
 			<layers>
-				<li>PacksAreNotBelts_Tactical</li>
+				<li>Belt</li>
 			</layers>
 			<tags>
 				<li>IndustrialMilitaryBasic</li>
@@ -975,8 +1022,11 @@
 		</apparel>
 		<comps>
 			<li Class="Core40k.CompProperties_MultiColor">
-                <colorMaskAmount>1</colorMaskAmount>
-            </li>
+				<colorMaskAmount>3</colorMaskAmount>
+				<defaultPrimaryColor>(13,64,127)</defaultPrimaryColor>
+				<defaultSecondaryColor>(255,215,0)</defaultSecondaryColor>
+				<defaultTertiaryColor>(250,250,250)</defaultTertiaryColor>
+			</li>
 		</comps>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 	</ThingDef>

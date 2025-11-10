@@ -19,7 +19,23 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-		
+		<costList>
+			<Plasteel>40</Plasteel>
+			<Steel>90</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1800</MaxHitPoints>
+			<WorkToMake>55000</WorkToMake>
+			<Mass>5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.28</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>-12</Insulation_Heat>
+		</statBases>
 		<tradeTags>
 			<li>GF40K_Skitarii</li>
 		</tradeTags> 
