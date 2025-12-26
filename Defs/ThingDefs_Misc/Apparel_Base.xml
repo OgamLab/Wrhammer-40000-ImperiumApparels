@@ -1007,9 +1007,8 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Cape/Cape</wornGraphicPath>
 			<layers>
-				<li>Belt</li>
+				<li>GF40K_AboveOuter</li>
 			</layers>
 			<tags>
 				<li>IndustrialMilitaryBasic</li>
